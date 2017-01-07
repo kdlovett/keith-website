@@ -17,3 +17,13 @@ https://jekyllrb.com/
 http://jmcglone.com/guides/github-pages/
 
 >This is a tutorial referenced on the jekyll documentation about setting up a site using Github Pages.
+
+
+https://24ways.org/2013/get-started-with-github-pages/
+
+>This is yet another tutorial referenced by the above tutorial.
+
+
+https://github.com/maban/christmas-recipes
+
+>And here is the repository for the above site.
