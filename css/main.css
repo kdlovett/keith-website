@@ -1,13 +1,12 @@
 body {
-    background-color: #666633;
     margin: 60px auto;
-    width: 70%
+    background-color: #b2b266;
 }
 a {
     text-decoration: none;
-    color: #000000;
+    color: #111109;
 }
 a:hover {
     text-decoration: underline;
-    color: #222211;
+    color: #424224;
 }
