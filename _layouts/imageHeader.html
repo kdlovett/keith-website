@@ -1,9 +1,13 @@
 {% include aboutHeader.html %}
 
-{% include nav.html %}
+<main>
+  
+  {% include nav.html %}
+  
+  <h1>{{ page.title }}</h1>
+  
+  {{content}}
 
-<h1>{{ page.title }}</h1>
-
-{{content}}
+</main>
 
 {% include foot.html %}
