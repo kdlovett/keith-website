@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 <link rel="stylesheet" type="text/css"  href="/keiths-site/css/main.css">
-<div>
+
 Hello chums!
 
 I'm a computer science student from the Boston area currently at Boston University.
@@ -20,5 +20,4 @@ Here you may find:
 * Some comedy stuff.
 * Some stuff about computer science or math.
 * Some stuff!!!
-</div>
 [Home](https://kdlovett.github.io/keiths-site/)

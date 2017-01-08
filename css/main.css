@@ -2,9 +2,7 @@ img {
     max-width: 150%;
     max-height: 150%;
 }
-body {
-    margin: 50px auto;
-    width: 700px;
+head {
     background-color: #383532;
 }
 h1{
@@ -12,7 +10,10 @@ h1{
     font-size: 30px;
     font-family: "Times New Roman",Times,serif;
 }
-div {
+body {
+    margin: 20px;
+    width: 700px;
+    
     border: 20px;
     border-color: #888844;
     border-style: solid;
