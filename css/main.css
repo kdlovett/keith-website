@@ -5,6 +5,11 @@ body {
     padding: 10px;
     background-color: #383532;
 }
+h1{
+    color: #c9c99c;
+    font-size: 30px;
+    font-family: "Courier New",Courier,monospace;
+}
 p {
     color: #c9c99c;
     font-size: 14px;
