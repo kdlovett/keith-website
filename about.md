@@ -16,8 +16,8 @@ Here you may find:
 
 * Some stuff I do.
 * Some stuff I do with friends.
+* Some stuff I want to learn about.
 * Some stuff I write.
 * Some comedy stuff.
 * Some stuff about computer science or math.
 * Some stuff!!!
-[Home](https://kdlovett.github.io/keiths-site/)
