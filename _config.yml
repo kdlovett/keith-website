@@ -13,4 +13,3 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 name: Keith's Site
 baseurl: /keiths-site
-theme: jekyll-theme-minimal
