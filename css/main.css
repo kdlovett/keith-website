@@ -7,16 +7,18 @@ h1{
     font-size: 30px;
     font-family: "Times New Roman",Times,serif;
 }
-body {    
+body {
+    background-color: #8a8a5c;
+    color: #c9c99c;
+    font-size: 14px;
+    font-family: "Courier New",Courier,monospace;
+}
+main{
     border: 20px;
     border-color: #888844;
     border-style: solid;
     border-radius: 5px;
     padding: 10px;
-    background-color: #8a8a5c;
-    color: #c9c99c;
-    font-size: 14px;
-    font-family: "Courier New",Courier,monospace;
 }
 a {
     font-size: 14px;
