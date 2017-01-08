@@ -4,13 +4,19 @@ body {
     background-color: #383532;
 }
 p {
+    color: #c9c99c;
+    font-size: 14px;
     font-family: "Courier New",Courier,monospace;
 }
 a {
+    font-size: 14px;
+    font-family: "Courier New",Courier,monospace;
     text-decoration: none;
     color: #111109;
 }
 a:hover {
+    font-size: 14px;
+    font-family: "Courier New",Courier,monospace;
     text-decoration: underline;
-    color: #424224;
+    color: #999966;
 }
