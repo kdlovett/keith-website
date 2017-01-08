@@ -1,13 +1,10 @@
 img {
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 150%;
+    max-height: 150%;
 }
 body {
     margin: 50px auto;
-    width: 600px;
-    border: 20px solid #888844;
-    padding: 10px;
-    background-color: #383532;
+    width: 700px;
 }
 h1{
     color: #c9c99c;
@@ -15,6 +12,12 @@ h1{
     font-family: "Times New Roman",Times,serif;
 }
 p {
+    border: 20px;
+    border-color: #888844;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #383532;
     color: #c9c99c;
     font-size: 14px;
     font-family: "Courier New",Courier,monospace;
