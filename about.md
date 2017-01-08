@@ -13,11 +13,12 @@ I'm a computer science student from the Boston area currently at Boston Universi
 I like the Sonic the Hedgehog Marble Zone theme. (Please, open it in another tab and rock out to it. I'll wait.)
 
 Here you may find:
-> Some stuff I write.
-> Some stuff I make.
-> Some stuff I make with friends.
-> Some stuff involving programming.
-> Some stuff I do.
-> Some stuff!!!
+
+* Some stuff I do.
+* Some stuff I do with friends.
+* Some stuff I write.
+* Some comedy stuff.
+* Some stuff about computer science or math.
+* Some stuff!!!
 
 [Home](https://kdlovett.github.io/keiths-site/)
