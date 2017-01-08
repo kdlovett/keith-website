@@ -3,6 +3,9 @@ body {
     width: 60%;
     background-color: #383532;
 }
+p {
+    font-family: "Courier New",Courier,monospace;
+}
 a {
     text-decoration: none;
     color: #111109;
