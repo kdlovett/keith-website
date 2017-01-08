@@ -2,17 +2,12 @@ img {
     max-width: 150%;
     max-height: 150%;
 }
-head {
-    background-color: #383532;
-}
 h1{
     color: #c9c99c;
     font-size: 30px;
     font-family: "Times New Roman",Times,serif;
 }
-body {
-    margin: 20px;
-    width: 700px;    
+body {    
     border: 20px;
     border-color: #888844;
     border-style: solid;
