@@ -21,5 +21,3 @@ Here you may find:
 > Some stuff!!!
 
 [Home](https://kdlovett.github.io/keiths-site/)
-
-<img src="https://raw.githubusercontent.com/kdlovett/keiths-site/gh-pages/images/header_image.JPG" alt="Header Image" style="width:1221px;height;485px;">
