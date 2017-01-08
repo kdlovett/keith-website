@@ -5,13 +5,14 @@ img {
 body {
     margin: 50px auto;
     width: 700px;
+    background-color: #383532;
 }
 h1{
     color: #c9c99c;
     font-size: 30px;
     font-family: "Times New Roman",Times,serif;
 }
-p {
+div {
     border: 20px;
     border-color: #888844;
     border-style: solid;
