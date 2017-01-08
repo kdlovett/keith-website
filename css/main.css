@@ -8,8 +8,7 @@ h1{
     font-family: "Times New Roman",Times,serif;
 }
 body {
-    background-color: #8a8a5c;
-    color: #c9c99c;
+    background-color: #3d3d29;
     font-size: 14px;
     font-family: "Courier New",Courier,monospace;
 }
@@ -19,6 +18,7 @@ main{
     border-style: solid;
     border-radius: 5px;
     padding: 10px;
+    background-color: #7a7a52;
 }
 a {
     font-size: 14px;
