@@ -21,4 +21,4 @@ Welcome chums. I'm Keith. I'm temporarily going to be using this page for some t
    *test 3a
    *test 3b
 
-![header_image](/images/header_image.JPG)
+![header_image](https://raw.githubusercontent.com/kdlovett/keiths-site/gh-pages/images/header_image.JPG)
