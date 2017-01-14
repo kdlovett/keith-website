@@ -2,7 +2,7 @@
 layout: post
 title: "The First Post..."
 date: 2017-01-14
-category: blog
+category: computer-science
 ---
 
 <link rel="stylesheet" type="text/css"  href="/keiths-site/css/main.css">
