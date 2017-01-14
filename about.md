@@ -15,9 +15,8 @@ I like the Sonic the Hedgehog Marble Zone theme. (Please, open it in another tab
 Here you may find:
 
 * Some stuff I do.
-* Some stuff I do with friends.
 * Some stuff I want to learn about.
+* Some stuff about computer science or math.
 * Some stuff I write.
 * Some comedy stuff.
-* Some stuff about computer science or math.
 * Some stuff!!!
