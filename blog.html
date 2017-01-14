@@ -7,7 +7,7 @@ permalink: /computer-science/
 <link rel="stylesheet" type="text/css"  href="/keiths-site/css/main.css">
 
 <ul class="posts">
-  {% for post in site.categories.blog %}
+  {% for post in site.categories.computer-science %}
   <li><span>{{ post.date | date_to_string}}</span>
     <a href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">{{ post.title }}</a></li>
   {% endfor %}
