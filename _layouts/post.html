@@ -1,17 +1,8 @@
-{% include head.html %}
+---
+layout: default
+---
+<p class="meta">{{ page.date | date_to_string }}</p>
 
-{% include nav.html %}
-
-<main>
-
-  <h1>{{ page.title }}</h1>
-
-  <p class="meta">{{ page.date | date_to_string }}</p>
-
-  <div class="post">
-    {{content}}
-  </div>
-
-</main>
-
-{% include foot.html %}
+<div class="post">
+  {{content}}
+</div>
