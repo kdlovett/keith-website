@@ -2,6 +2,7 @@
 layout: post
 title: "The First Post..."
 date: 2017-01-14
+category: blog
 ---
 
 <link rel="stylesheet" type="text/css"  href="/keiths-site/css/main.css">
