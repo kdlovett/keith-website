@@ -2,6 +2,7 @@
 layout: post
 title: "The Second Post?"
 date: 2017-01-14
+category: journal
 ---
 
 <link rel="stylesheet" type="text/css"  href="/keiths-site/css/main.css">
