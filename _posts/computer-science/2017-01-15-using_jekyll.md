@@ -47,16 +47,16 @@ First, so see what I'm talking about and get an idea about what might be going o
 Okay cool. So basically, even if we switched what version of Ruby we are using so that we are no longer using the systems version, the PATH (keep in mind I'm still a little ambiguous on what exactly PATH is; I'm learning alongside you.) is probably still not indicating the "right" location.
 
 How did I deduce this? I typed in:
-'''python
+```sh
 echo $PATH
-'''
+```
 as suggested on the above stackoverflow link, which showed the order of my load path as being something completely unrelated to rbenv, or shims. Which, I figured should have something to do with the current path. Turns out I think something in my bash profile was causing my path to be set to something else.
 
 The solution here is quite simple. Hooray! I just commented out the line that was causing the path to be set elsewhere in the bash profile, and then closed out of terminal and opened it again.
 Now when you type in:
-'''python
+```sh
 echo $PATH
-'''
+```
 you should see something involving rbenv and shims. Hooray again! You should be good to go, and can install Gems. But what happened to set the path correctly? Well I'm pretty sure it has to do with the rbenv init line we added to the bash profile, which just makes sure PATH is set to the rbenv shims directory whenever the terminal is opened.
 
 Now for the moment you've all been waiting for, Jekyll:
