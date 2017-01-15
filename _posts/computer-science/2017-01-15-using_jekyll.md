@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "Using Jekyll..."
+title: "Troubleshooting with Jekyll to Make a Site"
 date: 2017-01-15
 category: computer-science
 ---
 
 <link rel="stylesheet" type="text/css"  href="/keiths-site/css/main.css">
 
-I had a heck of a time getting Jekyll installed so I'd like to maybe help clarify some issues others may run into, because realistically there can be quite a few steps in between having Jekyll not installed, and then having it installed.
+I had a heck of a time getting Jekyll (what I used to make this site) installed so I'd like to maybe help clarify some issues others may run into, because realistically there can be quite a few steps in between having Jekyll not installed, and then having it installed.
 
 So first things first you need Homebrew; probably easiest if you don't have that yet, just install it.
 
