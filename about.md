@@ -19,3 +19,21 @@ Here you may find:
 * Some stuff about computer science or math.
 * Some stuff I write.
 * Some stuff!!!
+
+#About this Site#
+
+I made this site using gh-pages and [Jekyll](https://kdlovett.github.io/keiths-site/computer-science/2017/01/15/using_jekyll.html).
+
+Attribution:
+
+https://www.youtube.com/watch?v=rRGrT0wsJxI
+
+* This is a rather quick but helpful tutorial on setting up a webpage on Github.
+
+http://jmcglone.com/guides/github-pages/
+
+* This is a tutorial referenced on the Jekyll documentation about setting up a site using Github Pages.
+
+https://24ways.org/2013/get-started-with-github-pages/
+
+* Yet another tutorial referenced by the above tutorial.
