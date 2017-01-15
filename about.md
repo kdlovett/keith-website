@@ -12,6 +12,12 @@ I'm a computer science student from the Boston area currently at Boston Universi
 
 I like the Sonic the Hedgehog Marble Zone theme. (Please, open it in another tab and rock out to it. I'll wait.)
 
+I work on random nerdy projects:
+
+<img src="https://raw.githubusercontent.com/kdlovett/keiths-site/gh-pages/images/mjr000.bmp" alt="Sketches" align="left" style="width: 25%; height: 25%;"/>
+
+<img src="https://raw.githubusercontent.com/kdlovett/keiths-site/gh-pages/images/pallas.png" alt="Stalwarts" align="right" style="width: 30%; height: 30%"/>
+
 Here you may find:
 
 * Some stuff I do.
@@ -19,9 +25,3 @@ Here you may find:
 * Some stuff about computer science or math.
 * Some stuff I write.
 * Some stuff!!!
-
-<figure>
-      <img src="https://raw.githubusercontent.com/kdlovett/keiths-site/gh-pages/images/mjr000.bmp" alt="Sketches" align="left" style="width: 50%;"/>
-      
-      <img src="https://raw.githubusercontent.com/kdlovett/keiths-site/gh-pages/images/pallas.png" alt="Stalwarts" align="right" style="width: 50%;"/>
-</figure>
