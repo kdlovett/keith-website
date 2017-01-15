@@ -6,13 +6,11 @@ permalink: /about/
 
 <link rel="stylesheet" type="text/css"  href="/keiths-site/css/main.css">
 
-Hello chums!
+Hello chumlies.
 
 I'm a computer science student from the Boston area currently at Boston University.
 
 I like the Sonic the Hedgehog Marble Zone theme. (Please, open it in another tab and rock out to it. I'll wait.)
-
-<img src="https://raw.githubusercontent.com/kdlovett/keiths-site/gh-pages/images/mjr000.bmp" alt="">
 
 Here you may find:
 
@@ -21,3 +19,9 @@ Here you may find:
 * Some stuff about computer science or math.
 * Some stuff I write.
 * Some stuff!!!
+
+<figure>
+      <img src="https://raw.githubusercontent.com/kdlovett/keiths-site/gh-pages/images/mjr000.bmp" alt="Sketches" align="left" style="width: 50%;"/>
+      
+      <img src="https://raw.githubusercontent.com/kdlovett/keiths-site/gh-pages/images/pallas.png" alt="Stalwarts" align="right" style="width: 50%;"/>
+</figure>
