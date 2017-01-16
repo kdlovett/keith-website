@@ -7,9 +7,7 @@ title: Welcome
 
 Hello there!
 
-This is going to (hopefully) serve as a place in virtual space where I can declutter my brain a bit.
-
-I apologize in advance if it doesn't seem like the most organized website around; I'm kind of a messy thinker.
+This is going to (hopefully) serve as a place in virtual space where I can declutter my brain a bit. I apologize in advance if it doesn't seem like the most organized website around; I'm a kind of messy thinker.
 
 In any case, maybe you will enjoy perusing some of the ideas or information here, so, have at it!
 
