@@ -10,7 +10,7 @@ Hello chums!
 
 I'm a computer science student from the Boston area currently at Boston University.
 
-I like the Sonic the Hedgehog Marble Zone theme. (Please, open it in another tab and dance. I'll wait.)
+I like the Sonic the Hedgehog Marble Zone theme.
 
 Here you may find:
 
