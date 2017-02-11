@@ -20,6 +20,8 @@ Here you may find:
 * Some stuff I write.
 * Some stuff!!!
 
+I occassionally do some cheezy [skit](https://www.youtube.com/channel/UCSbgGTrQ2VGdtRhb-fCvDtw).
+
 # About this Site
 
 I made this site using gh-pages and [Jekyll](https://kdlovett.github.io/keiths-site/computer-science/2017/01/15/using_jekyll.html).
