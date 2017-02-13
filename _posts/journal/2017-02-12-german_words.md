@@ -7,4 +7,4 @@ category: journal
 
 <link rel="stylesheet" type="text/css"  href="/keiths-site/css/main.css">
 
-Ich will an diese Seite interessante und praktische Woorter sammeln. Leider denke ich, dass ich kein Umlauts benutzten duurfen. Ich werde zwei Buchstaben dafuur benutzen.dafür
+Ich will an diese Seite interessante und praktische Wörter sammeln...
