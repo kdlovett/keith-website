@@ -20,7 +20,7 @@ Here you may find:
 * Some stuff I write.
 * Some stuff!!!
 
-I occassionally do some cheezy [skit](https://www.youtube.com/channel/UCSbgGTrQ2VGdtRhb-fCvDtw).
+I occassionally do a [skit](https://www.youtube.com/channel/UCSbgGTrQ2VGdtRhb-fCvDtw).
 
 # About this Site
 
