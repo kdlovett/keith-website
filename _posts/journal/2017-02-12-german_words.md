@@ -7,4 +7,7 @@ category: journal
 
 <link rel="stylesheet" type="text/css"  href="/keiths-site/css/main.css">
 
-Ich will auf dieser Seite interessante und praktische Wörter sammeln...
+* Ich will auf dieser Seite interessante und praktische Wörter sammeln...
+
+
+Es kommt darauf an. - It depends.
