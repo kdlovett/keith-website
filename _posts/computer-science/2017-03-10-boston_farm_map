@@ -12,9 +12,6 @@ Here's a project I worked on a bit over my Spring break - a map of the urban far
 The other thing I'm working on a little bit is making little test code that could still be a bit pragmatic. I sometimes try to wait for bigger ideas or something but smaller ones are probably no less important. Anyways, here's the result.
 
 
-<script async src="//jsfiddle.net/kdlovett/xqakgv51/2/embed/js,html,css,result/dark/"></script>
-
-
 Here's the resources I used:
 
 * [The Google Map API Javascript Documentation](https://developers.google.com/maps/documentation/javascript/)
