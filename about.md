@@ -6,9 +6,7 @@ permalink: /about/
 
 <link rel="stylesheet" type="text/css"  href="/keiths-site/css/main.css">
 
-Hello chums!
-
-I'm a computer science student from the Boston area currently at Boston University.
+Hello, I'm Keith, a computer science student from the Boston area currently at Boston University.
 
 I like the Sonic the Hedgehog Marble Zone theme.
 
