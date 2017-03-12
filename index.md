@@ -5,9 +5,9 @@ title: Welcome
 
 <link rel="stylesheet" type="text/css"  href="/keiths-site/css/main.css">
 
-Hello there!
+Hello there,
 
-I'm Keith Lovett and THIS... is my virtual home base, my digital dashboard, MY... website.
+I'm Keith Lovett. THIS... is my virtual home base, my digital dashboard, MY... website.
 
 It's got some stuff on it, some of it serious, some of it a bit more facetious, all of it probably a bit disorganized. In any case, maybe you will enjoy perusing, so, have at it!
 
