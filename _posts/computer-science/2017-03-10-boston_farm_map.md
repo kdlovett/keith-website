@@ -15,7 +15,7 @@ The other thing I'm working on here a little bit is making little test code that
 <script async src="//jsfiddle.net/kdlovett/xqakgv51/2/embed/js,html,css,result/dark/"></script>
 
 
-Here's the resources I used:
+Here are the resources I used:
 
 * [The Google Map API Javascript Documentation](https://developers.google.com/maps/documentation/javascript/)
 
