@@ -16,3 +16,5 @@ Ich will auf dieser Seite interessante und praktische Wörter sammeln...
 * Am meisten... - the most... (A superlative... Think "am besten.")
 
 * schütteln... - to shake (Er schüttelte meine Hand. - He shook my hand.)
+
+* erinnern... - to remember (Erinnernst du dich an mich? - Do you remember me?)

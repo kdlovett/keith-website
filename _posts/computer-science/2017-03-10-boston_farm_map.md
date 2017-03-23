@@ -7,7 +7,7 @@ category: computer-science
 
 <link rel="stylesheet" type="text/css"  href="/keiths-site/css/main.css">
 
-Here's a project I worked on a bit over Spring break - a map of the urban farms in and around Boston. I got a little bit more familiar with some cool stuff while working on this; Javascript, the Google Maps API, and some of the data available from a website called Socrata. What a cool site! Plenty of good ooooold documentation, and a lot resources on how to go about putting some of those spiffy ideas into action.
+Here's a project I worked on a bit over Spring break (nerd incoming!!) - a map of the urban farms in and around Boston. I got a little bit more familiar with some cool stuff while working on this; Javascript, the Google Maps API, and some of the data available from a website called Socrata. What a cool site! Plenty of good ooooold documentation, and a lot resources on how to go about putting some of those spiffy ideas into action.
 
 The other thing I'm working on here a little bit is making little test code that could still be a bit pragmatic. I sometimes try to wait for bigger ideas or something but smaller ones are probably no less important. Anyways, here's the result.
 
