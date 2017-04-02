@@ -20,3 +20,5 @@ Ich will auf dieser Seite interessante und praktische Wörter sammeln...
 * erinnern... - to remember (Erinnernst du dich an mich? - Do you remember me?)
 
 * Es sieht aus als ob... - It looks as if (Es sieht aus als ob das Hemd zu klein ist. - It looks as if the shirt is too small.)
+
+* erwarten ... - to expect (Sie erwartet, dass der Film gut ist. - She expects that the film is good.)
