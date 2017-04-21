@@ -22,3 +22,5 @@ Ich will auf dieser Seite interessante und praktische Wörter sammeln...
 * Es sieht aus als ob... - It looks as if (Es sieht aus als ob das Hemd zu klein ist. - It looks as if the shirt is too small.)
 
 * erwarten ... - to expect (Sie erwartet, dass der Film gut ist. - She expects that the film is good.)
+
+* Kurz danach... - Shortly thereafter (Kurz danach, sind sie ins Theater gegangen. - Shortly thereafter, they went to the theater.)
