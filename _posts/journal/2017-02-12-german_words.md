@@ -24,3 +24,7 @@ Ich will auf dieser Seite interessante und praktische Wörter sammeln...
 * erwarten ... - to expect (Sie erwartet, dass der Film gut ist. - She expects that the film is good.)
 
 * Kurz danach... - Shortly thereafter (Kurz danach, sind sie ins Theater gegangen. - Shortly thereafter, they went to the theater.)
+
+* Noch nicht... - Not yet (Mein Deutsch ist nicht noch perfekt.)
+
+* Die Datei... - the file (Die Datei ist zu groß.)
