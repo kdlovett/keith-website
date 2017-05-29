@@ -25,6 +25,8 @@ Ich will auf dieser Seite interessante und praktische Wörter sammeln...
 
 * Kurz danach... - Shortly thereafter (Kurz danach, sind sie ins Theater gegangen. - Shortly thereafter, they went to the theater.)
 
-* Noch nicht... - Not yet (Mein Deutsch ist nicht noch perfekt.)
+* Noch nicht... - Not yet (Mein Deutsch ist nicht noch perfekt. - My German is not yet perfect.)
 
-* Die Datei... - the file (Die Datei ist zu groß.)
+* Die Datei... - the file (Die Datei ist zu groß. - The file is too big.)
+
+* Nett Sie kennen zu lernen... - Nice to meet you. Alternatively you can say "Freut mich" which basically means I am glad (to meet you).
