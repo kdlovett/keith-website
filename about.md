@@ -8,15 +8,12 @@ permalink: /about/
 
 Hello, I'm Keith, a computer science student from the Boston area currently at Boston University.
 
-I like the Sonic the Hedgehog Marble Zone theme.
-
 Here you may find:
 
 * Some stuff I do.
-* Some stuff I want to learn about.
 * Some stuff about computer science or math.
 * Some stuff I write.
-* Some stuff!!!
+* Some stuff.
 
 I occassionally do a [skit](https://www.youtube.com/channel/UCSbgGTrQ2VGdtRhb-fCvDtw).
 
