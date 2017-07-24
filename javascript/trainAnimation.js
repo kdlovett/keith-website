@@ -162,27 +162,27 @@ function updateAnimFrame() {
         building3side.x -= 2;
         building3side.update();
     } else {
-        buildingback1.x -= 10;
+        buildingback1.x -= 5;
         buildingback1.update();
-        buildingback2.x -= 10;
+        buildingback2.x -= 5;
         buildingback2.update();
-        buildingback3.x -= 10;
+        buildingback3.x -= 5;
         buildingback3.update();
-        buildingback4.x -= 10;
+        buildingback4.x -= 5;
         buildingback4.update();
-        buildingback5.x -= 10;
+        buildingback5.x -= 5;
         buildingback5.update();
-        building1.x -= 12;
+        building1.x -= 6;
         building1.update();
-        building2.x -= 12;
+        building2.x -= 6;
         building2.update();
-        building3.x -= 12;
+        building3.x -= 6;
         building3.update();
-        building1side.x -= 12;
+        building1side.x -= 6;
         building1side.update();
-        building2side.x -= 12;
+        building2side.x -= 6;
         building2side.update();
-        building3side.x -= 12;
+        building3side.x -= 6;
         building3side.update();
     }
     train.update();
