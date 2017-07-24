@@ -137,6 +137,25 @@ function updateAnimFrame() {
         building3side.x = 350;
     }
 
+    if (text == 5) {
+        buildingback1.color = "#8dcaf9";
+        buildingback2.color = "#8dcaf9";
+        buildingback3.color = "#8dcaf9";
+        buildingback4.color = "#8dcaf9";
+        buildingback5.color = "#8dcaf9";
+    } else {
+        buildingback1.color = "#4f519a";
+        buildingback2.color = "#4f519a";
+        buildingback3.color = "#4f519a";
+        buildingback4.color = "#4f519a";
+        buildingback5.color = "#4f519a";
+    }
+    buildingback1.update();
+    buildingback2.update();
+    buildingback3.update();
+    buildingback4.update();
+    buildingback5.update();
+
     //Moving buildings
     buildingback1.x -= 2;
     buildingback2.x -= 2;
@@ -155,25 +174,6 @@ function updateAnimFrame() {
     building2side.update();
     building3side.x -= 3;
     building3side.update();
-
-    if (text == 5) {
-        buildingback1.fillStyle = "#8dcaf9";
-        buildingback2.fillStyle = "#8dcaf9";
-        buildingback3.fillStyle = "#8dcaf9";
-        buildingback4.fillStyle = "#8dcaf9";
-        buildingback5.fillStyle = "#8dcaf9";
-    } else {
-        buildingback1.fillStyle = "#4f519a";
-        buildingback2.fillStyle = "#4f519a";
-        buildingback3.fillStyle = "#4f519a";
-        buildingback4.fillStyle = "#4f519a";
-        buildingback5.fillStyle = "#4f519a";
-    }
-    buildingback1.update();
-    buildingback2.update();
-    buildingback3.update();
-    buildingback4.update();
-    buildingback5.update();
     train.update();
     trash.update();
 
