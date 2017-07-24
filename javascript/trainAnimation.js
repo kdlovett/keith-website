@@ -139,15 +139,10 @@ function updateAnimFrame() {
 
     //Moving buildings
     buildingback1.x -= 2;
-    buildingback1.update();
     buildingback2.x -= 2;
-    buildingback2.update();
     buildingback3.x -= 2;
-    buildingback3.update();
     buildingback4.x -= 2;
-    buildingback4.update();
     buildingback5.x -= 2;
-    buildingback5.update();
     building1.x -= 3;
     building1.update();
     building2.x -= 3;
@@ -161,6 +156,24 @@ function updateAnimFrame() {
     building3side.x -= 3;
     building3side.update();
 
+    if (text == 5) {
+        buildingback1.color.src = "#8dcaf9";
+        buildingback2.color.src = "#8dcaf9";
+        buildingback3.color.src = "#8dcaf9";
+        buildingback4.color.src = "#8dcaf9";
+        buildingback5.color.src = "#8dcaf9";
+    } else {
+        buildingback1.color.src = "#4f519a";
+        buildingback2.color.src = "#4f519a";
+        buildingback3.color.src = "#4f519a";
+        buildingback4.color.src = "#4f519a";
+        buildingback5.color.src = "#4f519a";
+    }
+    buildingback1.update();
+    buildingback2.update();
+    buildingback3.update();
+    buildingback4.update();
+    buildingback5.update();
     train.update();
     trash.update();
 
