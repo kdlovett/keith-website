@@ -157,17 +157,17 @@ function updateAnimFrame() {
     building3side.update();
 
     if (text == 5) {
-        buildingback1.color.src = "#8dcaf9";
-        buildingback2.color.src = "#8dcaf9";
-        buildingback3.color.src = "#8dcaf9";
-        buildingback4.color.src = "#8dcaf9";
-        buildingback5.color.src = "#8dcaf9";
+        buildingback1.fillStyle = "#8dcaf9";
+        buildingback2.fillStyle = "#8dcaf9";
+        buildingback3.fillStyle = "#8dcaf9";
+        buildingback4.fillStyle = "#8dcaf9";
+        buildingback5.fillStyle = "#8dcaf9";
     } else {
-        buildingback1.color.src = "#4f519a";
-        buildingback2.color.src = "#4f519a";
-        buildingback3.color.src = "#4f519a";
-        buildingback4.color.src = "#4f519a";
-        buildingback5.color.src = "#4f519a";
+        buildingback1.fillStyle = "#4f519a";
+        buildingback2.fillStyle = "#4f519a";
+        buildingback3.fillStyle = "#4f519a";
+        buildingback4.fillStyle = "#4f519a";
+        buildingback5.fillStyle = "#4f519a";
     }
     buildingback1.update();
     buildingback2.update();
