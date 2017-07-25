@@ -158,6 +158,11 @@ function updateAnimFrame() {
     buildingback3.x -= 2;
     buildingback4.x -= 2;
     buildingback5.x -= 2;
+    buildingback1.update();
+    buildingback2.update();
+    buildingback3.update();
+    buildingback4.update();
+    buildingback5.update();
     building1.x -= 3;
     building1.update();
     building2.x -= 3;
@@ -172,13 +177,6 @@ function updateAnimFrame() {
     building3side.update();
     train.update();
     trash.update();
-
-
-    buildingback1.update();
-    buildingback2.update();
-    buildingback3.update();
-    buildingback4.update();
-    buildingback5.update();
 
     //Creating text.
     animFrame.context.textAlign = "center"
