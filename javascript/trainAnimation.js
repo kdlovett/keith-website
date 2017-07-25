@@ -70,7 +70,7 @@ function component(width, height, color, x, y, type) {
                 this.y,
                 this.width, this.height);
         } else if (type == "shape") {
-            ctx.fillStyle = color;
+            ctx.fillStyle = this.color;
             ctx.fillRect(this.x, this.y, this.width, this.height);
         }
     }
@@ -193,6 +193,6 @@ function updateAnimFrame() {
     } else if (text == 5) {
         animFrame.context.font = "25px Arial";
         animFrame.context.strokeStyle="orange";
-        animFrame.context.strokeText("full throttle.",155,30);
+        animFrame.context.strokeText("Full Throttle.",155,30);
     }
 }
