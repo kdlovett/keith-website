@@ -138,6 +138,20 @@ function updateAnimFrame() {
         building3side.x = 350;
     }
 
+    if (text == 5) {
+        buildingback1.color = "#8dcaf9";
+        buildingback2.color = "#8dcaf9";
+        buildingback3.color = "#8dcaf9";
+        buildingback4.color = "#8dcaf9";
+        buildingback5.color = "#8dcaf9";
+    } else {
+        buildingback1.color = "#4f519a";
+        buildingback2.color = "#4f519a";
+        buildingback3.color = "#4f519a";
+        buildingback4.color = "#4f519a";
+        buildingback5.color = "#4f519a";
+    }
+
     //Moving buildings
     buildingback1.x -= 2;
     buildingback2.x -= 2;
