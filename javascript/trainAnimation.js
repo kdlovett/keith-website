@@ -100,27 +100,6 @@ function textUpdater() {
 
 function updateAnimFrame() {
 
-    //Moving buildings
-    buildingback1.x -= 2;
-    buildingback2.x -= 2;
-    buildingback3.x -= 2;
-    buildingback4.x -= 2;
-    buildingback5.x -= 2;
-    building1.x -= 3;
-    building1.update();
-    building2.x -= 3;
-    building2.update();
-    building3.x -= 3;
-    building3.update();
-    building1side.x -= 3;
-    building1side.update();
-    building2side.x -= 3;
-    building2side.update();
-    building3side.x -= 3;
-    building3side.update();
-    train.update();
-    trash.update();
-
     animFrame.clear();
     //Resetting building positions
     if (buildingback1.x < -100) {
@@ -172,6 +151,29 @@ function updateAnimFrame() {
         buildingback4.color = "#4f519a";
         buildingback5.color = "#4f519a";
     }
+
+    //Moving buildings
+    buildingback1.x -= 2;
+    buildingback2.x -= 2;
+    buildingback3.x -= 2;
+    buildingback4.x -= 2;
+    buildingback5.x -= 2;
+    building1.x -= 3;
+    building1.update();
+    building2.x -= 3;
+    building2.update();
+    building3.x -= 3;
+    building3.update();
+    building1side.x -= 3;
+    building1side.update();
+    building2side.x -= 3;
+    building2side.update();
+    building3side.x -= 3;
+    building3side.update();
+    train.update();
+    trash.update();
+
+
     buildingback1.update();
     buildingback2.update();
     buildingback3.update();
