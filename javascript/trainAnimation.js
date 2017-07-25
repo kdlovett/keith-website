@@ -183,7 +183,7 @@ function updateAnimFrame() {
     if (text == 1) {
         animFrame.context.font = "16px Arial";
         animFrame.context.strokeStyle="aqua";
-        animFrame.context.strokeText("*Bzzt*",150,20);
+        animFrame.context.strokeText("Bzzt",150,20);
     } else if (text == 2) {
         animFrame.context.strokeText("Please remember to take all",150,20);
     } else if (text == 3) {
