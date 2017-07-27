@@ -8,7 +8,6 @@ permalink: /showcase/
 
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <div id="train">
     <style>
       canvas {
       border:1px solid #000000;
@@ -17,18 +16,16 @@ permalink: /showcase/
       top: 75px;
       }
     </style>
-    </div>
   </head>
-  <body onload="startAnimation()">
+  <body>
     <button onclick="trainOpener()">View train_animation</button>
     <script src=/keiths-site/javascript/trainAnimation.js></script>
     <script>
+      var trainOpen = 0;
       function trainOpener() {
-          var trainOpen = document.getElementById('train');
-          if (trainOpen.style.display === 'none') {
-              trainOpen.style.display = 'block';
-          } else {
-              trainOpen.style.display = 'none';
+          if (trainOpen == 0) {
+              trainOpen = 1;
+              startAnimation();
           }
       }
     </script>
