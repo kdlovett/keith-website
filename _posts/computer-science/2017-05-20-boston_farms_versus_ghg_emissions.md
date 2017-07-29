@@ -7,10 +7,14 @@ category: computer-science
 
 <link rel="stylesheet" type="text/css"  href="/keiths-site/css/main.css">
 
-(Updated May 21, 2017 and June 2, 2017)
+(Updated May 21, 2017, June 2, 2017, and July 29, 2017)
 
 ## Description:
 Here is another Google Maps based project I have been working on. Essentially, this map is can be used to visualize the placement of Boston's farms, and their distances to buildings with various Greenhouse gas emissions. The heat map is created with a set of data points corresponding to each buildings' latitude and longitude, and a corresponding weight centered at this location based on the level of Greenhouse gas that the building emits. According to the process of [carbon sequestration](https://en.wikipedia.org/wiki/Carbon_sequestration#Agriculture), it seems that placing the farms close enough to the data produced by the heat map such that the crops there absorb the greatest amount of carbon dioxide without harming the crops would enhance the process of carbon removal. As the user zooms out, the heat map becomes increasingly general. Zoom closer in for a more precise approximation of GHG emissions.
+
+Update (July 29, 2017) So it looks like the json data that was used to find the GHG is being hosted by a different site and in a different format soon, unfortunately, and therefore, the map might not generate in the coming future. If this is the case, here's a pretty comprehensive image of the result.
+
+![ghgMap](https://raw.githubusercontent.com/kdlovett/keiths-site/gh-pages/images/ghgMap.png)
 
 <script async src="//jsfiddle.net/kdlovett/t7brz2Ls/embed/js,html,css,result/dark/"></script>
 
