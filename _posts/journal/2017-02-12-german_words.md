@@ -32,3 +32,5 @@ Ich will auf dieser Seite interessante und praktische Wörter sammeln...
 * Nett Sie kennen zu lernen... - Nice to meet you. Alternatively you can say "Freut mich" which basically means I am glad (to meet you).
 
 * shauenwama... - we'll see. (Coloquial for shauen wir mal. Mal basically denotes a moment in time or makes your statement sound more casual. Guck mal, dahinten ist unser Auto. - Look, our car is over there.)
+
+* Könnten Sie mir sagen... - Could you tell me... (Könnten Sie mir sagen, wo ich im Stadtviertel essen könnte? - Could you tell me where I could eat in this part of town?)
