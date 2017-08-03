@@ -27,6 +27,11 @@ function startAnimation() {
     animFrame.start();
 }
 
+function stopAnimation() {
+    animFrame.stop();
+    animFrame.clear();
+}
+
 var animFrame = {
     //Creating canvas
     canvas : document.createElement("canvas"),
@@ -43,6 +48,8 @@ var animFrame = {
     },
     stop : function() {
         clearInterval(this.interval);
+        this.canvas.width = 0;
+        this.canvas.height = 0;
     }
 }
 

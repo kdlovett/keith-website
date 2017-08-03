@@ -22,15 +22,18 @@ permalink: /showcase/
   <br/>
   <br/>
   <br/>
-    <button onclick="trainOpener()">View train_animation</button>
+    <button onclick="trainOpener()">Show/Hide "train_animation"</button>
     <script src=/keiths-site/javascript/trainAnimation.js></script>
     <script>
       var trainOpen = 0;
       function trainOpener() {
-          if (trainOpen == 0) {
-              trainOpen = 1;
-              startAnimation();
-          }
+       if (trainOpen == 0) {
+        trainOpen = 1;
+        startAnimation();
+       } else {
+        trainOpen = 0;
+        stopAnimation();
+       }
       }
     </script>
   </body>
