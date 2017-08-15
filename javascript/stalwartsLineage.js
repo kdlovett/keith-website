@@ -13,7 +13,7 @@ var boatSpeed = 1;
 //Maintains the damage dealt to the enemy.
 var damageDealt = 0;
 //Maintains how many axes the moorlord has thrown.
-var moorlordAxeThrows = 3;
+var moorlordAxeThrows = 4;
 //Maintains the current movement pattern of moorlord.
 var moorlordMovement = 0;
 //Maintains the condition of the boat.
@@ -85,7 +85,7 @@ function boatMove(e) {
         case 70:
             if (canRaise == 1){
                 //Raising apple.
-                lawrence.image.src = "/keiths-site/images/stalwart_sprites/farmer_raiseArm.gif";
+                lawrence.image.src = "farmer_raiseArm.gif";
                 canRaise = 0;
                 appleRaised = 1;
                 //Now waiting for Huron to take apple.
@@ -96,7 +96,7 @@ function boatMove(e) {
         case 69:
             if (canCatch == 1){
                 //Closing arms.
-                iris.image.src = "/keiths-site/images/stalwart_sprites/lady2grab.gif";
+                iris.image.src = "lady2grab.gif";
                 canCatch = 0;
                 armsRaised = 1;
                 //Now waiting for skull to come in contact.
@@ -144,23 +144,22 @@ function moorlordArrival(){
             stalwartText = 3;
             setTimeout(resetStalwartText, 5000);
         }
-        moorlordAxeThrows = 3;
+        moorlordAxeThrows = 4;
         setTimeout(moorlordAxeToss, 800);
     }
 }
 
 function moorlordAxeToss(){
     //Toss number of axes. Once done, prepare to move to middle.
-    moorlord.image.src = "/keiths-site/images/stalwart_sprites/moorlordAttack.gif";
+    moorlord.image.src = "moorlordAttack.gif";
     moorlordAxe.x = moorlord.x;
     moorlordAxe.y = moorlord.y;
     if (moorlordAxeThrows > 0) {
         setTimeout(moorlordAxeToss, 800);
         moorlordAxeThrows -= 1;
-        boatHealth -= 10;
+        boatHealth -= 14;
     }else{
-        boatHealth -= 10;
-        moorlord.image.src = "/keiths-site/images/stalwart_sprites/moorlord.gif";
+        moorlord.image.src = "moorlord.gif";
         moorlordPhantasm.x = 80;
         moorlordPhantasm.y = 200;
         setTimeout(moorlordToMiddle, 800);
@@ -171,7 +170,7 @@ function moorlordToMiddle() {
     //Jump to middle, and prepare to sweep right.
     moorlord.x = 80;
     moorlord.y = 200;
-    moorlord.image.src = "/keiths-site/images/stalwart_sprites/moorlord.gif";
+    moorlord.image.src = "moorlord.gif";
     setTimeout(moorlordMoveRight, 800);
 }
 
@@ -179,7 +178,7 @@ function moorlordMoveRight() {
     //Sweep right, and prepare to halt right.
     moorlordPhantasm.x = -30;
     moorlordPhantasm.y = 245;
-    moorlord.image.src = "/keiths-site/images/stalwart_sprites/moorlord_cast.gif";
+    moorlord.image.src = "moorlordAttack.gif";
     moorlordMovement = 1;
     moorlord.x = 80;
     moorlord.y = 200;
@@ -188,7 +187,7 @@ function moorlordMoveRight() {
 
 function moorlordHaltRight() {
     //Halt right, and prepare to flutter phantasms.
-    moorlord.image.src = "/keiths-site/images/stalwart_sprites/moorlord.gif";
+    moorlord.image.src = "moorlord.gif";
     moorlordMovement = 0;
     moorlordPhantasm.x = 40;
     moorlordPhantasm.y = 100;
@@ -206,7 +205,7 @@ function phantasmFlutter() {
         setTimeout(phantasmFlutter, 200);
     }
     else {
-        moorlord.image.src = "/keiths-site/images/stalwart_sprites/moorlord_cast.gif";
+        moorlord.image.src = "moorlordAttack.gif";
         setTimeout(moorlordToTop, 1000);
     }
 }
@@ -217,7 +216,7 @@ function moorlordToTop() {
     moorlord.y = moorlordPhantasm.y;
     moorlordPhantasm.x = -30;
     moorlordPhantasm.y = 245;
-    moorlord.image.src = "/keiths-site/images/stalwart_sprites/moorlord.gif";
+    moorlord.image.src = "moorlord.gif";
     moorlordMovement = 2;
     textChooser = Math.random() * 2;
     if (textChooser > 1){
@@ -248,12 +247,12 @@ function cannonReload() {
 
 function irisTurnReload() {
     //Switches direction that iris faces and prepares to do it again recursively.
-    if (iris.image.src != "/keiths-site/images/stalwart_sprites/lady2grab.gif"){
+    if (iris.image.src != "lady2grab.gif"){
         if (irisTurn == 0){
-            iris.image.src = "/keiths-site/images/stalwart_sprites/lady2.gif";
+            iris.image.src = "lady2.gif";
             irisTurn = 1;
         } else {
-            iris.image.src = "/keiths-site/images/stalwart_sprites/lady.gif";
+            iris.image.src = "lady.gif";
             irisTurn = 0;
         }
     }
@@ -263,10 +262,10 @@ function irisTurnReload() {
 function skullFlapReload() {
     //Switches wing stance on skull and prepares to do it again recursively.
     if (skullFlap == 0) {
-        skull.image.src = "/keiths-site/images/stalwart_sprites/FloatingSkull1.gif"
+        skull.image.src = "FloatingSkull1.gif"
         skullFlap = 1;
     } else {
-        skull.image.src = "/keiths-site/images/stalwart_sprites/FloatingSkull2.gif"
+        skull.image.src = "FloatingSkull2.gif"
         skullFlap = 0;
     }
     setTimeout(skullFlapReload, 300);
@@ -279,7 +278,7 @@ function appleReload() {
 
 function appleWait() {
     //Lowering lawrence apple. Must wait.
-    lawrence.image.src = "/keiths-site/images/stalwart_sprites/farmer.gif";
+    lawrence.image.src = "farmer.gif";
     appleRaised = 0;
     setTimeout(appleReload, 3000);
 }
@@ -291,7 +290,7 @@ function catchReload() {
 
 function catchWait() {
     //Lowering iris arms. Must wait.
-    iris.image.src = "/keiths-site/images/stalwart_sprites/lady2.gif";
+    iris.image.src = "lady2.gif";
     armsRaised = 0;
     setTimeout(catchReload, 1000);
 }
@@ -299,7 +298,7 @@ function catchWait() {
 function repairReload() {
     //Completing repair and allowing it to occur again.
     repairing = 0;
-    boatHealth += 25;
+    boatHealth += 40;
     if (boatHealth >= 100){
         boatHealth = 100;
     }
@@ -431,65 +430,65 @@ function winScreen() {
 
 function createEnvironment(){
     //Creating components in the environment.
-    moon = new component(61, 61, "/keiths-site/images/stalwart_sprites/moon.gif", 320, 50, "image");
-    mountain1 = new component(300,200, "/keiths-site/images/stalwart_sprites/mountain1.gif", 380, 140, "image");
-    mountain2 = new component(300,150, "/keiths-site/images/stalwart_sprites/mountain2.gif", 680, 140, "image");
-    mountain3 = new component(300,250, "/keiths-site/images/stalwart_sprites/mountain3.gif", 100, 140, "image");
-    mountain4 = new component(150,125, "/keiths-site/images/stalwart_sprites/mountain3.gif", 180, 160, "image");
-    mountain5 = new component(150,75, "/keiths-site/images/stalwart_sprites/mountain2.gif", 400, 180, "image");
-    mountain6 = new component(150,100, "/keiths-site/images/stalwart_sprites/mountain1.gif", 650, 160, "image");
-    bogTree1 = new component(135,220, "/keiths-site/images/stalwart_sprites/bog_tree.gif", 100, 150, "image");
-    bogTree2 = new component(135,220, "/keiths-site/images/stalwart_sprites/bog_tree.gif", 200, 155, "image");
-    bogTree3 = new component(135,220, "/keiths-site/images/stalwart_sprites/bog_tree.gif", 300, 153, "image");
-    bogTree4 = new component(135,220, "/keiths-site/images/stalwart_sprites/bog_tree.gif", 400, 152, "image");
-    bogTree5 = new component(135,220, "/keiths-site/images/stalwart_sprites/bog_tree.gif", 500, 151, "image");
-    bogTree6 = new component(135,220, "/keiths-site/images/stalwart_sprites/bog_tree.gif", 600, 154, "image");
-    bogTree7 = new component(135,220, "/keiths-site/images/stalwart_sprites/bog_tree.gif", 700, 155, "image");
-    bogTree8 = new component(135,220, "/keiths-site/images/stalwart_sprites/bog_tree.gif", 800, 156, "image");
+    moon = new component(61, 61, "moon.gif", 320, 50, "image");
+    mountain1 = new component(300,200, "mountain1.gif", 380, 140, "image");
+    mountain2 = new component(300,150, "mountain2.gif", 680, 140, "image");
+    mountain3 = new component(300,250, "mountain3.gif", 100, 140, "image");
+    mountain4 = new component(150,125, "mountain3.gif", 180, 160, "image");
+    mountain5 = new component(150,75, "mountain2.gif", 400, 180, "image");
+    mountain6 = new component(150,100, "mountain1.gif", 650, 160, "image");
+    bogTree1 = new component(135,220, "bog_tree.gif", 100, 150, "image");
+    bogTree2 = new component(135,220, "bog_tree.gif", 200, 155, "image");
+    bogTree3 = new component(135,220, "bog_tree.gif", 300, 153, "image");
+    bogTree4 = new component(135,220, "bog_tree.gif", 400, 152, "image");
+    bogTree5 = new component(135,220, "bog_tree.gif", 500, 151, "image");
+    bogTree6 = new component(135,220, "bog_tree.gif", 600, 154, "image");
+    bogTree7 = new component(135,220, "bog_tree.gif", 700, 155, "image");
+    bogTree8 = new component(135,220, "bog_tree.gif", 800, 156, "image");
     forGrass = new component(640, 150, "#26610e", 320, 400, "shape");
     forWater = new component(640, 50, "#26207e", 320, 300, "shape");
     backWater = new component(640, 50, "#26207e", 320, 250, "shape");
     backgrass = new component(640, 50, "#26610e", 320, 200, "shape");
-    reeds1 = new component(300, 32, "/keiths-site/images/stalwart_sprites/reeds.gif", 230, 222, "image");
-    reeds2 = new component(300, 32, "/keiths-site/images/stalwart_sprites/reeds.gif", 520, 220, "image");
-    reeds3 = new component(300, 32, "/keiths-site/images/stalwart_sprites/reeds.gif", 810, 225, "image");
-    reeds4 = new component(300, 32, "/keiths-site/images/stalwart_sprites/reeds.gif", 1100, 224, "image");
-    reeds5 = new component(300, 32, "/keiths-site/images/stalwart_sprites/reeds.gif", 1400, 223, "image");
+    reeds1 = new component(300, 32, "reeds.gif", 230, 222, "image");
+    reeds2 = new component(300, 32, "reeds.gif", 520, 220, "image");
+    reeds3 = new component(300, 32, "reeds.gif", 810, 225, "image");
+    reeds4 = new component(300, 32, "reeds.gif", 1100, 224, "image");
+    reeds5 = new component(300, 32, "reeds.gif", 1400, 223, "image");
     sky = new component(640, 300, "#3a207e", 320, 150, "shape");
-    stars = new component(640, 200, "/keiths-site/images/stalwart_sprites/stars.gif", 320, 100, "image");
-    forest1 = new component(160, 40, "/keiths-site/images/stalwart_sprites/forest.gif", 320, 180, "image");
-    forest2 = new component(160, 40, "/keiths-site/images/stalwart_sprites/forest.gif", 600, 170, "image");
-    forest3 = new component(160, 40, "/keiths-site/images/stalwart_sprites/forest.gif", 100, 170, "image");
-    boatwave1 = new component(32,32, "/keiths-site/images/stalwart_sprites/boatwave.gif", 450,270, "image");
-    boatwave2 = new component(32,32, "/keiths-site/images/stalwart_sprites/boatwave.gif", 450,275, "image");
-    boatwave3 = new component(32,32, "/keiths-site/images/stalwart_sprites/boatwave.gif", 400,270, "image");
-    boatwave4 = new component(32,32, "/keiths-site/images/stalwart_sprites/boatwave.gif", 400,275, "image");
-    boatwave5 = new component(32,32, "/keiths-site/images/stalwart_sprites/boatwave.gif", 350,270, "image");
-    boatwave6 = new component(32,32, "/keiths-site/images/stalwart_sprites/boatwave.gif", 350,275, "image");
-    passage = new component(74,67, "/keiths-site/images/stalwart_sprites/passage.gif", 800,185, "image");
+    stars = new component(640, 200, "stars.gif", 320, 100, "image");
+    forest1 = new component(160, 40, "forest.gif", 320, 180, "image");
+    forest2 = new component(160, 40, "forest.gif", 600, 170, "image");
+    forest3 = new component(160, 40, "forest.gif", 100, 170, "image");
+    boatwave1 = new component(32,32, "boatwave.gif", 450,270, "image");
+    boatwave2 = new component(32,32, "boatwave.gif", 450,275, "image");
+    boatwave3 = new component(32,32, "boatwave.gif", 400,270, "image");
+    boatwave4 = new component(32,32, "boatwave.gif", 400,275, "image");
+    boatwave5 = new component(32,32, "boatwave.gif", 350,270, "image");
+    boatwave6 = new component(32,32, "boatwave.gif", 350,275, "image");
+    passage = new component(74,67, "passage.gif", 800,185, "image");
     blackScreen = new component(640, 350, "#000000", 320, 175, "shape");
 }
 
 function createCharacters(){
     //Creating components of characters.
-    moorlord = new component(43, 63, "/keiths-site/images/stalwart_sprites/moorlord.gif", 0,-30, "image");
-    moorlordAxe = new component(15, 30, "/keiths-site/images/stalwart_sprites/moorlordAxe.gif", 0, -30, "image");
-    moorlordPhantasm = new component(27, 62, "/keiths-site/images/stalwart_sprites/moorlord_teleport.gif", -30, 245, "image");
-    stalwart = new component(38, 48, "/keiths-site/images/stalwart_sprites/stalwartFaceLeft.gif", 255,245, "image");
-    javert = new component(21,50, "/keiths-site/images/stalwart_sprites/old_man.gif", 365,245, "image");
-    iris = new component(50,50, "/keiths-site/images/stalwart_sprites/lady.gif", 340,190, "image");
-    lawrence = new component(16, 43, "/keiths-site/images/stalwart_sprites/farmer.gif", 402,247, "image");
-    huron = new component(97,60, "/keiths-site/images/stalwart_sprites/eagle.gif", 700,120, "image");
-    wretched = new component(65,68,"/keiths-site/images/stalwart_sprites/armoredWretchFloat.gif", 900, 220, "image");
-    skull = new component(25,18,"/keiths-site/images/stalwart_sprites/FloatingSkull1.gif", 900, 190, "image");
+    moorlord = new component(43, 63, "moorlord.gif", 0,-30, "image");
+    moorlordAxe = new component(15, 30, "moorlordAxe.gif", 0, -30, "image");
+    moorlordPhantasm = new component(27, 62, "moorlord_teleport.gif", -30, 245, "image");
+    stalwart = new component(38, 48, "stalwartFaceLeft.gif", 255,245, "image");
+    javert = new component(21,50, "old_man.gif", 365,245, "image");
+    iris = new component(50,50, "lady.gif", 340,190, "image");
+    lawrence = new component(16, 43, "farmer.gif", 402,247, "image");
+    huron = new component(97,60, "eagle.gif", 700,120, "image");
+    wretched = new component(65,68,"armoredWretchFloat.gif", 900, 220, "image");
+    skull = new component(25,18,"FloatingSkull1.gif", 900, 190, "image");
 }
 
 function createBoat(){
     //Creating components of boat.
-    //boat = new component(240, 71, "/keiths-site/images/stalwart_sprites/boatFinal.gif", 340, 240, "image");
-    wheel = new component(102, 102, "/keiths-site/images/stalwart_sprites/wheelFinal.gif", 315, 240, "image");
-    cannon = new component(30,30, "/keiths-site/images/stalwart_sprites/cannon.gif", 243,242, "image");
-    cannonBall = new component(4,4, "/keiths-site/images/stalwart_sprites/cannonBall.gif", 100,100, "image");
+    boat = new component(240, 71, "boatFinal.gif", 340, 240, "image");
+    wheel = new component(102, 102, "wheelFinal.gif", 315, 240, "image");
+    cannon = new component(30,30, "cannon.gif", 243,242, "image");
+    cannonBall = new component(4,4, "cannonBall.gif", 100,100, "image");
 }
 
 function startGame() {
@@ -745,10 +744,10 @@ function updateBoat() {
     //If cannon is facing left or right, Stalwart should face left or right, respectively.
     if (cannon.angle <= Math.PI) {
         stalwart.x = 255;
-        stalwart.image.src = "/keiths-site/images/stalwart_sprites/stalwartFaceLeft.gif";
+        stalwart.image.src = "stalwartFaceLeft.gif";
     } else {
         stalwart.x = 235;
-        stalwart.image.src = "/keiths-site/images/stalwart_sprites/stalwartFaceRight.gif";
+        stalwart.image.src = "stalwartFaceRight.gif";
     }
     cannon.update();
     //Adjusts the speed of the boat in accordance with its current health.
@@ -959,7 +958,7 @@ function updateAnimFrame() {
         updateEnvironmentBackground();
         updateBoat();
         updateEnvironmentMidground();
-        //boat.update();
+        boat.update();
         updateMoorlord();
         updateForeground();
     } else if (boatHealth <= 0 && gameStart == 0) {
