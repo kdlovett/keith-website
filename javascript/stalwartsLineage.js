@@ -51,7 +51,7 @@ window.addEventListener("keyup", boatStop, false);
 setTimeout(irisTurnReload, 4000);
 setTimeout(skullFlapReload, 300);
 
-setTimeout(beginGame, 20000);
+setTimeout(beginGame, 300);
  
 
 function boatMove(e) {
