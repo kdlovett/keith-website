@@ -486,7 +486,7 @@ function createCharacters(){
 
 function createBoat(){
     //Creating components of boat.
-    boat = new component(240, 71, "/keiths-site/images/stalwart_sprites/boatFinal.gif", 340, 240, "image");
+    //boat = new component(240, 71, "/keiths-site/images/stalwart_sprites/boatFinal.gif", 340, 240, "image");
     wheel = new component(102, 102, "/keiths-site/images/stalwart_sprites/wheelFinal.gif", 315, 240, "image");
     cannon = new component(30,30, "/keiths-site/images/stalwart_sprites/cannon.gif", 243,242, "image");
     cannonBall = new component(4,4, "/keiths-site/images/stalwart_sprites/cannonBall.gif", 100,100, "image");
@@ -959,7 +959,7 @@ function updateAnimFrame() {
         updateEnvironmentBackground();
         updateBoat();
         updateEnvironmentMidground();
-        boat.update();
+        //boat.update();
         updateMoorlord();
         updateForeground();
     } else if (boatHealth <= 0 && gameStart == 0) {
