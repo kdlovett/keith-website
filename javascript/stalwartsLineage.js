@@ -485,7 +485,7 @@ function createCharacters(){
 
 function createBoat(){
     //Creating components of boat.
-    boat = new component(80, 80, "/keiths-site/images/trash.gif", 340, 240, "image");
+    boat = new component(80, 80, "/keiths-site/images/boat.gif", 340, 240, "image");
     wheel = new component(102, 102, "/keiths-site/images/wheelFinal.gif", 315, 240, "image");
     cannon = new component(30,30, "/keiths-site/images/cannon.gif", 243,242, "image");
     cannonBall = new component(4,4, "/keiths-site/images/cannonBall.gif", 100,100, "image");
