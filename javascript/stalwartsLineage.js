@@ -51,7 +51,7 @@ window.addEventListener("keyup", boatStop, false);
 setTimeout(irisTurnReload, 4000);
 setTimeout(skullFlapReload, 300);
 
-setTimeout(beginGame, 20000);
+setTimeout(beginGame, 3000);
  
 
 function boatMove(e) {
@@ -744,10 +744,10 @@ function updateBoat() {
     //If cannon is facing left or right, Stalwart should face left or right, respectively.
     if (cannon.angle <= Math.PI) {
         stalwart.x = 255;
-        stalwart.image.src = "./stalwartFaceLeft.gif";
+        stalwart.image.src = "/keiths-site/images/stalwartFaceLeft.gif";
     } else {
         stalwart.x = 235;
-        stalwart.image.src = "./stalwartFaceRight.gif";
+        stalwart.image.src = "/keiths-site/images/stalwartFaceRight.gif";
     }
     cannon.update();
     //Adjusts the speed of the boat in accordance with its current health.
@@ -835,7 +835,7 @@ function updateForeground() {
         ammunition += 100;
         repairKits += 1;
         appleRaised = 0;
-        lawrence.image.src = "./farmer.gif";
+        lawrence.image.src = "/keiths-site/images/farmer.gif";
     }
     huron.update();
 
