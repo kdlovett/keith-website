@@ -64,8 +64,6 @@ function component(width, height, color, x, y, type) {
     }
     this.width = width;
     this.height = height;
-    this.speedX = 0;
-    this.speedY = 0;    
     this.x = x;
     this.y = y;
     //Enables components to change images / colors
@@ -173,9 +171,14 @@ function updateAnimFrame() {
 
     //Creating text.
     animFrame.context.textAlign = "center"
-    if (text == 1) {
+    if (text != 5) {
         animFrame.context.font = "16px Arial";
         animFrame.context.strokeStyle="aqua";
+    } else {
+        animFrame.context.font = "25px Arial";
+        animFrame.context.strokeStyle="orange";
+    }
+    if (text == 1) {
         animFrame.context.strokeText("*Bzzt*",150,20);
     } else if (text == 2) {
         animFrame.context.strokeText("Please remember to take all",150,20);
@@ -184,8 +187,6 @@ function updateAnimFrame() {
     } else if (text == 4) {
         animFrame.context.strokeText("keep it running,",150,20);
     } else if (text == 5) {
-        animFrame.context.font = "25px Arial";
-        animFrame.context.strokeStyle="orange";
         animFrame.context.strokeText("Full Throttle.",155,30);
     }
 }
