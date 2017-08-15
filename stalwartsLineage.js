@@ -40,7 +40,7 @@ var moorlordText = 0;
 //Maintains various aspects of gameplay control.
 var win = 0;
 var winning = 0;
-var gameStart = 1;
+var gameStart = 0;
 
 
 //Listens to they keyboard for control either key "down" or "up".
