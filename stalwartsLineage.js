@@ -495,7 +495,7 @@ function startGame() {
     //Creating shapes and image components
     createEnvironment();
     createCharacters();
-    createBoat();
+    //createBoat();
 
     animFrame.start();
 }
