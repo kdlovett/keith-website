@@ -485,7 +485,7 @@ function createCharacters(){
 
 function createBoat(){
     //Creating components of boat.
-    //boat = new component(240, 71, "/keiths-site/javascript/boat.gif", 340, 240, "image");
+    boat = new component(240, 71, "/keiths-site/javascript/boatFinal.gif", 340, 240, "image");
     wheel = new component(102, 102, "/keiths-site/javascript/wheelFinal.gif", 315, 240, "image");
     cannon = new component(30,30, "/keiths-site/javascript/cannon.gif", 243,242, "image");
     cannonBall = new component(4,4, "/keiths-site/javascript/cannonBall.gif", 100,100, "image");
@@ -759,7 +759,7 @@ function updateBoat() {
         boatSpeed = 0.3;
     }
     //Or, if the boat is near the passage, stop.
-    if (Math.abs(iris.x - passage.x) <= 10 && skulls >= 3) {
+    if (Math.abs(boat.x - passage.x) <= 10 && skulls >= 3) {
         boatSpeed = 0;
         if (winning == 0){
             winning = 1;
@@ -958,7 +958,7 @@ function updateAnimFrame() {
         updateEnvironmentBackground();
         updateBoat();
         updateEnvironmentMidground();
-        //boat.update();
+        boat.update();
         updateMoorlord();
         updateForeground();
     } else if (boatHealth <= 0 && gameStart == 0) {
