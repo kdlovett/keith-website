@@ -14,7 +14,7 @@ Here is another Google Maps based project I have been working on. Essentially, t
 
 Update (July 29, 2017) So it looks like the json data that was used to find the GHG is being hosted by a different site and in a different format soon, unfortunately, and therefore, the map might not generate in the coming future. If this is the case, here's a pretty comprehensive image of the result.
 
-![ghgMap](https://raw.githubusercontent.com/kdlovett/keiths-site/gh-pages/images/ghgMap.png)
+![ghgMap](/keiths-site/images/ghgMap.png)
 
 <script async src="//jsfiddle.net/kdlovett/t7brz2Ls/embed/js,html,css,result/dark/"></script>
 

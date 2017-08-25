@@ -13,13 +13,13 @@ So there's some meme or something out there about so-and-so (say, Abbott) being 
 
 I figured intuitively that the meme was indeed correct, but I wanted something more concrete. (Question your memes.) So I thought, there must be some corresponding graph that demonstrates what's going on here, and, here it is.
 
-![Ages1](https://raw.githubusercontent.com/kdlovett/keiths-site/gh-pages/images/ages.png)
+![Ages1](/keiths-site/images/ages.png)
 
 We can see at the open bracket, when we begin recording, Costello is half the age of Abbott, but as time progresses in a linear fashion, and both men age at the same rate, this is no longer true.
 
 Similarly, say Abbott is 10 when Costello was born, and we started recording as soon as Costello was born, we would have to wait 10 years, for Abbott to be 20, and Costello to be 10, for Abbott to be double Costello's age.
 
-![Ages2](https://raw.githubusercontent.com/kdlovett/keiths-site/gh-pages/images/ages2.png)
+![Ages2](/keiths-site/images/ages2.png)
 
 At no other point in time would this be the case, I suppose because of some truth about linearity.
 
