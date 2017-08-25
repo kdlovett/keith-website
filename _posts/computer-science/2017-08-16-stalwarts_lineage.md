@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Project] Stalwart's Lineage: The Mire"
+title: "[Game] Stalwart's Lineage: The Mire"
 date: 2017-08-16
 category: computer-science
 ---
