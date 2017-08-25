@@ -13,7 +13,7 @@ Hello.
 
 I'd like to mention the reincarnation of an old computer game I was working on in high school called Stalwart's Lineage. It never was fully completed, but just recently my buddy Addison suggested I work on it again.
 
-*** [This is what I came up with.](https://github.com/kdlovett/stalwarts-lineage)
+### [This is what I came up with.](https://github.com/kdlovett/stalwarts-lineage)
 
 Update: Addison made some absolutely incredible music for the game and has also contributed some programming help. MAD PROPS YO. Awesome to create this alongside him.
 
