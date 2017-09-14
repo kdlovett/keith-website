@@ -17,6 +17,6 @@ I'd like to mention the reincarnation of an old computer game I was working on i
 
 Update: Addison made some absolutely incredible music for the game and has also contributed some programming help. MAD PROPS YO. Awesome to create this alongside him.
 
-![Stalwarts Lineage](/keiths-site//images/SLImage.png)
+![Stalwarts Lineage](/keiths-site//image_dir/SLImage.png)
 
 I tried to get it embedded on the site here but I think due to the number of sprites and variables in the game, it doesn't want to run too well. As in, it just freezes, even if I don't change anything besides the necessary stuff when I put it on the site. Oh well! Time is better spent not trying to figure that one out.
