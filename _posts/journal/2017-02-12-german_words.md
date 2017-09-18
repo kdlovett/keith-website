@@ -34,3 +34,5 @@ Ich will auf dieser Seite interessante und praktische Wörter sammeln...
 * shauenwama... - we'll see. (Coloquial for shauen wir mal. Mal basically denotes a moment in time or makes your statement sound more casual. Guck mal, dahinten ist unser Auto. - Look, our car is over there.)
 
 * Könnten Sie mir sagen... - Could you tell me... (Könnten Sie mir sagen, wo ich im Stadtviertel essen könnte? - Could you tell me where I could eat in this part of town?)
+
+* nachzuholen... - to catch up on... (Ich will an der Fernsehsendung nachzuholen. - I want to catch up on the show.)
