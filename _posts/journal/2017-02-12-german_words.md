@@ -36,3 +36,5 @@ Ich will auf dieser Seite interessante und praktische Wörter sammeln...
 * Könnten Sie mir sagen... - Could you tell me... (Könnten Sie mir sagen, wo ich im Stadtviertel essen könnte? - Could you tell me where I could eat in this part of town?)
 
 * nachzuholen... - to catch up on... (Ich will an der Fernsehsendung nachzuholen. - I want to catch up on the show.)
+
+* Wahrscheinlich... - probably... (Wahrscheinlich werde ich nach Abendessen shclafen. - I'll probably sleep after dinner.)
