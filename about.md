@@ -6,16 +6,14 @@ permalink: /about/
 
 <link rel="stylesheet" type="text/css"  href="/keiths-site/css/main.css">
 
-Hello, I'm Keith, a computer science student from the Boston area currently at Boston University.
+Hello, I'm Keith. I happen to study computer science at Boston University. Within the field, there are three things which interest me most: data-driven decision making in urban environments, systems in general, and software as a creative medium for sharing our human experiences.
 
 Here you may find:
 
 * Some stuff I do.
 * Some stuff about computer science or math.
 * Some stuff I write.
-* Some stuff.
-
-I occassionally do a [skit](https://www.youtube.com/channel/UCSbgGTrQ2VGdtRhb-fCvDtw).
+* Some stuff!
 
 # About this Site
 
