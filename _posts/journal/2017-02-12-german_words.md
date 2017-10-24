@@ -38,3 +38,5 @@ Ich will auf dieser Seite interessante und praktische Wörter sammeln...
 * nachzuholen... - to catch up on... (Ich will an der Fernsehsendung nachzuholen. - I want to catch up on the show.)
 
 * Wahrscheinlich... - probably... (Wahrscheinlich werde ich nach Abendessen schlafen. - I'll probably sleep after dinner.)
+
+* Niemals... - At no point, never... (Ich hätte an das niemals gedacht. - I would have never thought of that.)
