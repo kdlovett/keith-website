@@ -40,3 +40,5 @@ Ich will auf dieser Seite interessante und praktische Wörter sammeln...
 * Wahrscheinlich... - probably... (Wahrscheinlich werde ich nach Abendessen schlafen. - I'll probably sleep after dinner.)
 
 * Niemals... - At no point, never... (Ich hätte an das niemals gedacht. - I would have never thought of that.)
+
+* wo's langgeht... - what it's all about... what's good...  (Du sollst ihm sagen, wo's langgeht. - You should tell him what's good.)
