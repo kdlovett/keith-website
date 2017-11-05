@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[German] Deutsch Worterbuch"
+title: "[German] Deutsches Wörterbuch"
 date: 2017-02-12
 category: journal
 ---
