@@ -38,6 +38,7 @@ var animFrame = {
     start : function() {
         this.canvas.width = 300;
         this.canvas.height = 300;
+        this.canvas.x = screen.width / 2;
         this.context = this.canvas.getContext("2d");
         document.body.insertBefore(this.canvas, document.body.childNodes[0]);
         this.frameNo = 0;
@@ -48,8 +49,8 @@ var animFrame = {
     },
     stop : function() {
         clearInterval(this.interval);
-        this.canvas.width = 0;
-        this.canvas.height = 0;
+        this.canvas.width = 300;
+        this.canvas.height = 300;
     }
 }
 
@@ -176,7 +177,7 @@ function updateAnimFrame() {
         animFrame.context.strokeStyle="aqua";
     } else {
         animFrame.context.font = "25px Arial";
-        animFrame.context.strokeStyle="orange";
+        animFrame.context.strokeStyle="green";
     }
     if (text == 1) {
         animFrame.context.strokeText("*Bzzt*",150,20);
@@ -187,6 +188,6 @@ function updateAnimFrame() {
     } else if (text == 4) {
         animFrame.context.strokeText("keep it running,",150,20);
     } else if (text == 5) {
-        animFrame.context.strokeText("Full Throttle.",155,30);
+        animFrame.context.strokeText("Smooth and Steady.",155,30);
     }
 }

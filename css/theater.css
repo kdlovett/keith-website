@@ -18,8 +18,8 @@ body {
 main {
     height: 90%;
     border: 20px;
-    border-color: #203331;
-    border-style: solid;
+    border-color: #ffd000;
+    border-style: dotted;
     border-radius: 5px;
     padding: 10px;
     background-color: #15353a;
