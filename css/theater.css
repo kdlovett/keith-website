@@ -3,7 +3,7 @@ img {
     max-height: 100%;
 }
 figure {
-    color: #c9c99c;
+    color: #acc4c4;
 }
 h1{
     color: #c9c99c;
@@ -16,6 +16,7 @@ body {
     font-family: "Courier New",Courier,monospace;
 }
 main {
+    max-height: 100%;
     border: 20px;
     border-color: #203331;
     border-style: solid;
@@ -28,11 +29,11 @@ a {
     font-size: 14px;
     font-family: "Courier New",Courier,monospace;
     text-decoration: none;
-    color: #111109;
+    color: #a6c4a7;
 }
 a:hover {
     font-size: 14px;
     font-family: "Courier New",Courier,monospace;
     text-decoration: underline;
-    color: #999966;
+    color: #8dc18f;
 }
