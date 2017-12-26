@@ -49,8 +49,8 @@ var animFrame = {
     },
     stop : function() {
         clearInterval(this.interval);
-        this.canvas.width = 300;
-        this.canvas.height = 300;
+        this.canvas.width = 0;
+        this.canvas.height = 0;
     }
 }
 
@@ -177,7 +177,7 @@ function updateAnimFrame() {
         animFrame.context.strokeStyle="aqua";
     } else {
         animFrame.context.font = "25px Arial";
-        animFrame.context.strokeStyle="green";
+        animFrame.context.strokeStyle="orange";
     }
     if (text == 1) {
         animFrame.context.strokeText("*Bzzt*",150,20);
