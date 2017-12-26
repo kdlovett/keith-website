@@ -38,7 +38,6 @@ var animFrame = {
     start : function() {
         this.canvas.width = 300;
         this.canvas.height = 300;
-        this.canvas.x = screen.width / 2;
         this.context = this.canvas.getContext("2d");
         document.body.insertBefore(this.canvas, document.body.childNodes[0]);
         this.frameNo = 0;
