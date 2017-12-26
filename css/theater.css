@@ -11,6 +11,7 @@ h1{
     font-family: "Times New Roman",Times,serif;
 }
 body {
+    top: 25px;
     background-color: #091d28;
     font-size: 14px;
     font-family: "Courier New",Courier,monospace;
@@ -20,7 +21,7 @@ main {
     border: 20px;
     border-color: #ffd000;
     border-style: dotted;
-    border-radius: 5px;
+    border-radius: 2px;
     padding: 10px;
     background-color: #15353a;
     color: #acc4c4;
