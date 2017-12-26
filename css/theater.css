@@ -17,6 +17,7 @@ body {
     font-family: "Courier New",Courier,monospace;
 }
 main {
+    top: 25px;
     height: 90%;
     border: 20px;
     border-color: #ffd000;
