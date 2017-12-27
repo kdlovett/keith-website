@@ -28,7 +28,18 @@ main {
     color: #008484;
 }
 button {
-    background-color: #4CAF50;
+    background-color: #051219;
+    border: none;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
 }
 a {
     font-size: 14px;
