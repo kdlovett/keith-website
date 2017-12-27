@@ -15,7 +15,7 @@ Here you may find:
 * Some stuff I write.
 * Some stuff!
 
-I study computer science at Boston University. Within the field, there are three things which interest me most: data-driven decision making and its effects on environments, systems, and software as a creative medium to help us figure out our weird selves...
+I study computer science at Boston University. Within the field, there are three things which interest me most: data-driven decision making and its effects on environments, systems, and software as a creative medium [to help us figure out our weird selves](https://kdlovett.github.io/keiths-site/theater/)...
 
 # About this Site
 
