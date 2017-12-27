@@ -12,7 +12,7 @@ h1{
 }
 body {
     top: 25px;
-    background-color: #051219;
+    background-color: #010c11;
     font-size: 14px;
     font-family: "Courier New",Courier,monospace;
 }
@@ -24,7 +24,7 @@ main {
     border-style: dotted;
     border-width: 5px;
     padding: 10px;
-    background-color: #0a242d;
+    background-color: #061c23;
     color: #008484;
 }
 a {
