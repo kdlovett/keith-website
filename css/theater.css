@@ -27,6 +27,9 @@ main {
     background-color: #061c23;
     color: #008484;
 }
+button {
+    background-color: #4CAF50;
+}
 a {
     font-size: 14px;
     font-family: "Courier New",Courier,monospace;
