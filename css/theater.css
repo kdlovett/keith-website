@@ -12,7 +12,7 @@ h1{
 }
 body {
     top: 25px;
-    background-color: #091d28;
+    background-color: #051219;
     font-size: 14px;
     font-family: "Courier New",Courier,monospace;
 }
@@ -20,11 +20,11 @@ main {
     top: 25px;
     height: 90%;
     border: 20px;
-    border-color: #ffd000;
+    border-color: #00ffcb;
     border-style: dotted;
     border-width: 5px;
     padding: 10px;
-    background-color: #15353a;
+    background-color: #0d2e3a;
     color: #acc4c4;
 }
 a {
