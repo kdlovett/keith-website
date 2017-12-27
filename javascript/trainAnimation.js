@@ -34,42 +34,22 @@ function stopAnimation() {
 
 var animFrame = {
     //Creating canvas
-    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-        canvas : document.createElement("mobileCanvas"),
-        start : function() {
-            this.canvas.width = 300;
-            this.canvas.height = 300;
-            this.context = this.canvas.getContext("2d");
-            document.body.insertBefore(this.canvas, document.body.childNodes[0]);
-            this.frameNo = 0;
-            this.interval = setInterval(updateAnimFrame, 20);
+    canvas : document.createElement("canvas"),
+    start : function() {
+        this.canvas.width = 300;
+        this.canvas.height = 300;
+        this.context = this.canvas.getContext("2d");
+        document.body.insertBefore(this.canvas, document.body.childNodes[0]);
+        this.frameNo = 0;
+        this.interval = setInterval(updateAnimFrame, 20);
         },
-        clear : function() {
-            this.context.clearRect(0, 0, this.canvas.width, this.canvas.height);
-        },
-        stop : function() {
-            clearInterval(this.interval);
-            this.canvas.width = 0;
-            this.canvas.height = 0;
-        }
-    } else {
-        canvas : document.createElement("canvas"),
-        start : function() {
-            this.canvas.width = 300;
-            this.canvas.height = 300;
-            this.context = this.canvas.getContext("2d");
-            document.body.insertBefore(this.canvas, document.body.childNodes[0]);
-            this.frameNo = 0;
-            this.interval = setInterval(updateAnimFrame, 20);
-        },
-        clear : function() {
-            this.context.clearRect(0, 0, this.canvas.width, this.canvas.height);
-        },
-        stop : function() {
-            clearInterval(this.interval);
-            this.canvas.width = 0;
-            this.canvas.height = 0;
-        }
+    clear : function() {
+        this.context.clearRect(0, 0, this.canvas.width, this.canvas.height);
+    },
+    stop : function() {
+        clearInterval(this.interval);
+        this.canvas.width = 0;
+        this.canvas.height = 0;
     }
 }
 
