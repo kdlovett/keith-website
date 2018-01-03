@@ -12,7 +12,6 @@ category: journal
 Hello,
 
 I just arrived today in Auckland after a long flight from Boston (+some hours layover in SF). I haven't had much time to process anything because I've spent much of today zip-zooming here and there getting oriented, meeting my fellow study-abroaders, trying to buy essentials, etc.
-
 But that's okay, I didn't mean to do much reflection here, that will come later. Here I just wanted set the stage so to speak for what's to come (roughly) during my time journaling.
 
 ![NZBay](/keiths-site/image_dir/NZBay.jpg)
