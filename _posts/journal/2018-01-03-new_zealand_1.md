@@ -7,7 +7,7 @@ category: journal
 
 <link rel="stylesheet" type="text/css"  href="/keiths-site/css/main.css">
 
-*Part 1 of a journal documenting shenanegans abroad in New Zealand for family and anyone else interested.*
+*Part 1 of a journal documenting shenanigans abroad in New Zealand for family and anyone else interested.*
 
 Hello,
 
