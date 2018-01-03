@@ -23,7 +23,7 @@ Beyond that I don't necessarily know what I'll do with the rest of my time here 
 
 ## How will this journal "go"?
 
-I don't think I'll be too... journalistic about this journal. That is to say, I'm going to avoid listing what I've done or plan to do. Instead I plan on just  jotting down a probably seemingly minute detail, once every other week. But it won't be minute in actuality, or, hopefully not, that is. Rather, I'll try to make it something I found particularly interesting, or something that seemed to encapsulate something important. I'll leave it up to you to fill in the blanks, as they say. Besides, stories are more interesting when they leave you with more questions, than when you first started...
+I don't think I'll be too... journalistic about this journal. That is to say, I'm going to avoid listing what I've done or plan to do. Instead I plan on just  jotting down a probably seemingly minute detail, once every other week. But it won't be minute in actuality, or, hopefully not, that is. Rather, I'll try to make it something I found particularly interesting, or something that seemed to encapsulate something important. I'll leave it up to you to fill in the blanks. Besides, stories are more interesting when they leave you with more questions than you had when you first started...
 
 ![NZLights](/keiths-site/image_dir/NZLights.jpg)
 
