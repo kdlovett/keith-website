@@ -15,7 +15,7 @@ There is a steep incline leading from where I'm staying to the university itself
 
 I learned today that a fortified British colony used to exist where the university stands now, and that its location at the top of a hill was strategic in terms of its defense. In fact, the stone walls of the colony run through the campus, now largely covered in moss. The campus itself is home to a lot of different species of flowers and trees, all of which are meticulously labeled, and which attract birds whose songs are new to me.
 
-![NZLandscape](/keiths-site/image_dir/NZCannon.jpg)
+![NZCannon](/keiths-site/image_dir/NZCannon.jpg)
 
 I'm still quite a bit shaky on the history, but the Maori, the indigenous people here, formed the Treaty of Waitangi with the British in 1840. Among prompting many other pivotal things in New Zealand's history, the treaty helped bring awareness to their concerns given the impending colonial threat.
 
