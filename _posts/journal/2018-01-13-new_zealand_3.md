@@ -9,7 +9,7 @@ category: journal
 
 *Part 3 of a journal documenting shenanigans abroad in New Zealand for family and anyone else interested.*
 
-The traditional creation myth, according to Maori storytelling, involves Ranginui (The Sky Father) and Papatuanuku (The Earth Mother), who were at first locked together in a lover's embrace. They gave birth to around seventy gods, including Tane Mahuta (God of the Forest), who, in an attempt to bring light to the world and give space for him and his siblings to grow, lied on his back against his mother and pushed his hands and feet into his father, thereby seperating Earth and Sky and enlightening his siblings.
+The traditional creation myth, according to Maori storytelling, involves Ranginui (The Sky Father) and Papatuanuku (The Earth Mother), who were at first locked together in a lover's embrace. They gave birth to around seventy gods, including Tane Mahuta (God of the Forest), who, in an attempt to bring light to the world and give space for him and his siblings to grow, lied on his back against his mother and pushed his hands and feet into his father, thereby seperating Earth and Sky and enlightening his siblings. (1)
 
 I find this quite poetic and I think it also seeks to explain the tumultuous Earth formations throughout New Zealand.
 
@@ -24,3 +24,5 @@ I'm sorry I'm occassionally letting your questions slip. As much as it is me bei
 I hope you understand.
 
 ![NZClocktower](/keiths-site/image_dir/NZClocktower.jpg)
+
+(1) I believe many variants of this story exist in the surrounding islands. This was the one I learned in class.
