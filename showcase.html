@@ -27,34 +27,20 @@ permalink: /theater/
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
     <script>
-      $.getScript("/keiths-site/javascript/trainAnimation.js", function() {
-      });
       var trainOpen = 0;
       function trainOpener() {
-       if (trainOpen == 0) {
-        trainOpen = 1;
-        startAnimation();
-       } else {
-        trainOpen = 0;
-        stopAnimation();
-       }
+        $.getScript("/keiths-site/javascript/trainAnimation.js", function() {
+        });
+        if (trainOpen == 0) {
+          trainOpen = 1;
+          startAnimation();
+        } else {
+          trainOpen = 0;
+          stopAnimation();
+        }
       }
     </script>
     <button onclick="trainOpener()">Train</button>
-    <script>
-      $.getScript("/keiths-site/javascript/newGame.js", function() {
-      });
-      var testOpen = 0;
-      function testOpener() {
-       if (testOpen == 0) {
-        testOpen = 1;
-        startAnimation();
-       } else {
-        testOpen = 0;
-        stopAnimation();
-       }
-      }
-    </script>
     <button onclick="testOpener()">Testing</button>
   </body>
 
