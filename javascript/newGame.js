@@ -4,24 +4,24 @@ function startTest() {
     //trash = new component(80, 80, "/keiths-site/image_dir/trash.gif", 20, 220, "image");
 
 
-    animFrame2.start();
+    animFrame.start();
 }
 
 function stopTest() {
-    animFrame2.stop();
-    animFrame2.clear();
+    animFrame.stop();
+    animFrame.clear();
 }
 
-var animFrame2 = {
+var animFrame = {
     //Creating canvas
-    canvas : document.createElement("canvas2"),
+    canvas : document.createElement("canvas"),
     start : function() {
         this.canvas.width = 1440;
         this.canvas.height = 480;
         this.context = this.canvas.getContext("2d");
         document.body.insertBefore(this.canvas, document.body.childNodes[0]);
         this.frameNo = 0;
-        this.interval = setInterval(updateAnimFrame2, 20);
+        this.interval = setInterval(updateAnimFrame, 20);
         },
     clear : function() {
         this.context.clearRect(0, 0, this.canvas.width, this.canvas.height);
@@ -48,7 +48,7 @@ function component(width, height, color, x, y, type) {
     this.y = y;
     //Enables components to change images / colors
     this.update = function() {
-        ctx = animFrame2.context;
+        ctx = animFrame.context;
         if (type == "image") {
             ctx.drawImage(this.image, 
                 this.x, 
@@ -84,9 +84,9 @@ function textUpdater() {
     }*/
 }
 
-function updateAnimFrame2() {
+function updateAnimFrame() {
 
-    animFrame2.clear();
+    animFrame.clear();
     //Resetting building positions
     /*
     if (buildingback1.x < -100) {

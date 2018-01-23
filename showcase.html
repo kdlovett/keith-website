@@ -41,6 +41,20 @@ permalink: /theater/
       }
     </script>
     <button onclick="trainOpener()">Train</button>
+    <script>
+      $.getScript("/keiths-site/javascript/newGame.js", function() {
+      });
+      var testOpen = 0;
+      function testOpener() {
+       if (testOpen == 0) {
+        testOpen = 1;
+        startAnimation();
+       } else {
+        testOpen = 0;
+        stopAnimation();
+       }
+      }
+    </script>
     <button onclick="testOpener()">Testing</button>
   </body>
 
