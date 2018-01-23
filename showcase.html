@@ -24,8 +24,11 @@ permalink: /theater/
     <br/><br/><br/><br/><br/><br/><br/><br/>
     <br/><br/><br/><br/><br/><br/><br/><br/>
     <br/><br/><br/><br/><br/><br/><br/><br/>
-    <script src=/keiths-site/javascript/trainAnimation.js></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
     <script>
+      $.getScript("/keiths-site/javascript/trainAnimation.js", function() {
+      });
       var trainOpen = 0;
       function trainOpener() {
        if (trainOpen == 0) {
@@ -39,8 +42,9 @@ permalink: /theater/
     </script>
     <button onclick="trainOpener()">Train</button>
     
-    <script src=/keiths-site/javascript/newGame.js></script>
     <script>
+      $.getScript("/keiths-site/javascript/newGame.js", function() {
+      });
       var testOpen = 0;
       function testOpener() {
        if (testOpen == 0) {
