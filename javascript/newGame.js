@@ -14,7 +14,7 @@ function stopTest() {
 
 var animFrame2 = {
     //Creating canvas
-    canvas : document.createElement("canvas"),
+    canvas : document.createElement("canvas2"),
     start : function() {
         this.canvas.width = 1440;
         this.canvas.height = 480;
