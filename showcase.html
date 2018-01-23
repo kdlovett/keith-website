@@ -30,6 +30,7 @@ permalink: /theater/
       var frameOpen = 0;
       function frameOpener() {
         if (frameOpen == 0) {
+          //GetScript is failing here, but it needs to be here.
           $.getScript("/keiths-site/javascript/trainAnimation.js", function() {
           });
           frameOpen = 1;
