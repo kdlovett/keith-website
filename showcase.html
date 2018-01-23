@@ -30,10 +30,15 @@ permalink: /theater/
       var frameOpen = 0;
       $.getScript("/keiths-site/javascript/trainAnimation.js", function() {
       });
+      $.getScript("/keiths-site/javascript/newGame.js", function() {
+      });
       function frameOpener() {
         if (frameOpen == 0) {
           frameOpen = 1;
           startAnimation();
+        } else if (frameOpen == 1) {
+          frameOpen = 2;
+          startTest();
         }
       }
     </script>
