@@ -41,7 +41,7 @@ permalink: /theater/
       }
     </script>
     <button onclick="trainOpener()">Train</button>
-    
+
     <script>
       $.getScript("/keiths-site/javascript/newGame.js", function() {
       });
@@ -49,10 +49,10 @@ permalink: /theater/
       function testOpener() {
        if (testOpen == 0) {
         testOpen = 1;
-        startAnimation();
+        startTest();
        } else {
         testOpen = 0;
-        stopAnimation();
+        stopTest();
        }
       }
     </script>
