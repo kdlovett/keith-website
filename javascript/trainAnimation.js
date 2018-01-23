@@ -5,7 +5,6 @@ var text = 0;
 setTimeout(textUpdater, 3000);
 
 function startAnimation() {
-    animFrame.stop();
     animFrame.clear();
     //Creating shapes and image components
     train = new component(300, 300, "/keiths-site/image_dir/train2.gif", 0, 0, "image");
