@@ -29,9 +29,9 @@ permalink: /theater/
     <script>
       var frameOpen = 0;
       function frameOpener() {
+        $.getScript("/keiths-site/javascript/trainAnimation.js", function() {
+        });
         if (frameOpen == 0) {
-          $.getScript("/keiths-site/javascript/trainAnimation.js", function() {
-          });
           frameOpen = 1;
           startAnimation();
         }
