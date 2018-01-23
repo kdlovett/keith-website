@@ -32,14 +32,14 @@ permalink: /theater/
         if (frameOpen == 0) {
           //GetScript is failing here, but it needs to be here.
           $.getScript("/keiths-site/javascript/trainAnimation.js", function() {
+            frameOpen = 1;
+            startAnimation();
           });
-          frameOpen = 1;
-          startAnimation();
         } else if (frameOpen == 1) {
           $.getScript("/keiths-site/javascript/newGame.js", function() {
+            frameOpen = 2;
+            startTest();
           });
-          frameOpen = 2;
-          startTest();
         }
       }
     </script>
