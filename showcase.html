@@ -33,16 +33,29 @@ permalink: /theater/
        }
       }
     </script>
+    <script src=/keiths-site/javascript/newGame.js></script>
+    <script>
+      var testOpen = 0;
+      function testOpener() {
+       if (testOpen == 0) {
+        testOpen = 1;
+        startAnimation();
+       } else {
+        testOpen = 0;
+        stopAnimation();
+       }
+      }
+    </script>
     <br/><br/><br/><br/><br/><br/><br/><br/>
     <br/><br/><br/><br/><br/><br/><br/><br/>
     <br/><br/><br/><br/><br/><br/><br/><br/>
     <br/><br/><br/><br/><br/><br/><br/><br/>
     <button onclick="trainOpener()">Train</button>
-    <button onclick="trainOpener()">Testing</button>
+    <button onclick="testOpener()">Testing</button>
   </body>
 
 <br/>---<br/>
-  <i>Gaze at the luminous pixels. What do you see?... Attribution for all pieces: <a href="https://www.w3schools.com/graphics/game_intro.asp">w3schools</a>
+  <i>Gaze at the luminous pixels. What do you see?... Attribution: <a href="https://www.w3schools.com/graphics/game_intro.asp">w3schools</a>
     Inspirations: <a href="http://www.goethe.de/ins/cn/lp/prj/dat/enindex.htm">Goethe Institute Datenträume</a>
   <br/>Music made with Garageband.<br/></i>
   <audio controls loop autoplay>
