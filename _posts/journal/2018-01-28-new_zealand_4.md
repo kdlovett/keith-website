@@ -27,6 +27,6 @@ I might compare elements of Puhoi Village to some found in New Hampshire; a gene
 
 Occassionally in circumstances such as these where I'm no longer in Auckland CBD (Central Business District) or on campus (where admittedly I've hardly said a word thus far, though in my defense it's very quiet, since it's still summer) I'm reminded that I'm a bit of an anomaly, and it's a bit odd, to witness my accent give people pause, then eventually they might ask me where I'm from, and we'll share a few words. (Imagine, how this feeling must be amplified, when travelling somewhere with several more cultural barriers!)
 
-![NZSilo](/keiths-site/image_dir/NZSilo.jpg)
+![NZWaiwera](/keiths-site/image_dir/NZWaiwera.jpg)
 
 For this reason I'm looking forward to slowly etching out a little home here. Finding a good meal somewhere, upholding some responsibility, finding a new person to be friends with, these are the types of things that help immensely.
