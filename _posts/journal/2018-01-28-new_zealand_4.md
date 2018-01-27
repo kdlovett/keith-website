@@ -15,11 +15,11 @@ I came across this [quite nice video](https://www.youtube.com/watch?v=EgU-RWQ4J7
 
 Today I travelled to Wenderholm, about an hour and a half outside the city, and along the Puhoi River.
 
-![NZKyak](/keiths-site/image_dir/NZKyak.jpg)
+![NZKyak](/keiths-site/image_dir/NZKayak.jpg)
 
 The husband and wife who run the kayak hire (rental) service were hospitable, informing me of the layout of the small and secluded Puhoi Village, and driving me back to the bus stop for my return trip.
 
-![NZLibrary](/keiths-site/image_dir/NZLibrary.jpg)
+![NZLibrary](/keiths-site/image_dir/NZPuhoi.jpg)
 
 I might compare elements of Puhoi Village to some found in New Hampshire; a general store with wooden floorboards and handwritten signs advertising goods, some portion of a rowdy populace keen on frequenting the pub, grumbling vintage cars and motorcycles...
 
