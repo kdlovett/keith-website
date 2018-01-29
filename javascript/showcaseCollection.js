@@ -200,6 +200,7 @@ function updateTrainFrame() {
 
 function startTestFrame() {
     //Creating shapes and image components
+    stopTrainFrame();
 
     testFrame.start();
 }
