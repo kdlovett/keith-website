@@ -210,6 +210,7 @@ function startTestFrame() {
     //Creating shapes and image components
 
     testFrame.start();
+    frame = 2;
 }
 
 function stopTestFrame() {
