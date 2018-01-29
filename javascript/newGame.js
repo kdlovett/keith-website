@@ -1,4 +1,4 @@
-function startTest() {
+function startAnimation() {
     //Creating shapes and image components
     //train = new component(300, 300, "/keiths-site/image_dir/train2.gif", 0, 0, "image");
     //trash = new component(80, 80, "/keiths-site/image_dir/trash.gif", 20, 220, "image");
@@ -7,7 +7,7 @@ function startTest() {
     animFrame.start();
 }
 
-function stopTest() {
+function stopAnimation() {
     animFrame.stop();
     animFrame.clear();
 }

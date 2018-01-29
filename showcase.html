@@ -28,7 +28,7 @@ permalink: /theater/
 
     <script>
       //Next button method
-      
+      /*
       var frameOpen = 0;
       function frameOpener() {
         if (frameOpen == 0) {
@@ -45,10 +45,10 @@ permalink: /theater/
             frameOpen = 0;
             stopAnimation();
         }
-      }
+      }*/
 
       //Working on button method.
-      /*
+      
       var trainOpen = 0;
       var testOpen = 0;
       function trainOpener() {
@@ -58,12 +58,24 @@ permalink: /theater/
             startAnimation();
           } else {
             trainOpen = 0;
-            stopAnimation;
+            stopAnimation();
           }
         });
-      }*/
+      }
+      function testOpener() {
+        $.getScript("/keiths-site/javascript/newGame.js", function() {
+          if (testOpen == 0) {
+            testOpen = 1;
+            startAnimation();
+          } else {
+            testOpen = 0;
+            stopAnimation();
+          }
+        });
+      }
     </script>
-    <button onclick="frameOpener()">Load Next</button>
+    <button onclick="trainOpener()">Load Train</button>
+    <button onclick="testOpener()">Load Test</button>
   </body>
 
 <br/>---<br/>
