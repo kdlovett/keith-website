@@ -50,8 +50,7 @@ var animFrame = {
         clearInterval(this.interval);
         this.canvas.width = 0;
         this.canvas.height = 0;
-        var element = document.getElementById("canvas").outerHTML = "";
-        delete element;
+        canvas.remove();
     }
 }
 
