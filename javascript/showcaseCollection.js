@@ -3,6 +3,7 @@
 */
 
 var text = 0;
+var frame = 0;
 
 function component(width, height, color, x, y, type) {
     //Used to create new components
@@ -37,7 +38,9 @@ function component(width, height, color, x, y, type) {
 */
 
 function startTrainFrame() {
-    stopTestFrame();
+    if (frame == 2) {
+        stopTestFrame();
+    }
     //Creating shapes and image components
 
     train = new component(300, 300, "/keiths-site/image_dir/train2.gif", 0, 0, "image");
@@ -56,6 +59,7 @@ function startTrainFrame() {
 
     trainFrame.start();
     setTimeout(trainFrameTextUpdater, 3000);
+    frame = 1;
 }
 
 function stopTrainFrame() {
@@ -200,8 +204,10 @@ function updateTrainFrame() {
 */
 
 function startTestFrame() {
+    if (frame == 1) {
+        stopTrainFrame();
+    }
     //Creating shapes and image components
-    stopTrainFrame();
 
     testFrame.start();
 }
