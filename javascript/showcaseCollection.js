@@ -37,6 +37,7 @@ function component(width, height, color, x, y, type) {
 */
 
 function startTrainFrame() {
+    stopTestFrame();
     //Creating shapes and image components
 
     train = new component(300, 300, "/keiths-site/image_dir/train2.gif", 0, 0, "image");
@@ -203,6 +204,12 @@ function startTestFrame() {
     stopTrainFrame();
 
     testFrame.start();
+}
+
+function stopTestFrame() {
+    testFrame.stop();
+    testFrame.clear();
+    text = 0;
 }
 
 var testFrame = {
