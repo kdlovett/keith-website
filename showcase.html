@@ -33,21 +33,16 @@ permalink: /theater/
 
       function frameOpener() {
 
-        if (frameOpen == 0) {
-
           $.getScript("/keiths-site/javascript/trainAnimation.js", function() {
-            frameOpen = 1;
-            startAnimation();
-          });
-
-        } else if (frameOpen == 1) {
-
-          $.getScript("/keiths-site/javascript/trainAnimation.js", function() {
-            frameOpen = 0;
-            stopAnimation();
+            if (frameOpen == 0) {
+              frameOpen = 1;
+              startAnimation();
+            } else if (frameOpen == 1) {
+              frameOpen = 0;
+              stopAnimation();
+            }
           });
           
-        }
       }
 
     </script>
