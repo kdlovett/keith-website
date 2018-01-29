@@ -30,17 +30,23 @@ permalink: /theater/
       //Next button method
       
       var frameOpen = 0;
+
       function frameOpener() {
+
         if (frameOpen == 0) {
+
           $.getScript("/keiths-site/javascript/trainAnimation.js", function() {
             frameOpen = 1;
             startAnimation();
           });
+
         } else if (frameOpen == 1) {
+
           $.getScript("/keiths-site/javascript/trainAnimation.js", function() {
             frameOpen = 0;
             stopAnimation();
           });
+          
         }
       }
 

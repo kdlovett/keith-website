@@ -29,8 +29,8 @@ function startAnimation() {
 }
 
 function stopAnimation() {
-    animFrame.clear();
     animFrame.stop();
+    animFrame.clear();
 }
 
 var animFrame = {
@@ -46,8 +46,6 @@ var animFrame = {
         },
     clear : function() {
         this.context.clearRect(0, 0, this.canvas.width, this.canvas.height);
-        //this.canvas.width = 0;
-        //this.canvas.height = 0;
     },
     stop : function() {
         clearInterval(this.interval);
@@ -107,7 +105,7 @@ function textUpdater() {
 }
 
 function updateAnimFrame() {
-
+    
     animFrame.clear();
     //Resetting building positions
     if (buildingback1.x < -100) {
