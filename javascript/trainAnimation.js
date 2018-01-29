@@ -28,7 +28,6 @@ function startAnimation() {
 }
 
 function stopAnimation() {
-    animFrame.clear();
     animFrame.stop();
 }
 
