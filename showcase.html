@@ -38,16 +38,9 @@ permalink: /theater/
           });
         } else if (frameOpen == 1) {
           $.getScript("/keiths-site/javascript/trainAnimation.js", function() {
-            stopAnimation();
-          });
-          $.getScript("/keiths-site/javascript/newGame.js", function() {
-            frameOpen = 2;
-            startAnimation();
-          });
-        } else {
             frameOpen = 0;
             stopAnimation();
-        }
+          });
       }
 
     </script>
