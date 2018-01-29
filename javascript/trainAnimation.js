@@ -50,7 +50,7 @@ var animFrame = {
         clearInterval(this.interval);
         this.canvas.width = 0;
         this.canvas.height = 0;
-        canvas.remove();
+        this.canvas.remove();
     }
 }
 
