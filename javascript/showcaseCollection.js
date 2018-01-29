@@ -56,7 +56,7 @@ function stopTrainFrame() {
 
 var trainFrame = {
     //Creating canvas
-    canvas : document.createElement("trainCanvas"),
+    canvas : document.createElement("canvas"),
     start : function() {
         this.canvas.width = 300;
         this.canvas.height = 300;
