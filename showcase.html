@@ -25,49 +25,18 @@ permalink: /theater/
     <br/><br/><br/><br/><br/><br/><br/><br/>
     <br/><br/><br/><br/><br/><br/><br/><br/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-
-    <script src=/keiths-site/javascript/trainAnimation.js></script>
     <script>
-      var trainOpen = 0;
-      function frameOpener() {
-       if (trainOpen == 0) {
-        trainOpen = 1;
-        startAnimation();
-       } else {
-        trainOpen = 0;
-        stopAnimation();
-       }
-      }
-    </script>
-
-    <script>
-      //Next button method
-      
       /*
-      var frameOpen = 0;
-
-      function frameOpener() {
-
-      }*/
-
-      /*
-      function frameOpener() {
-
-          $.getScript("/keiths-site/javascript/trainAnimation.js", function() {
-            if (frameOpen == 0) {
-              frameOpen = 1;
-              startAnimation();
-            } else if (frameOpen == 1) {
-              frameOpen = 0;
-              stopAnimation();
-            }
-          });
-
-      }
+      Means for utilizing Ajax:
+      $.getScript("/keiths-site/javascript/trainAnimation.js", function() {
+        Anything placed inside here will be handled in sync.
+      });
       */
-
     </script>
-    <button onclick="frameOpener()">Load Next</button>
+
+    <script src=/keiths-site/javascript/showcaseCollection.js></script>
+
+    <button onclick="trainOpener()">Load Train</button>
   </body>
 
 <br/>---<br/>

@@ -1,5 +1,32 @@
 var text = 0;
-setTimeout(textUpdater, 3000);
+
+function component(width, height, color, x, y, type) {
+    //Used to create new components
+    this.type = type;
+    if (type == "image") {
+        this.image = new Image();
+        this.image.src = color;
+    } else if (type == "shape"){
+        //nothing special
+    }
+    this.width = width;
+    this.height = height;
+    this.x = x;
+    this.y = y;
+    //Enables components to change images / colors
+    this.update = function() {
+        ctx = trainFrame.context;
+        if (type == "image") {
+            ctx.drawImage(this.image, 
+                this.x, 
+                this.y,
+                this.width, this.height);
+        } else if (type == "shape") {
+            ctx.fillStyle = color;
+            ctx.fillRect(this.x, this.y, this.width, this.height);
+        }
+    }
+}
 
 function startTrainFrame() {
     //Creating shapes and image components
@@ -19,6 +46,7 @@ function startTrainFrame() {
     building3side = new component(20, 200, "#2c363a", 375, 0, "shape");
 
     trainFrame.start();
+    setTimeout(trainFrameTextUpdater, 3000);
 }
 
 function stopTrainFrame() {
@@ -28,14 +56,14 @@ function stopTrainFrame() {
 
 var trainFrame = {
     //Creating canvas
-    canvas : document.createElement("canvas"),
+    canvas : document.createElement("trainCanvas"),
     start : function() {
         this.canvas.width = 300;
         this.canvas.height = 300;
         this.context = this.canvas.getContext("2d");
         document.body.insertBefore(this.canvas, document.body.childNodes[0]);
         this.frameNo = 0;
-        this.interval = setInterval(updateAnimFrame, 20);
+        this.interval = setInterval(updateTrainFrame, 20);
         },
     clear : function() {
         this.context.clearRect(0, 0, this.canvas.width, this.canvas.height);
@@ -47,35 +75,7 @@ var trainFrame = {
     }
 }
 
-function component(width, height, color, x, y, type) {
-    //Used to create new components
-    this.type = type;
-    if (type == "image") {
-        this.image = new Image();
-        this.image.src = color;
-    } else if (type == "shape"){
-        //nothing special
-    }
-    this.width = width;
-    this.height = height;
-    this.x = x;
-    this.y = y;
-    //Enables components to change images / colors
-    this.update = function() {
-        ctx = animFrame.context;
-        if (type == "image") {
-            ctx.drawImage(this.image, 
-                this.x, 
-                this.y,
-                this.width, this.height);
-        } else if (type == "shape") {
-            ctx.fillStyle = color;
-            ctx.fillRect(this.x, this.y, this.width, this.height);
-        }
-    }
-}
-
-function textUpdater() {
+function TrainFrameTextUpdater() {
     //Continues text
     if (text != 5){
         text += 1;
@@ -97,9 +97,9 @@ function textUpdater() {
     }
 }
 
-function updateAnimFrame() {
+function updateTrainFrame() {
 
-    animFrame.clear();
+    trainFrame.clear();
     //Resetting building positions
     if (buildingback1.x < -100) {
         buildingback1.x = 350;
@@ -164,23 +164,23 @@ function updateAnimFrame() {
     trash.update();
 
     //Creating text.
-    animFrame.context.textAlign = "center"
+    trainFrame.context.textAlign = "center"
     if (text != 5) {
-        animFrame.context.font = "16px Arial";
-        animFrame.context.strokeStyle="aqua";
+        trainFrame.context.font = "16px Arial";
+        trainFrame.context.strokeStyle="aqua";
     } else {
-        animFrame.context.font = "25px Arial";
-        animFrame.context.strokeStyle="orange";
+        trainFrame.context.font = "25px Arial";
+        trainFrame.context.strokeStyle="orange";
     }
     if (text == 1) {
-        animFrame.context.strokeText("*Bzzt*",150,20);
+        trainFrame.context.strokeText("*Bzzt*",150,20);
     } else if (text == 2) {
-        animFrame.context.strokeText("Please remember to take all",150,20);
+        trainFrame.context.strokeText("Please remember to take all",150,20);
     } else if (text == 3) {
-        animFrame.context.strokeText("personal belongings. Thank you, and",150,20);
+        trainFrame.context.strokeText("personal belongings. Thank you, and",150,20);
     } else if (text == 4) {
-        animFrame.context.strokeText("keep it running,",150,20);
+        trainFrame.context.strokeText("keep it running,",150,20);
     } else if (text == 5) {
-        animFrame.context.strokeText("Smooth and Steady.",155,30);
+        trainFrame.context.strokeText("Smooth and Steady.",155,30);
     }
 }
