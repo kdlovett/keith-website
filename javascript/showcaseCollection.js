@@ -58,8 +58,6 @@ function startTrainFrame() {
     building3side = new component(20, 200, "#2c363a", 375, 0, "shape");
 
     trainFrame.start();
-    text = 0;
-    setTimeout(trainFrameTextUpdater, 3000);
     frame = 1;
 }
 
@@ -78,6 +76,8 @@ var trainFrame = {
         document.body.insertBefore(this.canvas, document.body.childNodes[0]);
         this.frameNo = 0;
         this.interval = setInterval(updateTrainFrame, 20);
+        text = 0;
+        setTimeout(trainFrameTextUpdater, 3000);
         },
     clear : function() {
         this.context.clearRect(0, 0, this.canvas.width, this.canvas.height);
