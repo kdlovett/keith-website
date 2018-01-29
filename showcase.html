@@ -53,24 +53,18 @@ permalink: /theater/
       var testOpen = 0;
       function trainOpener() {
         $.getScript("/keiths-site/javascript/trainAnimation.js", function() {
-          if (trainOpen == 0) {
-            trainOpen = 1;
-            startAnimation();
-          } else {
-            trainOpen = 0;
-            stopAnimation();
-          }
+          startAnimation();
+        });
+        $.getScript("/keiths-site/javascript/newGame.js", function() {
+          stopAnimation();
         });
       }
       function testOpener() {
         $.getScript("/keiths-site/javascript/newGame.js", function() {
-          if (testOpen == 0) {
-            testOpen = 1;
-            startAnimation();
-          } else {
-            testOpen = 0;
-            stopAnimation();
-          }
+          startAnimation();
+        });
+        $.getScript("/keiths-site/javascript/trainAnimation.js", function() {
+          stopAnimation();
         });
       }
     </script>
