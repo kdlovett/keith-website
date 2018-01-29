@@ -83,17 +83,17 @@ function trainFrameTextUpdater() {
         text = 0;
     }
     if (text == 0){
-        setTimeout(textUpdater, 1000);
+        setTimeout(trainFrameTextUpdater, 1000);
     } else if (text == 1){
-        setTimeout(textUpdater, 2000);
+        setTimeout(trainFrameTextUpdater, 2000);
     } else if (text == 2){
-        setTimeout(textUpdater, 2000);
+        setTimeout(trainFrameTextUpdater, 2000);
     } else if (text == 3){
-        setTimeout(textUpdater, 2000);
+        setTimeout(trainFrameTextUpdater, 2000);
     } else if (text == 4){
-        setTimeout(textUpdater, 2000);
+        setTimeout(trainFrameTextUpdater, 2000);
     } else if (text == 5){
-        setTimeout(textUpdater, 5000);
+        setTimeout(trainFrameTextUpdater, 5000);
     }
 }
 
