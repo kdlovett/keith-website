@@ -29,7 +29,7 @@ function startAnimation() {
 
 function stopAnimation() {
     animFrame.stop();
-    //animFrame.clear();
+    animFrame.clear();
 }
 
 var animFrame = {
@@ -45,11 +45,14 @@ var animFrame = {
         },
     clear : function() {
         this.context.clearRect(0, 0, this.canvas.width, this.canvas.height);
+        //this.canvas.width = 0;
+        //this.canvas.height = 0;
     },
     stop : function() {
         clearInterval(this.interval);
-        this.canvas.width = 0;
-        this.canvas.height = 0;
+        //this.canvas.width = 0;
+        //this.canvas.height = 0;
+        document.getElementById("canvas").remove()
     }
 }
 
