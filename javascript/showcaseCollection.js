@@ -58,6 +58,7 @@ function startTrainFrame() {
     building3side = new component(20, 200, "#2c363a", 375, 0, "shape");
 
     trainFrame.start();
+    text = 0;
     setTimeout(trainFrameTextUpdater, 3000);
     frame = 1;
 }
@@ -65,7 +66,6 @@ function startTrainFrame() {
 function stopTrainFrame() {
     trainFrame.stop();
     trainFrame.clear();
-    text = 0;
 }
 
 var trainFrame = {
@@ -216,7 +216,6 @@ function startTestFrame() {
 function stopTestFrame() {
     testFrame.stop();
     testFrame.clear();
-    text = 0;
 }
 
 var testFrame = {
