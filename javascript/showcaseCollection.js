@@ -75,7 +75,7 @@ var trainFrame = {
     }
 }
 
-function TrainFrameTextUpdater() {
+function trainFrameTextUpdater() {
     //Continues text
     if (text != 5){
         text += 1;
