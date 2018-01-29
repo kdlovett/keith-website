@@ -49,8 +49,8 @@ var animFrame = {
     },
     stop : function() {
         clearInterval(this.interval);
-        this.canvas.width = 0;
-        this.canvas.height = 0;
+        //this.canvas.width = 0;
+        //this.canvas.height = 0;
     }
 }
 
@@ -105,7 +105,7 @@ function textUpdater() {
 }
 
 function updateAnimFrame() {
-    
+
     animFrame.clear();
     //Resetting building positions
     if (buildingback1.x < -100) {
