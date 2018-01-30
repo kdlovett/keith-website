@@ -33,6 +33,17 @@ function component(width, height, color, x, y, type) {
     }
 }
 
+window.addEventListener("keydown", keyPress, false);
+
+function keyPress(e) {
+    switch (e.keyCode) {
+        //"Enter" key continues dialogue.
+        case 13:
+            text += 1;
+            break;
+    }
+}
+
 /*
 * ***TRAIN STUFF.***
 */
@@ -77,7 +88,6 @@ var trainFrame = {
         this.frameNo = 0;
         this.interval = setInterval(updateTrainFrame, 20);
         text = 0;
-        setTimeout(trainFrameTextUpdater, 3000);
         },
     clear : function() {
         this.context.clearRect(0, 0, this.canvas.width, this.canvas.height);
