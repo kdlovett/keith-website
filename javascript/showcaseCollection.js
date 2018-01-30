@@ -33,13 +33,13 @@ function component(width, height, color, x, y, type) {
     }
 }
 
-window.addEventListener("keydown", keyPress, false);
+window.addEventListener("keydown", continueDialogue, false);
 
-function keyPress(e) {
+function continueDialogue(e) {
     switch (e.keyCode) {
         //"Enter" key continues dialogue.
         case 13:
-            text = 1;
+            enterPressed = 1;
             break;
     }
 }
@@ -104,22 +104,22 @@ function trainFrameTextUpdater() {
     //Continues text
     if (text == 0){
         setTimeout(trainFrameTextUpdater, 1000);
-        //text = 1;
+        text = 1;
     } else if (text == 1){
         setTimeout(trainFrameTextUpdater, 2000);
-        //text = 2;
+        text = 2;
     } else if (text == 2){
         setTimeout(trainFrameTextUpdater, 2000);
-        //text = 3;
+        text = 3;
     } else if (text == 3){
         setTimeout(trainFrameTextUpdater, 2000);
-        //text = 4;
+        text = 4;
     } else if (text == 4){
         setTimeout(trainFrameTextUpdater, 2000);
-        //text = 5;
+        text = 5;
     } else if (text == 5){
         setTimeout(trainFrameTextUpdater, 5000);
-        //text = 0;
+        text = 0;
     }
 }
 
