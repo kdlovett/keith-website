@@ -39,7 +39,7 @@ function continueDialogue(e) {
     switch (e.keyCode) {
         //"Enter" key continues dialogue.
         case 13:
-            enterPressed = 1;
+            text += 1;
             break;
     }
 }
@@ -68,8 +68,10 @@ function startTrainFrame() {
     building3 = new component(80, 200, "#45545a", 315, 0, "shape");
     building3side = new component(20, 200, "#2c363a", 375, 0, "shape");
 
-    trainFrame.start();
-    frame = 1;
+    if (frame != 1) {
+        trainFrame.start();
+        frame = 1;
+    }
 }
 
 function stopTrainFrame() {
@@ -88,7 +90,6 @@ var trainFrame = {
         this.frameNo = 0;
         this.interval = setInterval(updateTrainFrame, 20);
         text = 0;
-        setTimeout(trainFrameTextUpdater, 3000);
         },
     clear : function() {
         this.context.clearRect(0, 0, this.canvas.width, this.canvas.height);
@@ -97,29 +98,6 @@ var trainFrame = {
         clearInterval(this.interval);
         this.canvas.width = 0;
         this.canvas.height = 0;
-    }
-}
-
-function trainFrameTextUpdater() {
-    //Continues text
-    if (text == 0){
-        setTimeout(trainFrameTextUpdater, 1000);
-        text = 1;
-    } else if (text == 1){
-        setTimeout(trainFrameTextUpdater, 2000);
-        text = 2;
-    } else if (text == 2){
-        setTimeout(trainFrameTextUpdater, 2000);
-        text = 3;
-    } else if (text == 3){
-        setTimeout(trainFrameTextUpdater, 2000);
-        text = 4;
-    } else if (text == 4){
-        setTimeout(trainFrameTextUpdater, 2000);
-        text = 5;
-    } else if (text == 5){
-        setTimeout(trainFrameTextUpdater, 5000);
-        text = 0;
     }
 }
 
@@ -191,23 +169,21 @@ function updateTrainFrame() {
 
     //Creating text.
     trainFrame.context.textAlign = "center"
-    if (text != 5) {
-        trainFrame.context.font = "16px Arial";
-        trainFrame.context.strokeStyle="aqua";
-    } else {
-        trainFrame.context.font = "25px Arial";
-        trainFrame.context.strokeStyle="orange";
-    }
-    if (text == 1) {
+    trainFrame.context.font = "16px Arial";
+    trainFrame.context.strokeStyle="aqua";
+
+    if (text == 0) {
+        trainFrame.context.strokeText("(Click on Frame and press Enter to begin.)",150,20);
+    } else if (text == 1) {
         trainFrame.context.strokeText("*Bzzt*",150,20);
     } else if (text == 2) {
-        trainFrame.context.strokeText("Please remember to take all",150,20);
+        trainFrame.context.strokeText("Next stop... Data-Strata-Theater.",150,20);
     } else if (text == 3) {
-        trainFrame.context.strokeText("personal belongings. Thank you, and",150,20);
+        trainFrame.context.strokeText("Doors will open on both sides.",150,20);
     } else if (text == 4) {
-        trainFrame.context.strokeText("keep it running,",150,20);
-    } else if (text == 5) {
-        trainFrame.context.strokeText("Smooth and Steady.",155,30);
+        trainFrame.context.strokeText("Thank you for riding the T.",150,20);
+    } else {
+        text = 1;
     }
 }
 
@@ -221,8 +197,10 @@ function startTestFrame() {
     }
     //Creating shapes and image components
 
-    testFrame.start();
-    frame = 2;
+    if (frame != 2) {
+        testFrame.start();
+        frame = 2;
+    }
 }
 
 function stopTestFrame() {
