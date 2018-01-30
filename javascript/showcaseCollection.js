@@ -212,7 +212,7 @@ function updateTrainFrame() {
 
 function startPremisesFrame() {
     if (frame == 1) {
-        stopPremisesFrame();
+        stopTrainFrame();
     }
     //Creating shapes and image components
 
