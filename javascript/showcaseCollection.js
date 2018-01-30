@@ -167,14 +167,8 @@ function updateTrainFrame() {
 
     //Creating text.
     trainFrame.context.textAlign = "center";
-    /*
-    if (text != 5) {
-        trainFrame.context.font = "16px Arial";
-        trainFrame.context.strokeStyle="aqua";
-    } else {
-        trainFrame.context.font = "25px Arial";
-        trainFrame.context.strokeStyle="orange";
-    }*/
+    trainFrame.context.font = "16px Arial";
+    trainFrame.context.strokeStyle="aqua";
     if (text == 0) {
         trainFrame.context.strokeText("(Press Enter to begin.)",150,20);
     } else if (text == 1) {
@@ -185,8 +179,6 @@ function updateTrainFrame() {
         trainFrame.context.strokeText("Doors will open on both sides.",150,20);
     } else if (text == 4) {
         trainFrame.context.strokeText("Thank you for riding the T.",150,20);
-    } else {
-        text = 1;
     }
 }
 
