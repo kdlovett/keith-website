@@ -39,7 +39,7 @@ function keyPress(e) {
     switch (e.keyCode) {
         //"Enter" key continues dialogue.
         case 13:
-            text += 1;
+            text = 1;
             break;
     }
 }
@@ -88,7 +88,7 @@ var trainFrame = {
         this.frameNo = 0;
         this.interval = setInterval(updateTrainFrame, 20);
         text = 0;
-        //setTimeout(trainFrameTextUpdater, 3000);
+        setTimeout(trainFrameTextUpdater, 3000);
         },
     clear : function() {
         this.context.clearRect(0, 0, this.canvas.width, this.canvas.height);
@@ -104,22 +104,22 @@ function trainFrameTextUpdater() {
     //Continues text
     if (text == 0){
         setTimeout(trainFrameTextUpdater, 1000);
-        text = 1;
+        //text = 1;
     } else if (text == 1){
         setTimeout(trainFrameTextUpdater, 2000);
-        text = 2;
+        //text = 2;
     } else if (text == 2){
         setTimeout(trainFrameTextUpdater, 2000);
-        text = 3;
+        //text = 3;
     } else if (text == 3){
         setTimeout(trainFrameTextUpdater, 2000);
-        text = 4;
+        //text = 4;
     } else if (text == 4){
         setTimeout(trainFrameTextUpdater, 2000);
-        text = 5;
+        //text = 5;
     } else if (text == 5){
         setTimeout(trainFrameTextUpdater, 5000);
-        text = 0;
+        //text = 0;
     }
 }
 
