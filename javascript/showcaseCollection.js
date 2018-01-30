@@ -67,7 +67,7 @@ function continueDialogue(e) {
 
 function startTrainFrame() {
     if (frame == 2) {
-        stopTestFrame();
+        stopPremisesFrame();
     }
     //Creating shapes and image components
 
@@ -210,33 +210,33 @@ function updateTrainFrame() {
 * ***TEST STUFF.***
 */
 
-function startTestFrame() {
+function startPremisesFrame() {
     if (frame == 1) {
-        stopTrainFrame();
+        stopPremisesFrame();
     }
     //Creating shapes and image components
 
     if (frame != 2) {
-        testFrame.start();
+        premisesFrame.start();
         introSong.play();
         frame = 2;
     } else {
-        stopTestFrame();
+        stopPremisesFrame();
     }
 }
 
-function stopTestFrame() {
+function stopPremisesFrame() {
     introSong.stop();
-    testFrame.stop();
-    testFrame.clear();
+    premisesFrame.stop();
+    premisesFrame.clear();
 }
 
-var testFrame = {
+var premisesFrame = {
     //Creating canvas
     canvas : document.createElement("canvas"),
     start : function() {
-        this.canvas.width = 1400;
-        this.canvas.height = 480;
+        this.canvas.width = 1200;
+        this.canvas.height = 400;
         this.context = this.canvas.getContext("2d");
         document.body.insertBefore(this.canvas, document.body.childNodes[0]);
         this.frameNo = 0;
