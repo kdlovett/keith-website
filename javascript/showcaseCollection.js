@@ -91,23 +91,24 @@ var trainFrame = {
 
 function trainFrameTextUpdater() {
     //Continues text
-    if (text != 5){
-        text += 1;
-    } else{
-        text = 0;
-    }
     if (text == 0){
         setTimeout(trainFrameTextUpdater, 1000);
+        text = 1;
     } else if (text == 1){
         setTimeout(trainFrameTextUpdater, 2000);
+        text = 2;
     } else if (text == 2){
         setTimeout(trainFrameTextUpdater, 2000);
+        text = 3;
     } else if (text == 3){
         setTimeout(trainFrameTextUpdater, 2000);
+        text = 4;
     } else if (text == 4){
         setTimeout(trainFrameTextUpdater, 2000);
+        text = 5;
     } else if (text == 5){
         setTimeout(trainFrameTextUpdater, 5000);
+        text = 0;
     }
 }
 
