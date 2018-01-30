@@ -33,6 +33,22 @@ function component(width, height, color, x, y, type) {
     }
 }
 
+function sound(src) {
+    //Constructor for sound
+    this.sound = document.createElement("audio");
+    this.sound.src = src;
+    this.sound.setAttribute("preload", "auto");
+    this.sound.setAttribute("controls", "none");
+    this.sound.style.display = "none";
+    document.body.appendChild(this.sound);
+    this.play = function() {
+        this.sound.play();
+    }
+    this.stop = function() {
+        this.sound.pause();
+    }
+}
+
 window.addEventListener("keydown", continueDialogue, false);
 
 function continueDialogue(e) {
@@ -177,7 +193,7 @@ function updateTrainFrame() {
     } else if (text == 1) {
         trainFrame.context.strokeText("*Bzzt*",150,20);
     } else if (text == 2) {
-        trainFrame.context.strokeText("Next stop... Data-Strata-Theater.",150,20);
+        trainFrame.context.strokeText("Next stop... Data-Strato-Theater.",150,20);
     } else if (text == 3) {
         trainFrame.context.strokeText("Doors will open on both sides.",150,20);
     } else if (text == 4) {
@@ -199,6 +215,8 @@ function startTestFrame() {
 
     if (frame != 2) {
         testFrame.start();
+        var introSong = new sound("/keiths-site/image_dir/theaterBackground.mp3");
+        introSong.play();
         frame = 2;
     }
 }
@@ -217,7 +235,6 @@ var testFrame = {
         this.context = this.canvas.getContext("2d");
         document.body.insertBefore(this.canvas, document.body.childNodes[0]);
         this.frameNo = 0;
-        //this.interval = setInterval(updateTrainFrame, 20);
         },
     clear : function() {
         this.context.clearRect(0, 0, this.canvas.width, this.canvas.height);
