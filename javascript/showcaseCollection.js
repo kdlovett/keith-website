@@ -99,29 +99,6 @@ var trainFrame = {
     }
 }
 
-function trainFrameTextUpdater() {
-    //Continues text
-    if (text == 0){
-        setTimeout(trainFrameTextUpdater, 1000);
-        text = 1;
-    } else if (text == 1){
-        setTimeout(trainFrameTextUpdater, 2000);
-        text = 2;
-    } else if (text == 2){
-        setTimeout(trainFrameTextUpdater, 2000);
-        text = 3;
-    } else if (text == 3){
-        setTimeout(trainFrameTextUpdater, 2000);
-        text = 4;
-    } else if (text == 4){
-        setTimeout(trainFrameTextUpdater, 2000);
-        text = 5;
-    } else if (text == 5){
-        setTimeout(trainFrameTextUpdater, 5000);
-        text = 0;
-    }
-}
-
 function updateTrainFrame() {
 
     trainFrame.clear();
@@ -189,24 +166,27 @@ function updateTrainFrame() {
     trash.update();
 
     //Creating text.
-    trainFrame.context.textAlign = "center"
+    trainFrame.context.textAlign = "center";
+    /*
     if (text != 5) {
         trainFrame.context.font = "16px Arial";
         trainFrame.context.strokeStyle="aqua";
     } else {
         trainFrame.context.font = "25px Arial";
         trainFrame.context.strokeStyle="orange";
-    }
-    if (text == 1) {
+    }*/
+    if (text == 0) {
+        trainFrame.context.strokeText("(Press Enter to begin.)",150,20);
+    } else if (text == 1) {
         trainFrame.context.strokeText("*Bzzt*",150,20);
     } else if (text == 2) {
-        trainFrame.context.strokeText("Please remember to take all",150,20);
+        trainFrame.context.strokeText("Next stop... data-strata-theater.",150,20);
     } else if (text == 3) {
-        trainFrame.context.strokeText("personal belongings. Thank you, and",150,20);
+        trainFrame.context.strokeText("Doors will open on both sides.",150,20);
     } else if (text == 4) {
-        trainFrame.context.strokeText("keep it running,",150,20);
-    } else if (text == 5) {
-        trainFrame.context.strokeText("Smooth and Steady.",155,30);
+        trainFrame.context.strokeText("Thank you for riding the T.",150,20);
+    } else {
+        text = 1;
     }
 }
 
