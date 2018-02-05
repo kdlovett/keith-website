@@ -27,4 +27,4 @@ Today is Waitangi Day and I noticed last night a crowd gathering at Silo Park, o
 
 ![NZSkytower](/keiths-site/image_dir/NZSkytower.jpg)
 
-I'm not quite sure what this was, but I know the has in the past been traversed by peaceful protestors demanding tino rangatiratanga, Maori self-sovereignty.
+I'm not quite sure what this was, but I know the bridge has in the past been traversed by peaceful protestors demanding tino rangatiratanga, Maori self-sovereignty.
