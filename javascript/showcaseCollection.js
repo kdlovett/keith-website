@@ -208,7 +208,7 @@ function updateTrainFrame() {
 }
 
 /*
-* ***TEST STUFF.***
+* ***PREMISES STUFF.***
 */
 
 function startPremisesFrame() {
@@ -216,6 +216,8 @@ function startPremisesFrame() {
         stopTrainFrame();
     }
     //Creating shapes and image components
+
+    guy = new component(400, 400, "/keiths-site/image_dir/bgBig.gif", 0, 0, "image");
 
     if (frame != 2) {
         premisesFrame.start();
@@ -241,6 +243,7 @@ var premisesFrame = {
         this.context = this.canvas.getContext("2d");
         document.body.insertBefore(this.canvas, document.body.childNodes[0]);
         this.frameNo = 0;
+        this.interval = setInterval(updatePremisesFrame, 20);
         },
     clear : function() {
         this.context.clearRect(0, 0, this.canvas.width, this.canvas.height);
@@ -250,4 +253,11 @@ var premisesFrame = {
         this.canvas.width = 0;
         this.canvas.height = 0;
     }
+}
+
+function updatePremisesFrame() {
+
+    premisesFrame.clear();
+    guy.update();
+
 }
