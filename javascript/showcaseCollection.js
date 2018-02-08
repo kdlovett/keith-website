@@ -262,5 +262,6 @@ function updatePremisesFrame() {
     premisesFrame.clear();
     guy.update();
     dock.update();
+    woman.update();
 
 }
