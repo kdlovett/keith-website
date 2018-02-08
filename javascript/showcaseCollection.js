@@ -7,7 +7,7 @@ var frame = 0;
 var introSong = new sound("/keiths-site/image_dir/theaterBackground.mp3");
 var introSong2 = new sound("/keiths-site/image_dir/theaterBackground2.mp3");
 
-function component(width, height, color, x, y, type) {
+function component(width, height, color, x, y, type, frame) {
     //Used to create new components
     this.type = type;
     if (type == "image") {
@@ -22,7 +22,7 @@ function component(width, height, color, x, y, type) {
     this.y = y;
     //Enables components to change images / colors
     this.update = function() {
-        ctx = trainFrame.context;
+        ctx = frame.context;
         if (type == "image") {
             ctx.drawImage(this.image, 
                 this.x, 
@@ -72,19 +72,19 @@ function startTrainFrame() {
     }
     //Creating shapes and image components
 
-    train = new component(300, 300, "/keiths-site/image_dir/train2.gif", 0, 0, "image");
-    trash = new component(80, 80, "/keiths-site/image_dir/trash.gif", 20, 220, "image");
-    buildingback1 = new component(100, 200, "#4f519a", 120, 60, "shape");
-    buildingback2 = new component(30, 80, "#4f519a", 100, 20, "shape");
-    buildingback3 = new component(60, 100, "#4f519a", 200, 30, "shape");
-    buildingback4 = new component(50, 80, "#4f519a", 270, 40, "shape");
-    buildingback5 = new component(40, 90, "#4f519a", 370, 10, "shape");
-    building1 = new component(100, 100, "#45545a", 0, 0, "shape");
-    building1side = new component(20, 100, "#2c363a", 100, 0, "shape");
-    building2 = new component(100, 150, "#45545a", 150, 50, "shape");
-    building2side = new component(20, 150, "#2c363a", 250, 50, "shape");
-    building3 = new component(80, 200, "#45545a", 315, 0, "shape");
-    building3side = new component(20, 200, "#2c363a", 375, 0, "shape");
+    train = new component(300, 300, "/keiths-site/image_dir/train2.gif", 0, 0, "image", trainFrame);
+    trash = new component(80, 80, "/keiths-site/image_dir/trash.gif", 20, 220, "image", trainFrame);
+    buildingback1 = new component(100, 200, "#4f519a", 120, 60, "shape", trainFrame);
+    buildingback2 = new component(30, 80, "#4f519a", 100, 20, "shape", trainFrame);
+    buildingback3 = new component(60, 100, "#4f519a", 200, 30, "shape", trainFrame);
+    buildingback4 = new component(50, 80, "#4f519a", 270, 40, "shape", trainFrame);
+    buildingback5 = new component(40, 90, "#4f519a", 370, 10, "shape", trainFrame);
+    building1 = new component(100, 100, "#45545a", 0, 0, "shape", trainFrame);
+    building1side = new component(20, 100, "#2c363a", 100, 0, "shape", trainFrame);
+    building2 = new component(100, 150, "#45545a", 150, 50, "shape", trainFrame);
+    building2side = new component(20, 150, "#2c363a", 250, 50, "shape", trainFrame);
+    building3 = new component(80, 200, "#45545a", 315, 0, "shape", trainFrame);
+    building3side = new component(20, 200, "#2c363a", 375, 0, "shape", trainFrame);
 
     if (frame != 1) {
         trainFrame.start();
@@ -217,7 +217,7 @@ function startPremisesFrame() {
     }
     //Creating shapes and image components
 
-    guy = new component(400, 400, "/keiths-site/image_dir/bgBig.gif", 0, 0, "image");
+    guy = new component(400, 400, "/keiths-site/image_dir/bgBig.gif", 0, 0, "image", premisesFrame);
 
     if (frame != 2) {
         premisesFrame.start();
