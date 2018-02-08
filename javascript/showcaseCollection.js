@@ -219,7 +219,7 @@ function startPremisesFrame() {
 
     guy = new component(400, 400, "/keiths-site/image_dir/bgBig.gif", 0, 0, "image", premisesFrame);
     dock = new component(400, 400, "/keiths-site/image_dir/dockBig.png", 400, 0, "image", premisesFrame);
-    woman = new component(400, 400, "/keiths-site/image_dir/mainPortraitbgBig.png", 800, 0, "image", premisesFrame);
+    woman = new component(400, 400, "/keiths-site/image_dir/mainportraitbgBig.png", 800, 0, "image", premisesFrame);
 
     if (frame != 2) {
         premisesFrame.start();
