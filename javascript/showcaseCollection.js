@@ -6,6 +6,7 @@ var text = 0;
 var frame = 0;
 var introSong = new sound("/keiths-site/image_dir/theaterBackground.mp3");
 var introSong2 = new sound("/keiths-site/image_dir/theaterBackground2.mp3");
+var introSong3 = new sound("/keiths-site/image_dir/theaterBackground3.mp3");
 
 function component(width, height, color, x, y, type, frame) {
     //Used to create new components
@@ -223,7 +224,7 @@ function startPremisesFrame() {
 
     if (frame != 2) {
         premisesFrame.start();
-        introSong2.play();
+        introSong3.play();
         frame = 2;
     } else {
         stopPremisesFrame();
@@ -231,7 +232,7 @@ function startPremisesFrame() {
 }
 
 function stopPremisesFrame() {
-    introSong2.stop();
+    introSong3.stop();
     premisesFrame.stop();
     premisesFrame.clear();
 }
