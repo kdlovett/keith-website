@@ -17,7 +17,7 @@ Wellington is probably one of the most self-aware cities I've ever visited. Work
 
 ![NZWakas](/keiths-site/image_dir/NZWakas.jpg)
 
-One from Lauris Edmond reads "It's true you can't live here by chance, you have to do and be, not simbly watch or even describe. This is the city of action, the world headquarters of the verb."
+One from Lauris Edmond reads "It's true you can't live here by chance, you have to do and be, not simply watch or even describe. This is the city of action, the world headquarters of the verb."
 
 ![NZLights](/keiths-site/image_dir/NZLights.png)
 
