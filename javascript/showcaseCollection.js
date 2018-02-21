@@ -276,13 +276,13 @@ function updatePremisesFrame() {
         premisesFrame.context.strokeText("(Click on Frame and press Enter to begin.)",600,100);
         //Queue song 3
     } else if (text == 1) {
-        premisesFrame.context.strokeText("Hermes: Your meeting with Dr. Richards... It all went according to plan?",550,30);
+        premisesFrame.context.strokeText("Hermes: Your meeting with Dr. Richards... It all went according to plan?",200,30);
     } else if (text == 2) {
-        premisesFrame.context.strokeText("Amelia: Yeah, it did. I have the data stored on here. Here, I'll plug it in.",650,30);
+        premisesFrame.context.strokeText("Amelia: Yeah, it did. I have the data stored on here. Here, I'll plug it in.",1000,30);
     } else if (text == 3) {
-        premisesFrame.context.strokeText("Hermes: Thank you. You'll be receiving word from Mr. Bolden soon about your payment.",600,20);
+        premisesFrame.context.strokeText("Hermes: Thank you. You'll be receiving word from Mr. Bolden soon about your payment.",200,30);
     } else if (text == 4) {
-        premisesFrame.context.strokeText("Amelia: Okay.",600,20);
+        premisesFrame.context.strokeText("Amelia: Okay.",1000,30);
     } else if (text == 5) {
         premisesFrame.context.strokeText("Hermes: Is there anything else, Miss Jordan?",600,20);
     } else if (text == 6) {
