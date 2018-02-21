@@ -219,7 +219,7 @@ function startPremisesFrame() {
     }
     //Creating shapes and image components
 
-    guy = new component(400, 400, "/keiths-site/image_dir/hermesPortrait.gif", 0, 0, "image", premisesFrame);
+    guy = new component(400, 400, "/keiths-site/image_dir/hermesPortrait.png", 0, 0, "image", premisesFrame);
     apartment = new component(400, 400, "/keiths-site/image_dir/windowView.png", 400, 0, "image", premisesFrame);
     woman = new component(400, 400, "/keiths-site/image_dir/ameliaPortrait.png", 800, 0, "image", premisesFrame);
 
