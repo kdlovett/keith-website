@@ -273,20 +273,20 @@ function updatePremisesFrame() {
     premisesFrame.context.strokeStyle="aqua";
 
     if (text == 0) {
-        premisesFrame.context.strokeText("(Click on Frame and press Enter to begin.)",150,20);
+        premisesFrame.context.strokeText("(Click on Frame and press Enter to begin.)",600,20);
         //Queue song 3
     } else if (text == 1) {
-        premisesFrame.context.strokeText("Hermes: Your meeting with Dr. Richards... It all went according to plan?",150,20);
+        premisesFrame.context.strokeText("Hermes: Your meeting with Dr. Richards... It all went according to plan?",600,20);
     } else if (text == 2) {
-        premisesFrame.context.strokeText("Amelia: Yeah, it did. I have the data stored on here. Here, I'll plug it in.",150,20);
+        premisesFrame.context.strokeText("Amelia: Yeah, it did. I have the data stored on here. Here, I'll plug it in.",600,20);
     } else if (text == 3) {
-        premisesFrame.context.strokeText("Hermes: Thank you. You'll be receiving word from Mr. Bolden soon about your payment.",150,20);
+        premisesFrame.context.strokeText("Hermes: Thank you. You'll be receiving word from Mr. Bolden soon about your payment.",600,20);
     } else if (text == 4) {
-        premisesFrame.context.strokeText("Amelia: Okay.",150,20);
+        premisesFrame.context.strokeText("Amelia: Okay.",600,20);
     } else if (text == 5) {
-        premisesFrame.context.strokeText("Hermes: Is there anything else, Miss Jordan?",150,20);
+        premisesFrame.context.strokeText("Hermes: Is there anything else, Miss Jordan?",600,20);
     } else if (text == 6) {
-        premisesFrame.context.strokeText("Amelia: I... I think he knew.",150,20);
+        premisesFrame.context.strokeText("Amelia: I... I think he knew.",600,20);
     } else if (text == 7) {
         premisesFrame.context.strokeText("Hermes: I'm sorry, I don't quite understand.",150,20);
     } else if (text == 8) {
