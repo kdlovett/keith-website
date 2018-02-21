@@ -219,13 +219,13 @@ function startPremisesFrame() {
     }
     //Creating shapes and image components
 
-    guy = new component(400, 400, "/keiths-site/image_dir/bgBig.gif", 0, 0, "image", premisesFrame);
-    dock = new component(400, 400, "/keiths-site/image_dir/dockBig.png", 400, 0, "image", premisesFrame);
-    woman = new component(400, 400, "/keiths-site/image_dir/mainportraitbgBig.png", 800, 0, "image", premisesFrame);
+    guy = new component(400, 400, "/keiths-site/image_dir/hermesPortrait.gif", 0, 0, "image", premisesFrame);
+    apartment = new component(400, 400, "/keiths-site/image_dir/windowView.png", 400, 0, "image", premisesFrame);
+    woman = new component(400, 400, "/keiths-site/image_dir/ameliaPortrait.png", 800, 0, "image", premisesFrame);
 
     if (frame != 2) {
         premisesFrame.start();
-        introSong4.play();
+        introSong.play();
         frame = 2;
     } else {
         stopPremisesFrame();
@@ -233,7 +233,7 @@ function startPremisesFrame() {
 }
 
 function stopPremisesFrame() {
-    introSong4.stop();
+    introSong.stop();
     premisesFrame.stop();
     premisesFrame.clear();
 }
@@ -263,7 +263,7 @@ function updatePremisesFrame() {
 
     premisesFrame.clear();
     guy.update();
-    dock.update();
+    apartment.update();
     woman.update();
 
 
