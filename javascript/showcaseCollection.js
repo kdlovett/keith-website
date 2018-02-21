@@ -308,8 +308,7 @@ function updatePremisesFrame() {
     } else if (text == 16) {
         premisesFrame.context.strokeText("Amelia: No, I suppose not.",150,20);
     } else if (text == 17) {
-        premisesFrame.context.strokeText("Arnold: Part of the moral obligation of being a librarian as far as I'm concerned is sharing the resources you've helped collect responsibly. Today it's... hard to know what's responsible.
-",150,20);
+        premisesFrame.context.strokeText("Arnold: Part of the moral obligation of being a librarian as far as I'm concerned is sharing the resources you've helped collect responsibly. Today it's... hard to know what's responsible.",150,20);
     } else if (text == 18) {
         premisesFrame.context.strokeText("Hermes: Did he sound at all... accusatory? Hesitant?",150,20);
     } else if (text == 19) {
