@@ -300,7 +300,7 @@ function updatePremisesFrame() {
     } else if (text == 12) {
         premisesFrame.context.strokeText("Amelia: was up to, with the data he let me access.",1000,30);
     } else if (text == 13) {
-        premisesFrame.context.strokeText("Hermes: What gives you that impression, Miss Jordan?",200,30);
+        premisesFrame.context.strokeText("Hermes: What gives you that impression?",200,30);
     } else if (text == 14) {
         premisesFrame.context.strokeText("Amelia: He said to me, when I was leaving...",1000,30);
     } else if (text == 15) {
