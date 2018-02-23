@@ -280,27 +280,33 @@ function updatePremisesFrame() {
     } else if (text == 2) {
         premisesFrame.context.strokeText("Hermes: It all went according to plan?",200,30);
     } else if (text == 3) {
-        premisesFrame.context.strokeText("Amelia: Yeah, it did. I have the data stored",1000,30);
-    } else if (text == 3) {
-        premisesFrame.context.strokeText("Amelia: on here. Here, I'll plug it in.",1000,30);
-    } else if (text == 3) {
-        premisesFrame.context.strokeText("Hermes: Thank you. You'll be receiving word\n from Mr. Bolden soon about your payment.",200,30);
+        premisesFrame.context.strokeText("Amelia: Yeah, it did. I have the data stored _",1000,30);
     } else if (text == 4) {
-        premisesFrame.context.strokeText("Amelia: Okay.",1000,30);
+        premisesFrame.context.strokeText("Amelia: on here. Here, I'll plug it in.",1000,30);
     } else if (text == 5) {
-        premisesFrame.context.strokeText("Hermes: Is there anything else, Miss Jordan?",200,30);
+        premisesFrame.context.strokeText("Hermes: Thank you. You'll be receiving word _",200,30);
     } else if (text == 6) {
-        premisesFrame.context.strokeText("Amelia: I... I think he knew.",1000,30);
+        premisesFrame.context.strokeText("Hermes: from Mr. Bolden soon about your payment.",200,30);
     } else if (text == 7) {
-        premisesFrame.context.strokeText("Hermes: I'm sorry, I don't quite understand.",150,20);
+        premisesFrame.context.strokeText("Amelia: Okay.",1000,30);
     } else if (text == 8) {
-        premisesFrame.context.strokeText("Amelia: Dr. Richards. I think he knew what I was up to, with the data he let me access.",150,20);
+        premisesFrame.context.strokeText("Hermes: Is there anything else, Miss Jordan?",200,30);
     } else if (text == 9) {
-        premisesFrame.context.strokeText("Hermes: What gives you that impression, Miss Jordan?",150,20);
+        premisesFrame.context.strokeText("Amelia: I... I think he knew.",1000,30);
     } else if (text == 10) {
-        premisesFrame.context.strokeText("Amelia: He said to me, when I was leaving...",150,20);
+        premisesFrame.context.strokeText("Hermes: I'm sorry, I don't quite understand.",200,30);
     } else if (text == 11) {
-        premisesFrame.context.strokeText("Arnold: Amelia, do you know who developed the algorithm used in that paper?",150,20);
+        premisesFrame.context.strokeText("Amelia: Dr. Richards. I think he knew what I _",1000,30);
+    } else if (text == 12) {
+        premisesFrame.context.strokeText("Amelia: was up to, with the data he let me access.",1000,30);
+    } else if (text == 13) {
+        premisesFrame.context.strokeText("Hermes: What gives you that impression, Miss Jordan?",200,30);
+    } else if (text == 14) {
+        premisesFrame.context.strokeText("Amelia: He said to me, when I was leaving...",1000,30);
+    } else if (text == 15) {
+        premisesFrame.context.strokeText("Arnold: Amelia, do you know who developed the _",200,30);
+    } else if (text == 16) {
+        premisesFrame.context.strokeText("Arnold: algorithm used in that paper?",200,30);
     } else if (text == 12) {
         premisesFrame.context.strokeText("Amelia: N-no Arnold, sorry, unfortunately I still don't know much about the paper; I'm just retrieving what Dr. Mason asked for.",150,20);
     } else if (text == 13) {
