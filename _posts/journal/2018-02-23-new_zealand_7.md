@@ -11,11 +11,11 @@ category: journal
 
 The island of Waiheke is a half hour ferry ride out of Auckland.
 
-![NZWaiheke](/keiths-site/image_dir/NZWaiheke.jpg)
+![NZWaihekeFerry](/keiths-site/image_dir/NZWaihekeFerry.jpg)
 
 I wanted to get one last stop in before my fall semester here starts, and so I planned to camp on the island at least a night.
 
-![NZWaihekeFerry](/keiths-site/image_dir/NZWaihekeFerry.jpg)
+![NZWaiheke](/keiths-site/image_dir/NZWaiheke.jpg)
 
 I decided it didn't really matter that I didn't have any equipment, so long as conditions were right. My readers might be asking, "But Keith, what about an air mattress, or a sleeping bag?" To which I would respond that with the number of clothes I was adorning before settling down for the night, I had become the air mattress. I had become the sleeping bag.
 
@@ -25,4 +25,4 @@ When I arrived at the grounds I couldn't find the ranger at first, so some trave
 
 ![NZWaihekeBeach](/keiths-site/image_dir/NZWaihekeBeach.jpg)
 
-The night is always, always there, even if the sun or city lights have thrown themselves in front of it. Cradling something sacred, it patiently awaits our chance to listen, gaze once more. This seems organic, natural, even expected. What perplexes me though is that, at least in one way or another, one has to be lucky to catch on to this at a moment's notice, despite it being so foundational to us. (We are, after all, star stuff.) It's as if something needs to trigger the epiphany... ("Oh, it's you again, Night. Hello.") Some of the best people you'll meet seem to hold the allure of celestial bodies close to them, fold it up and tuck it somewhere safe, like under their pillow or something.
+The night is always, always there, even if the sun or city lights have thrown themselves in front of it. Cradling something sacred, it patiently awaits our chance to listen, gaze once again. This seems organic, natural, even expected. What perplexes me though is that, at least in one way or another, one has to be lucky to catch on to this at a moment's notice, despite it being so foundational to us. (We are, after all, star stuff.) It's as if something needs to trigger the epiphany... ("Oh, it's you again, Night. Hello.") Some of the best people you'll meet seem to hold the allure of celestial bodies close to them, fold it up and tuck it somewhere safe, like under their pillow or something.
