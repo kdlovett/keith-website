@@ -307,8 +307,12 @@ function updatePremisesFrame() {
         premisesFrame.context.strokeText("Arnold: Amelia, do you know who developed the _",200,30);
     } else if (text == 16) {
         premisesFrame.context.strokeText("Arnold: algorithm used in that paper?",200,30);
-    } else if (text == 12) {
-        premisesFrame.context.strokeText("Amelia: N-no Arnold, sorry, unfortunately I still don't know much about the paper; I'm just retrieving what Dr. Mason asked for.",150,20);
+    } else if (text == 17) {
+        premisesFrame.context.strokeText("Amelia: N-no, sorry, unfortunately I _",1000,30);
+    } else if (text == 18) {
+        premisesFrame.context.strokeText("Amelia: still don't know much about the paper; _",1000,30);
+    } else if (text == 19) {
+        premisesFrame.context.strokeText("Amelia: I'm just retrieving what Dr. Mason asked for.",1000,30);
     } else if (text == 13) {
         premisesFrame.context.strokeText("Arnold: It was a brilliant mathematician at MIT. Working alongside a computer scientist from Carnegie Melon. And a statistician from Harvard.",150,20);
     } else if (text == 14) {
