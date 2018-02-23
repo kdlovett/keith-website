@@ -280,7 +280,9 @@ function updatePremisesFrame() {
     } else if (text == 2) {
         premisesFrame.context.strokeText("Hermes: It all went according to plan?",200,30);
     } else if (text == 3) {
-        premisesFrame.context.strokeText("Amelia: Yeah, it did. I have the data stored\n on here. Here, I'll plug it in.",1000,30);
+        premisesFrame.context.strokeText("Amelia: Yeah, it did. I have the data stored",1000,30);
+    } else if (text == 3) {
+        premisesFrame.context.strokeText("Amelia: on here. Here, I'll plug it in.",1000,30);
     } else if (text == 3) {
         premisesFrame.context.strokeText("Hermes: Thank you. You'll be receiving word\n from Mr. Bolden soon about your payment.",200,30);
     } else if (text == 4) {
