@@ -313,17 +313,29 @@ function updatePremisesFrame() {
         premisesFrame.context.strokeText("Amelia: still don't know much about the paper; _",1000,30);
     } else if (text == 19) {
         premisesFrame.context.strokeText("Amelia: I'm just retrieving what Dr. Mason asked for.",1000,30);
-    } else if (text == 13) {
-        premisesFrame.context.strokeText("Arnold: It was a brilliant mathematician at MIT. Working alongside a computer scientist from Carnegie Melon. And a statistician from Harvard.",150,20);
-    } else if (text == 14) {
+    } else if (text == 20) {
+        premisesFrame.context.strokeText("Arnold: It was a brilliant mathematician at MIT, _",150,20);
+    } else if (text == 21) {
+        premisesFrame.context.strokeText("Arnold: Working alongside a statisticians from _",150,20);
+    } else if (text == 22) {
+        premisesFrame.context.strokeText("Arnold: Carnegie Mellon and Harvard.",150,20);
+    } else if (text == 23) {
         premisesFrame.context.strokeText("Amelia: Oh... I see.",150,20);
-    } else if (text == 15) {
-        premisesFrame.context.strokeText("Arnold: Heh, I suppose it's just that... Well you wouldn't see that today, would you.",150,20);
-    } else if (text == 16) {
+    } else if (text == 24) {
+        premisesFrame.context.strokeText("Arnold: Heh, I suppose it's just that... Well _",150,20);
+    } else if (text == 25) {
+        premisesFrame.context.strokeText("Arnold: you wouldn't see that today, would you.",150,20);
+    } else if (text == 26) {
         premisesFrame.context.strokeText("Amelia: No, I suppose not.",150,20);
-    } else if (text == 17) {
-        premisesFrame.context.strokeText("Arnold: Part of the moral obligation of being a librarian as far as I'm concerned is sharing the resources you've helped collect responsibly. Today it's... hard to know what's responsible.",150,20);
-    } else if (text == 18) {
+    } else if (text == 27) {
+        premisesFrame.context.strokeText("Arnold: Part of the moral obligation of being a _",150,20);
+    } else if (text == 28) {
+        premisesFrame.context.strokeText("Arnold: librarian as far as I'm concerned is sharing _",150,20);
+    } else if (text == 29) {
+        premisesFrame.context.strokeText("Arnold: resources you've helped collect responsibly. _",150,20);
+    } else if (text == 30) {
+        premisesFrame.context.strokeText("Arnold: Today it's... hard to know what's responsible.",150,20);
+    } else if (text == 31) {
         premisesFrame.context.strokeText("Hermes: Did he sound at all... accusatory? Hesitant?",150,20);
     } else if (text == 19) {
         premisesFrame.context.strokeText("Amelia: Not at all. More like... despondent... melancholic. Does he work for Mr. Bolden as well?",150,20);
