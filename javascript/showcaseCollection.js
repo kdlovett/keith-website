@@ -476,7 +476,6 @@ function updatePremisesFrame() {
         premisesFrame.context.strokeText("Jim: Just looking to do what's best for me >",200,30);
     } else if (text == 100) {
         premisesFrame.context.strokeText("Jim: And my kid.",200,30);
-    }
 
         //Queue song 1
     } else if (text == 101) {
