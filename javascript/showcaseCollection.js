@@ -606,17 +606,19 @@ function updatePremisesFrame() {
     } else if (text == 163) {
         premisesFrame.context.strokeText("Amelia: Just had to throw that last bit in there.",1000,30);
     } else if (text == 164) {
-        premisesFrame.context.strokeText("Hermes: The other part is to keep you in touch with Sam, >",200,30);
+        premisesFrame.context.strokeText("Hermes: The other part is to keep you in touch >",200,30);
     } else if (text == 165) {
-        premisesFrame.context.strokeText("Hermes: and supply Mr. Bolden with information >",200,30);
+        premisesFrame.context.strokeText("Hermes: with Sam, and supply Mr. Bolden >",200,30);
     } else if (text == 166) {
-        premisesFrame.context.strokeText("Hermes: critical to Northborough's development.",200,30);
+        premisesFrame.context.strokeText("Hermes: with information critical to >",200,30);
+    } else if (text == 166) {
+        premisesFrame.context.strokeText("Hermes: Northborough's development.",200,30);
     } else if (text == 167) {
-        premisesFrame.context.strokeText("Amelia: Just... tell Sam I love him, okay? And... stop >",1000,30);
+        premisesFrame.context.strokeText("Amelia: Just... tell Sam I love him, okay? And... >",1000,30);
     } else if (text == 168) {
-        premisesFrame.context.strokeText("Amelia: calling me Miss Jordan, just call me Amelia >",1000,30);
+        premisesFrame.context.strokeText("Amelia: stop  calling me Miss Jordan, just call >",1000,30);
     } else if (text == 169) {
-        premisesFrame.context.strokeText("Amelia: for crying out loud.",1000,30);
+        premisesFrame.context.strokeText("Amelia: me Amelia for crying out loud.",1000,30);
     } else if (text == 170) {
         premisesFrame.context.strokeText("Hermes: Okay, Amelia. Take care.",200,30);
     } else if (text == 171) {
