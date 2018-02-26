@@ -611,17 +611,17 @@ function updatePremisesFrame() {
         premisesFrame.context.strokeText("Hermes: with Sam, and supply Mr. Bolden >",200,30);
     } else if (text == 166) {
         premisesFrame.context.strokeText("Hermes: with information critical to >",200,30);
-    } else if (text == 166) {
-        premisesFrame.context.strokeText("Hermes: Northborough's development.",200,30);
     } else if (text == 167) {
-        premisesFrame.context.strokeText("Amelia: Just... tell Sam I love him, okay? And... >",1000,30);
+        premisesFrame.context.strokeText("Hermes: Northborough's development.",200,30);
     } else if (text == 168) {
-        premisesFrame.context.strokeText("Amelia: stop  calling me Miss Jordan, just call >",1000,30);
+        premisesFrame.context.strokeText("Amelia: Just... tell Sam I love him, okay? And... >",1000,30);
     } else if (text == 169) {
-        premisesFrame.context.strokeText("Amelia: me Amelia for crying out loud.",1000,30);
+        premisesFrame.context.strokeText("Amelia: stop calling me Miss Jordan, just call >",1000,30);
     } else if (text == 170) {
-        premisesFrame.context.strokeText("Hermes: Okay, Amelia. Take care.",200,30);
+        premisesFrame.context.strokeText("Amelia: me Amelia for crying out loud.",1000,30);
     } else if (text == 171) {
+        premisesFrame.context.strokeText("Hermes: Okay, Amelia. Take care.",200,30);
+    } else if (text == 172) {
         premisesFrame.context.strokeText("Amelia: You too you bucket of bolts.",1000,30);
         //Queue song 3
     } else {
