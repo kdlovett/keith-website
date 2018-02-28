@@ -4,10 +4,10 @@
 
 var text = 0;
 var frame = 0;
-var introSong = new sound("/keiths-site/image_dir/theaterBackground.mp3");
-var introSong2 = new sound("/keiths-site/image_dir/theaterBackground2.mp3");
-var introSong3 = new sound("/keiths-site/image_dir/theaterBackground3.mp3");
-var introSong4 = new sound("/keiths-site/image_dir/theaterBackground4.mp3");
+var introSong = new sound("/keiths-site/image_dir/conflictedPremisesRecognition.mp3");
+var introSong2 = new sound("/keiths-site/image_dir/conflictedPremisesGamble.mp3");
+var introSong3 = new sound("/keiths-site/image_dir/conflictedPremisesSeriousBusiness.mp3");
+var introSong4 = new sound("/keiths-site/image_dir/conflictedPreminsesTense.mp3");
 
 function component(width, height, color, x, y, type, frame) {
     //Used to create new components
