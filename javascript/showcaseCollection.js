@@ -219,9 +219,10 @@ function startPremisesFrame() {
     }
     //Creating shapes and image components
 
-    guy = new component(400, 400, "/keiths-site/image_dir/hermesPortrait.png", 0, 0, "image", premisesFrame);
-    apartment = new component(400, 400, "/keiths-site/image_dir/windowView.png", 400, 0, "image", premisesFrame);
-    woman = new component(400, 400, "/keiths-site/image_dir/ameliaPortrait.png", 800, 0, "image", premisesFrame);
+    charLeft = new component(400, 400, "/keiths-site/image_dir/hermesPortrait.png", 0, 0, "image", premisesFrame);
+    charRight = new component(400, 400, "/keiths-site/image_dir/ameliaPortrait.png", 800, 0, "image", premisesFrame);
+    //this.img.src to update filename.
+    env = new component(400, 400, "/keiths-site/image_dir/windowView.png", 400, 0, "image", premisesFrame);
 
     if (frame != 2) {
         premisesFrame.start();
@@ -262,9 +263,9 @@ var premisesFrame = {
 function updatePremisesFrame() {
 
     premisesFrame.clear();
-    guy.update();
-    apartment.update();
-    woman.update();
+    charLeft.update();
+    charRight.update();
+    env.update();
 
 
     //Creating text.
@@ -304,6 +305,7 @@ function updatePremisesFrame() {
     } else if (text == 14) {
         premisesFrame.context.strokeText("Amelia: He said to me, when I was leaving...",1000,30);
     } else if (text == 15) {
+        charLeft.img.src = "/keiths-site/image_dir/arnoldPortrait.png";
         premisesFrame.context.strokeText("Arnold: Amelia, do you know who developed the >",200,30);
     } else if (text == 16) {
         premisesFrame.context.strokeText("Arnold: algorithm used in that paper?",200,30);
