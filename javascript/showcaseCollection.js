@@ -222,7 +222,21 @@ function startPremisesFrame() {
     charHermes = new component(400, 400, "/keiths-site/image_dir/hermesPortrait.png", 0, 0, "image", premisesFrame);
     charAmelia = new component(400, 400, "/keiths-site/image_dir/ameliaPortrait.png", 800, 0, "image", premisesFrame);
     charArnold = new component(400, 400, "/keiths-site/image_dir/arnoldPortrait.png", 0, 0, "image", premisesFrame);
+    charLeon = new component(400, 400, "/keiths-site/image_dir/leonPortrait.gif", 0, 0, "image", premisesFrame);
+    charJim = new component(400, 400, "/keiths-site/image_dir/jimPortrait.png", 0, 0, "image", premisesFrame);
+    charSylvie = new component(400, 400, "/keiths-site/image_dir/sylviePortrait.png", 0, 0, "image", premisesFrame);
+
     envWindow = new component(400, 400, "/keiths-site/image_dir/windowView.png", 400, 0, "image", premisesFrame);
+    envBoat = new component(400, 400, "/keiths-site/image_dir/boat.png", 400, 0, "image", premisesFrame);
+    envDocks = new component(400, 400, "/keiths-site/image_dir/dock.png", 400, 0, "image", premisesFrame);
+    envWheel = new component(400, 400, "/keiths-site/image_dir/carParked.png", 400, 0, "image", premisesFrame);
+    envGlass = new component(400, 400, "/keiths-site/image_dir/restaurant.png", 400, 0, "image", premisesFrame);
+    envDinner = new component(400, 400, "/keiths-site/image_dir/dinner.png", 400, 0, "image", premisesFrame);
+    envExt = new component(400, 400, "/keiths-site/image_dir/restaurantExt.png", 400, 0, "image", premisesFrame);
+    envData = new component(400, 400, "/keiths-site/image_dir/data.png", 400, 0, "image", premisesFrame);
+    envDash = new component(400, 400, "/keiths-site/image_dir/copCar.png", 400, 0, "image", premisesFrame);
+    envSign = new component(400, 400, "/keiths-site/image_dir/crossWalkStop.png", 400, 0, "image", premisesFrame);
+    envHull = new component(400, 400, "/keiths-site/image_dir/inHull.png", 400, 0, "image", premisesFrame);
 
     if (frame != 2) {
         premisesFrame.start();
@@ -321,179 +335,264 @@ function updatePremisesFrame() {
         charArnold.update();
         premisesFrame.context.strokeText("Arnold: Amelia, do you know who developed the >",200,30);
     } else if (text == 16) {
+        charArnold.update();
         premisesFrame.context.strokeText("Arnold: algorithm used in that paper?",200,30);
     } else if (text == 17) {
+        charArnold.update();
         premisesFrame.context.strokeText("Amelia: N-no, sorry, unfortunately I >",1000,30);
     } else if (text == 18) {
+        charArnold.update();
         premisesFrame.context.strokeText("Amelia: still don't know much about the paper; >",1000,30);
     } else if (text == 19) {
+        charArnold.update();
         premisesFrame.context.strokeText("Amelia: I'm just retrieving what Dr. Mason asked for.",1000,30);
     } else if (text == 20) {
+        charArnold.update();
         premisesFrame.context.strokeText("Arnold: It was a brilliant mathematician at MIT, >",200,30);
     } else if (text == 21) {
+        charArnold.update();
         premisesFrame.context.strokeText("Arnold: Working alongside a statisticians from >",200,30);
     } else if (text == 22) {
+        charArnold.update();
         premisesFrame.context.strokeText("Arnold: Carnegie Mellon and Harvard.",200,30);
     } else if (text == 23) {
+        charArnold.update();
         premisesFrame.context.strokeText("Amelia: Oh... I see.",1000,30);
     } else if (text == 24) {
+        charArnold.update();
         premisesFrame.context.strokeText("Arnold: Heh, I suppose it's just that... Well >",200,30);
     } else if (text == 25) {
+        charArnold.update();
         premisesFrame.context.strokeText("Arnold: you wouldn't see that today, would you.",200,30);
     } else if (text == 26) {
+        charArnold.update();
         premisesFrame.context.strokeText("Amelia: No, I suppose not.",1000,30);
     } else if (text == 27) {
+        charArnold.update();
         premisesFrame.context.strokeText("Arnold: Part of the moral obligation of being a >",200,30);
     } else if (text == 28) {
+        charArnold.update();
         premisesFrame.context.strokeText("Arnold: librarian as far as I'm concerned is sharing >",200,30);
     } else if (text == 29) {
+        charArnold.update();
         premisesFrame.context.strokeText("Arnold: resources you've helped collect responsibly. >",200,30);
     } else if (text == 30) {
+        charArnold.update();
         premisesFrame.context.strokeText("Arnold: Today it's... hard to know what's responsible.",200,30);
     } else if (text == 31) {
+        charHermes.update();
         premisesFrame.context.strokeText("Hermes: Did he sound at all... accusatory? Hesitant?",200,30);
     } else if (text == 32) {
+        charHermes.update();
         premisesFrame.context.strokeText("Amelia: Not at all. More like... despondent...  >",1000,30);
     } else if (text == 33) {
+        charHermes.update();
         premisesFrame.context.strokeText("Amelia: melancholic. Does he also work for Mr. Bolden?",1000,30);
     } else if (text == 34) {
+        charHermes.update();
         premisesFrame.context.strokeText("Hermes: I cannot know for certain due to legal >",200,30);
     } else if (text == 35) {
+        charHermes.update();
         premisesFrame.context.strokeText("Hermes: restrictions, but I can almost certainly >",200,30);
     } else if (text == 36) {
+        charHermes.update();
         premisesFrame.context.strokeText("Hermes: say he does not. He's too high-ranking a >",200,30);
     } else if (text == 37) {
+        charHermes.update();
         premisesFrame.context.strokeText("Hermes: member of South Institute.",200,30);
     } else if (text == 38) {
+        charHermes.update();
         premisesFrame.context.strokeText("Amelia: Ah, I see, Mr. Bolden only works with the >",1000,30);
     } else if (text == 39) {
+        charHermes.update();
         premisesFrame.context.strokeText("Amelia: lowest of the low.",1000,30);
     } else if (text == 40) {
+        charHermes.update();
         premisesFrame.context.strokeText("Hermes: Your attempts at humor are puzzling Miss >",200,30);
     } else if (text == 41) {
+        charHermes.update();
         premisesFrame.context.strokeText("Hermes: Jordan... I could bring up the incident to >",200,30);
     } else if (text == 42) {
+        charHermes.update();
         premisesFrame.context.strokeText("Hermes: Mr. Bolden, if you'd like. But it sounds to >",200,30);
     } else if (text == 43) {
+        charHermes.update();
         premisesFrame.context.strokeText("Hermes: me to be either a harmless >",200,30);
     } else if (text == 44) {
+        charHermes.update();
         premisesFrame.context.strokeText("Hermes: acknowledgement or coincidence.",200,30);
     } else if (text == 45) {
+        charHermes.update();
         premisesFrame.context.strokeText("Amelia: Oh, that? No, I wasn't... I didn't want you >",1000,30);
     } else if (text == 46) {
+        charHermes.update();
         premisesFrame.context.strokeText("Amelia: to tell Leon. I was just saying it, to you.",1000,30);
     } else if (text == 47) {
+        charHermes.update();
         premisesFrame.context.strokeText("Hermes: Hm, I see. Right then I'll bring this data >",200,30);
     } else if (text == 48) {
+        charHermes.update();
         premisesFrame.context.strokeText("Hermes: back to Mr. Bolden and-",200,30);
     } else if (text == 49) {
+        charHermes.update();
         premisesFrame.context.strokeText("Amelia: Wait, Hermes...",1000,30);
     } else if (text == 50) {
+        charHermes.update();
         premisesFrame.context.strokeText("Hermes: Hm?",200,30);
     } else if (text == 51) {
+        charHermes.update();
         premisesFrame.context.strokeText("Amelia: Do you have time to talk?",1000,30);
     } else if (text == 52) {
+        charHermes.update();
         premisesFrame.context.strokeText("Hermes: Well the boat leaves in about an hour, so I >",200,30);
     } else if (text == 53) {
+        charHermes.update();
         premisesFrame.context.strokeText("Hermes: could give you about half that. Is that >",200,30);
     } else if (text == 54) {
+        charHermes.update();
         premisesFrame.context.strokeText("Hermes: alright?",200,30);
     } else if (text == 55) {
+        charHermes.update();
         premisesFrame.context.strokeText("Amelia: Guh, that damn boat, still gives me >",1000,30);
     } else if (text == 56) {
+        charHermes.update();
         premisesFrame.context.strokeText("Amelia: nightmares.",1000,30);
     } else if (text == 57) {
+        charHermes.update();
         premisesFrame.context.strokeText("Hermes: It was a bit gloomy in there wasn't it.",200,30);
         //Queue song 1
     } else if (text == 58) {
+        charHermes.update();
         premisesFrame.context.strokeText("Amelia: That would be an understatement.",1000,30);
     } else if (text == 59) {
+        charHermes.update();
         premisesFrame.context.strokeText("Hermes: Well, it's what the job called for, >",200,30);
     } else if (text == 60) {
         premisesFrame.context.strokeText("Hermes: I suppose.",200,30);
     } else if (text == 61) {
+        charHermes.update();
         premisesFrame.context.strokeText("Amelia: I don't see how you do it every week, I'd >",1000,30);
     } else if (text == 62) {
+        charHermes.update();
         premisesFrame.context.strokeText("Amelia: go insane.",1000,30);
     } else if (text == 63) {
+        charHermes.update();
         premisesFrame.context.strokeText("Hermes: I suppose that's why they left the task to >",200,30);
     } else if (text == 64) {
+        charHermes.update();
         premisesFrame.context.strokeText("Hermes: me; I am the robot, after all.",200,30);
     } else if (text == 65) {
+        charHermes.update();
         premisesFrame.context.strokeText("Amelia: True... I'm sorry if this sounds naive, >",1000,30);
     } else if (text == 66) {
+        charHermes.update();
         premisesFrame.context.strokeText("Amelia: but, does it ever feel... bleak? Pointless?",1000,30);
     } else if (text == 67) {
+        charHermes.update();
         premisesFrame.context.strokeText("Hermes: Does what feel that way?",200,30);
     } else if (text == 68) {
+        charHermes.update();
         premisesFrame.context.strokeText("Amelia: Life? Or... your, erm, existence?",1000,30);
     } else if (text == 69) {
+        charHermes.update();
         premisesFrame.context.strokeText("Hermes: No, hardly. Though I suppose I might have >",200,30);
     } else if (text == 70) {
+        charHermes.update();
         premisesFrame.context.strokeText("Hermes: different pursuits than humans.",200,30);
     } else if (text == 71) {
+        charHermes.update();
         premisesFrame.context.strokeText("Amelia: Do I dare ask?",1000,30);
     } else if (text == 72) {
+        charHermes.update();
         premisesFrame.context.strokeText("Hermes: Right now I'm compelled by the choices >",200,30);
     } else if (text == 73) {
+        charHermes.update();
         premisesFrame.context.strokeText("Hermes: road networks have to make regarding >",200,30);
     } else if (text == 74) {
+        charHermes.update();
         premisesFrame.context.strokeText("Hermes: efficiency. A system of true democracy, >",200,30);
     } else if (text == 75) {
+        charHermes.update();
         premisesFrame.context.strokeText("Hermes: but individual demand takes precedence.",200,30);
     } else if (text == 76) {
+        charHermes.update();
         premisesFrame.context.strokeText("Amelia: Sounds over my head.",1000,30);
     } else if (text == 77) {
+        charHermes.update();
         premisesFrame.context.strokeText("Hermes: I doubt it, but I am sure there are other >",200,30);
     } else if (text == 78) {
+        charHermes.update();
         premisesFrame.context.strokeText("Hermes: things on your mind.",200,30);
     } else if (text == 79) {
+        charHermes.update();
         premisesFrame.context.strokeText("Amelia: Jim.",1000,30);
     } else if (text == 80) {
+        charHermes.update();
         premisesFrame.context.strokeText("Hermes: The police officer, yes?",200,30);
     } else if (text == 81) {
+        charHermes.update();
         premisesFrame.context.strokeText("Amelia: I want to see him again.",1000,30);
     } else if (text == 82) {
+        charHermes.update();
         premisesFrame.context.strokeText("Hermes: As I've mentioned, unfortunately this would >",200,30);
     } else if (text == 83) {
+        charHermes.update();
         premisesFrame.context.strokeText("Hermes: jeopardize the stability of the operation.",200,30);
     } else if (text == 84) {
+        charHermes.update();
         premisesFrame.context.strokeText("Amelia: He's the only one besides you that knows >",1000,30);
     } else if (text == 85) {
+        charHermes.update();
         premisesFrame.context.strokeText("Amelia: anything about who I am.",1000,30);
     } else if (text == 86) {
+        charJim.update();
         premisesFrame.context.strokeText("Jim: Excuse me miss, are you 'here to mine data'?",200,30);
     } else if (text == 87) {
+        charJim.update();
         premisesFrame.context.strokeText("Amelia: Yes.",1000,30);
     } else if (text == 88) {
+        charJim.update();
         premisesFrame.context.strokeText("Jim: Why don't you hop in.",200,30);
     } else if (text == 89) {
+        charJim.update();
         premisesFrame.context.strokeText("Jim: I'm Jim, it's nice to meet you.",200,30);
     } else if (text == 90) {
+        charJim.update();
         premisesFrame.context.strokeText("Jim: ...",200,30);
     } else if (text == 91) {
+        charJim.update();
         premisesFrame.context.strokeText("Jim: Got any kids?",200,30);
     } else if (text == 92) {
+        charJim.update();
         premisesFrame.context.strokeText("Amelia: I'm not discussing that with you.",1000,30);
     } else if (text == 93) {
+        charJim.update();
         premisesFrame.context.strokeText("Jim: Sure. I've got a daughter, over in Northborough.",200,30);
     } else if (text == 94) {
+        charJim.update();
         premisesFrame.context.strokeText("Jim: Promised admittance into their institute in a >",200,30);
     } else if (text == 95) {
+        charJim.update();
         premisesFrame.context.strokeText("Jim: few years.",200,30);
     } else if (text == 96) {
+        charJim.update();
         premisesFrame.context.strokeText("Jim: I don't have any allegiance to South Institute >",200,30);
     } else if (text == 97) {
+        charJim.update();
         premisesFrame.context.strokeText("Jim: of course, seeing as I'm doing this, >",200,30);
     } else if (text == 98) {
+        charJim.update();
         premisesFrame.context.strokeText("Jim: or to Northborough, for that matter.",200,30);
     } else if (text == 99) {
+        charJim.update();
         premisesFrame.context.strokeText("Jim: Just looking to do what's best for me >",200,30);
     } else if (text == 100) {
+        charJim.update();
         premisesFrame.context.strokeText("Jim: And my kid.",200,30);
 
         //Queue song 1
     } else if (text == 101) {
+        charHermes.update();
         premisesFrame.context.strokeText("Hermes: I'm sorry, I know it must be difficult, >",200,30);
     } else if (text == 102) {
         premisesFrame.context.strokeText("Hermes: but as Jim seemed to mention to you as >",200,30);
