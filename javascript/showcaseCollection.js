@@ -237,7 +237,7 @@ function startPremisesFrame() {
     envDash = new component(400, 400, "/keiths-site/image_dir/copCar.png", 400, 0, "image", premisesFrame);
     envSign = new component(400, 400, "/keiths-site/image_dir/crossWalkStop.png", 400, 0, "image", premisesFrame);
     envHull = new component(400, 400, "/keiths-site/image_dir/inHull.png", 400, 0, "image", premisesFrame);
-    darkness = new component(400, 400, "#ffffff", 400, 0, "shape", premisesFrame);
+    darkness = new component(400, 400, "#000000", 400, 0, "shape", premisesFrame);
 
     if (frame != 2) {
         premisesFrame.start();
@@ -287,6 +287,7 @@ function updatePremisesFrame() {
 
     if (text == 0) {
         charHermes.update();
+        darkness.update();
         premisesFrame.context.strokeText("(Click on Frame and press Enter to begin.)",600,100);
         //Queue song 3
     } else if (text == 1) {
