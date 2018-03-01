@@ -219,10 +219,10 @@ function startPremisesFrame() {
     }
     //Creating shapes and image components
 
-    charLeft = new component(400, 400, "/keiths-site/image_dir/hermesPortrait.png", 0, 0, "image", premisesFrame);
-    charRight = new component(400, 400, "/keiths-site/image_dir/ameliaPortrait.png", 800, 0, "image", premisesFrame);
-    //this.img.src to update filename.
-    env = new component(400, 400, "/keiths-site/image_dir/windowView.png", 400, 0, "image", premisesFrame);
+    charHermes = new component(400, 400, "/keiths-site/image_dir/hermesPortrait.png", 0, 0, "image", premisesFrame);
+    charAmelia = new component(400, 400, "/keiths-site/image_dir/ameliaPortrait.png", 800, 0, "image", premisesFrame);
+    charArnold = new component(400, 400, "/keiths-site/image_dir/arnoldPortrait.png", 0, 0, "image", premisesFrame);
+    envWindow = new component(400, 400, "/keiths-site/image_dir/windowView.png", 400, 0, "image", premisesFrame);
 
     if (frame != 2) {
         premisesFrame.start();
@@ -267,39 +267,59 @@ function updatePremisesFrame() {
     premisesFrame.context.font = "16px Arial";
     premisesFrame.context.strokeStyle="aqua";
 
+    premisesFrame.clear();
+    charHermes.update();
+    charAmelia.update();
+    env.update();
+
     if (text == 0) {
+        charHermes.update();
         premisesFrame.context.strokeText("(Click on Frame and press Enter to begin.)",600,100);
         //Queue song 3
     } else if (text == 1) {
+        charHermes.update();
         premisesFrame.context.strokeText("Hermes: Your meeting with Dr. Richards...",200,30);
     } else if (text == 2) {
+        charHermes.update();
         premisesFrame.context.strokeText("Hermes: It all went according to plan?",200,30);
     } else if (text == 3) {
+        charHermes.update();
         premisesFrame.context.strokeText("Amelia: Yeah, it did. I have the data stored >",1000,30);
     } else if (text == 4) {
+        charHermes.update();
         premisesFrame.context.strokeText("Amelia: on here. Here, I'll plug it in.",1000,30);
     } else if (text == 5) {
+        charHermes.update();
         premisesFrame.context.strokeText("Hermes: Thank you. You'll be receiving word >",200,30);
     } else if (text == 6) {
+        charHermes.update();
         premisesFrame.context.strokeText("Hermes: from Mr. Bolden soon about your payment.",200,30);
     } else if (text == 7) {
+        charHermes.update();
         premisesFrame.context.strokeText("Amelia: Okay.",1000,30);
     } else if (text == 8) {
+        charHermes.update();
         premisesFrame.context.strokeText("Hermes: Is there anything else, Miss Jordan?",200,30);
     } else if (text == 9) {
+        charHermes.update();
         premisesFrame.context.strokeText("Amelia: I... I think he knew.",1000,30);
     } else if (text == 10) {
+        charHermes.update();
         premisesFrame.context.strokeText("Hermes: I'm sorry, I don't quite understand.",200,30);
     } else if (text == 11) {
+        charHermes.update();
         premisesFrame.context.strokeText("Amelia: Dr. Richards. I think he knew what I >",1000,30);
     } else if (text == 12) {
+        charHermes.update();
         premisesFrame.context.strokeText("Amelia: was up to, with the data he let me access.",1000,30);
     } else if (text == 13) {
+        charHermes.update();
         premisesFrame.context.strokeText("Hermes: What gives you that impression?",200,30);
     } else if (text == 14) {
+        charHermes.update();
         premisesFrame.context.strokeText("Amelia: He said to me, when I was leaving...",1000,30);
     } else if (text == 15) {
-        charLeft.img.src = "/keiths-site/image_dir/arnoldPortrait.png";
+        charArnold.update();
         premisesFrame.context.strokeText("Arnold: Amelia, do you know who developed the >",200,30);
     } else if (text == 16) {
         premisesFrame.context.strokeText("Arnold: algorithm used in that paper?",200,30);
@@ -623,10 +643,5 @@ function updatePremisesFrame() {
     } else {
         text = 1;
     }
-
-    premisesFrame.clear();
-    charLeft.update();
-    charRight.update();
-    env.update();
 
 }
