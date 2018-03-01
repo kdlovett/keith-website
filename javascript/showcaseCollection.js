@@ -238,7 +238,7 @@ function startPremisesFrame() {
     envSign = new component(400, 400, "/keiths-site/image_dir/crossWalkStop.png", 400, 0, "image", premisesFrame);
     envHull = new component(400, 400, "/keiths-site/image_dir/inHull.png", 400, 0, "image", premisesFrame);
     darkness = new component(400, 400, "#000000", 400, 0, "shape", premisesFrame);
-    darkness = new component(1200, 400, "#000000", 0, 0, "shape", premisesFrame);
+    darknessLarge = new component(1200, 400, "#000000", 0, 0, "shape", premisesFrame);
 
     if (frame != 2) {
         premisesFrame.start();
