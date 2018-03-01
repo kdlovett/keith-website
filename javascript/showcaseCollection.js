@@ -337,23 +337,23 @@ function updatePremisesFrame() {
         premisesFrame.context.strokeText("Amelia: Dr. Richards. I think he knew what I >",1000,30);
     } else if (text == 12) {
         charHermes.update();
-        envData.update();
+        darkness.update();
         premisesFrame.context.strokeText("Amelia: was up to, with the data he let me access.",1000,30);
     } else if (text == 13) {
         charHermes.update();
-        envData.update();
+        darkness.update();
         premisesFrame.context.strokeText("Hermes: What gives you that impression?",200,30);
     } else if (text == 14) {
         charHermes.update();
-        envData.update();
+        darkness.update();
         premisesFrame.context.strokeText("Amelia: He said to me, when I was leaving...",1000,30);
     } else if (text == 15) {
         charArnold.update();
-        envData.update();
+        darkness.update();
         premisesFrame.context.strokeText("Arnold: Amelia, do you know who developed the >",200,30);
     } else if (text == 16) {
         charArnold.update();
-        envData.update();
+        darkness.update();
         premisesFrame.context.strokeText("Arnold: algorithm used in that paper?",200,30);
     } else if (text == 17) {
         charArnold.update();
@@ -940,7 +940,7 @@ function updatePremisesFrame() {
         charSylvie.update();
         darkness.update();
         premisesFrame.context.strokeStyle="purple";
-        premisesFrame.context.strokeText("Sylvie: I think I might have him take me on a date.",200,20);
+        premisesFrame.context.strokeText("Sylvie: I might ask him to take me on a date.",200,20);
     } else if (text == 158) {
         charSylvie.update();
         darkness.update();
