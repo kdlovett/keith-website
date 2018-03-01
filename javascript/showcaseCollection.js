@@ -621,11 +621,11 @@ function updatePremisesFrame() {
         premisesFrame.context.strokeText("Hermes: As I've mentioned, unfortunately this would >",200,30);
     } else if (text == 83) {
         charHermes.update();
-        envWheel.update();
+        envDocks.update();
         premisesFrame.context.strokeText("Hermes: jeopardize the stability of the operation.",200,30);
     } else if (text == 84) {
         charHermes.update();
-        envWheel.update();
+        envDocks.update();
         premisesFrame.context.strokeText("Amelia: He's the only one besides you that knows >",1000,30);
     } else if (text == 85) {
         charHermes.update();
@@ -634,14 +634,17 @@ function updatePremisesFrame() {
     } else if (text == 86) {
         charJim.update();
         envDocks.update();
+        premisesFrame.context.strokeStyle="red";
         premisesFrame.context.strokeText("Jim: Excuse me miss, are you 'here to mine data'?",200,30);
     } else if (text == 87) {
         charJim.update();
-        envDocks.update();
+        envWheel.update();
+        premisesFrame.context.strokeStyle="aqua";
         premisesFrame.context.strokeText("Amelia: Yes.",1000,30);
     } else if (text == 88) {
         charJim.update();
         envWheel.update();
+        premisesFrame.context.strokeStyle="red";
         premisesFrame.context.strokeText("Jim: Why don't you hop in.",200,30);
     } else if (text == 89) {
         charJim.update();
@@ -658,10 +661,12 @@ function updatePremisesFrame() {
     } else if (text == 92) {
         charJim.update();
         envDash.update();
+        premisesFrame.context.strokeStyle="aqua";
         premisesFrame.context.strokeText("Amelia: I'm not discussing that with you.",1000,30);
     } else if (text == 93) {
         charJim.update();
         envDash.update();
+        premisesFrame.context.strokeStyle="red";
         premisesFrame.context.strokeText("Jim: Sure. I've got a daughter, over in Northborough.",200,30);
     } else if (text == 94) {
         charJim.update();
@@ -696,6 +701,7 @@ function updatePremisesFrame() {
     } else if (text == 101) {
         charHermes.update();
         envWindow.update();
+        premisesFrame.context.strokeStyle="aqua";
         premisesFrame.context.strokeText("Hermes: I'm sorry, I know it must be difficult, >",200,30);
     } else if (text == 102) {
         charHermes.update();
