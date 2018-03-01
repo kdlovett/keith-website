@@ -810,17 +810,17 @@ function updatePremisesFrame() {
     } else if (text == 129) {
         charSylvie.update();
         envGlass.update();
-        premisesFrame.context.strokeStyle="orange";
-        premisesFrame.context.strokeText("Sylvie: I don't know how long I can keep this up >",200,30);
+        premisesFrame.context.strokeStyle="purple";
+        premisesFrame.context.strokeText("Sylvie: I don't know how long I can keep this up >",200,20);
     } else if (text == 130) {
         charSylvie.update();
         envGlass.update();
-        premisesFrame.context.strokeStyle="orange";
+        premisesFrame.context.strokeStyle="purple";
         premisesFrame.context.strokeText("Sylvie: Amelia.",200,30);
     } else if (text == 131) {
         charSylvie.update();
         envGlass.update();
-        premisesFrame.context.strokeText("Amelia: What do you mean? This research... this is >",1000,30);
+        premisesFrame.context.strokeText("Amelia: What do you mean? This research... this is >",1000,20);
     } else if (text == 132) {
         charSylvie.update();
         envGlass.update();
@@ -828,16 +828,16 @@ function updatePremisesFrame() {
     } else if (text == 133) {
         charSylvie.update();
         envDinner.update();
-        premisesFrame.context.strokeStyle="orange";
+        premisesFrame.context.strokeStyle="purple";
         premisesFrame.context.strokeText("Sylvie: There's more to life than work.",200,30);
     } else if (text == 134) {
         charSylvie.update();
         envDinner.update();
-        premisesFrame.context.strokeText("Amelia: W- of course there is, but, didn't this work >",1000,30);
+        premisesFrame.context.strokeText("Amelia: W- of course there is, but, didn't this work >",1000,20);
     } else if (text == 135) {
         charSylvie.update();
         envDinner.update();
-        premisesFrame.context.strokeText("Amelia: give you the opportunity to be at a place >",1000,30);
+        premisesFrame.context.strokeText("Amelia: give you the opportunity to be at a place >",1000,20);
     } else if (text == 136) {
         charSylvie.update();
         envDinner.update();
@@ -846,37 +846,37 @@ function updatePremisesFrame() {
         charSylvie.update();
         envDinner.update();
         premisesFrame.context.strokeStyle="purple";
-        premisesFrame.context.strokeText("Sylvie: That's true, it did. And I appreciate some of >",200,30);
+        premisesFrame.context.strokeText("Sylvie: That's true, it did. And I appreciate some of >",200,20);
     } else if (text == 138) {
         charSylvie.update();
         envExt.update();
         premisesFrame.context.strokeStyle="purple";
-        premisesFrame.context.strokeText("Sylvie: the people I've met, you being one of them >",200,30);
+        premisesFrame.context.strokeText("Sylvie: the people I've met, you being one of them >",200,20);
     } else if (text == 139) {
         charSylvie.update();
         envExt.update();
         premisesFrame.context.strokeStyle="purple";
-        premisesFrame.context.strokeText("Sylvie: of course. But this whole atmosphere... The >",200,30);
+        premisesFrame.context.strokeText("Sylvie: of course. But this whole atmosphere... The >",200,20);
     } else if (text == 140) {
         charSylvie.update();
         envExt.update();
         premisesFrame.context.strokeStyle="purple";
-        premisesFrame.context.strokeText("Sylvie: conquest for knowledge... Don't you think it's >",200,30);
+        premisesFrame.context.strokeText("Sylvie: conquest for knowledge... Don't you think it's >",200,20);
     } else if (text == 141) {
         charSylvie.update();
         envExt.update();
         premisesFrame.context.strokeStyle="purple";
-        premisesFrame.context.strokeText("Sylvie: a bit... hostile? I'd call myself cynical but, >",200,30);
+        premisesFrame.context.strokeText("Sylvie: a bit... hostile? I'd call myself cynical but, >",200,20);
     } else if (text == 142) {
         charSylvie.update();
         envExt.update();
         premisesFrame.context.strokeStyle="purple";
-        premisesFrame.context.strokeText("Sylvie: just look at it! We've bought up half the city >",200,30);
+        premisesFrame.context.strokeText("Sylvie: just look at it! We've bought up half the city >",200,20);
     } else if (text == 143) {
         charSylvie.update();
         envExt.update();
         premisesFrame.context.strokeStyle="purple";
-        premisesFrame.context.strokeText("Sylvie: for Christ's sake, and Northborough's >",200,30);
+        premisesFrame.context.strokeText("Sylvie: for Christ's sake, and Northborough's >",200,20);
     } else if (text == 144) {
         charSylvie.update();
         envExt.update();
@@ -902,12 +902,12 @@ function updatePremisesFrame() {
         charSylvie.update();
         envData.update();
         premisesFrame.context.strokeStyle="purple";
-        premisesFrame.context.strokeText("Sylvie: I sent it to him this morning... What do you >",200,30);
+        premisesFrame.context.strokeText("Sylvie: I sent it to him this morning... What do you >",200,20);
     } else if (text == 150) {
         charSylvie.update();
         darkness.update();
         premisesFrame.context.strokeStyle="purple";
-        premisesFrame.context.strokeText("Sylvie: think of him, by the way?",200,30);
+        premisesFrame.context.strokeText("Sylvie: think of him, by the way?",200,20);
     } else if (text == 151) {
         charSylvie.update();
         darkness.update();
@@ -916,7 +916,7 @@ function updatePremisesFrame() {
         charSylvie.update();
         darkness.update();
         premisesFrame.context.strokeStyle="purple";
-        premisesFrame.context.strokeText("Sylvie: Yeah, Arnold.",200,30);
+        premisesFrame.context.strokeText("Sylvie: Yeah, Arnold.",200,20);
     } else if (text == 153) {
         charSylvie.update();
         darkness.update();
@@ -925,22 +925,22 @@ function updatePremisesFrame() {
         charSylvie.update();
         darkness.update();
         premisesFrame.context.strokeStyle="purple";
-        premisesFrame.context.strokeText("Sylvie: I think he's a good man. Someone with a >",200,30);
+        premisesFrame.context.strokeText("Sylvie: I think he's a good man. Someone with a >",200,20);
     } else if (text == 155) {
         charSylvie.update();
         darkness.update();
         premisesFrame.context.strokeStyle="purple";
-        premisesFrame.context.strokeText("Sylvie: real sense of the power of knowledge, and >",200,30);
+        premisesFrame.context.strokeText("Sylvie: real sense of the power of knowledge, and >",200,20);
     } else if (text == 156) {
         charSylvie.update();
         darkness.update();
         premisesFrame.context.strokeStyle="purple";
-        premisesFrame.context.strokeText("Sylvie: the responsibilities of holding it. >",200,30);
+        premisesFrame.context.strokeText("Sylvie: the responsibilities of holding it. >",200,20);
     } else if (text == 157) {
         charSylvie.update();
         darkness.update();
         premisesFrame.context.strokeStyle="purple";
-        premisesFrame.context.strokeText("Sylvie: I think I might have him take me on a date.",200,30);
+        premisesFrame.context.strokeText("Sylvie: I think I might have him take me on a date.",200,20);
     } else if (text == 158) {
         charSylvie.update();
         darkness.update();
