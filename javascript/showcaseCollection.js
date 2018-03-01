@@ -268,9 +268,8 @@ function updatePremisesFrame() {
     premisesFrame.context.strokeStyle="aqua";
 
     premisesFrame.clear();
-    charHermes.update();
     charAmelia.update();
-    env.update();
+    envWindow.update();
 
     if (text == 0) {
         charHermes.update();
