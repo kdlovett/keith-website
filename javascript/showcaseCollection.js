@@ -262,12 +262,6 @@ var premisesFrame = {
 
 function updatePremisesFrame() {
 
-    premisesFrame.clear();
-    charLeft.update();
-    charRight.update();
-    env.update();
-
-
     //Creating text.
     premisesFrame.context.textAlign = "center"
     premisesFrame.context.font = "16px Arial";
@@ -629,5 +623,10 @@ function updatePremisesFrame() {
     } else {
         text = 1;
     }
+
+    premisesFrame.clear();
+    charLeft.update();
+    charRight.update();
+    env.update();
 
 }
