@@ -60,6 +60,9 @@ function continueDialogue(e) {
         //"Enter" key continues dialogue.
         case 13:
             text += 1;
+            if (frame == 2 && text == 0) {
+                introSong2.play();
+            }
             break;
     }
 }
@@ -469,7 +472,7 @@ function updatePremisesFrame() {
     } else if (text == 37) {
         charHermes.update();
         envWindow.update();
-        premisesFrame.context.strokeText("Hermes: member of South Institute.",200,30);
+        premisesFrame.context.strokeText("Hermes: member of South Academy.",200,30);
     } else if (text == 38) {
         charHermes.update();
         envWindow.update();
@@ -698,7 +701,7 @@ function updatePremisesFrame() {
     } else if (text == 94) {
         charJim.update();
         envSign.update();
-        premisesFrame.context.strokeText("Jim: Promised admittance into their institute in a >",200,30);
+        premisesFrame.context.strokeText("Jim: Promised admittance into their academy in a >",200,30);
     } else if (text == 95) {
         charJim.update();
         envSign.update();
@@ -706,7 +709,7 @@ function updatePremisesFrame() {
     } else if (text == 96) {
         charJim.update();
         envSign.update();
-        premisesFrame.context.strokeText("Jim: I don't have any allegiance to South Institute >",200,30);
+        premisesFrame.context.strokeText("Jim: I don't have any allegiance to South Academy >",200,30);
     } else if (text == 97) {
         charJim.update();
         envSign.update();
