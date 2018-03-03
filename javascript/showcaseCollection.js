@@ -61,13 +61,17 @@ function continueDialogue(e) {
         case 13:
             text += 1;
             if (frame == 2 && text == 0) {
+                introSong.stop();
                 introSong2.play();
             } else if (frame == 2 && text == 57) {
-                introSong1.play();
+                introSong2.stop();
+                introSong.play();
             } else if (frame == 2 && text == 112) {
+                introSong.stop();
                 introSong3.play();
             } else if (frame == 2 && text == 160) {
-                introSong1.play();
+                introSong3.stop();
+                introSong.play();
             }
             break;
     }
