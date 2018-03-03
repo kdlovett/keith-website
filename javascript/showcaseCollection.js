@@ -293,10 +293,34 @@ function updatePremisesFrame() {
     } else if (text == -9) {
         darknessLarge.update();
         premisesFrame.context.strokeText("Preface - This is a novice attempt at speculative fiction about competition, education, and technology.",600,100);
+    } else if (text == -8) {
+        darknessLarge.update();
+        premisesFrame.context.strokeText("Specifically I aimed to explore what might happened if educational institutions were to become so heavily focused with their ",600,100);
+    } else if (text == -7) {
+        darknessLarge.update();
+        premisesFrame.context.strokeText("survival, and thus, competition with one another, that they began to sabotage each other. The main character, Amelia Jupiter, ",600,100);
+    } else if (text == -6) {
+        darknessLarge.update();
+        premisesFrame.context.strokeText("is a rather unenthusiastic saboteur, who, like many other candidates living outside the encroaching premises of one such academy, ",600,100);
+    } else if (text == -5) {
+        darknessLarge.update();
+        premisesFrame.context.strokeText("has been offered a deal to infiltrate a competing academy. I figured that those living at such academies, and particularly those ",600,100);
+    } else if (text == -4) {
+        darknessLarge.update();
+        premisesFrame.context.strokeText("hired as saboteurs, would feel intense isolation due to the widespread use and research of technology (which has a tendency to ",600,100);
+    } else if (text == -3) {
+        darknessLarge.update();
+        premisesFrame.context.strokeText("isolate this day in age), and their secret identity as a saboteur. Hence the introduction of Hermes, a point of contact, but also a ",600,100);
+    } else if (text == -2) {
+        darknessLarge.update();
+        premisesFrame.context.strokeText("psychotherapist. Amelia perhaps unfairly doubts Hermes' ability to serve this role, however, due to his being artificial intelligence. ",600,100);
+    } else if (text == -1) {
+        darknessLarge.update();
+        premisesFrame.context.strokeText("I imagined that in the back of her mind she might be wondering what undergrad made this AI his or her late-night-energy-drink-fueled thesis project.",600,100);
     } else if (text == 0) {
         charHermes.update();
         darkness.update();
-        premisesFrame.context.strokeText("(Click on Frame and press Enter to begin.)",600,100);
+        premisesFrame.context.strokeText("CONFLICTED PREMISES",600,100);
         //Queue song 3
     } else if (text == 1) {
         charHermes.update();
