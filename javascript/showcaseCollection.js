@@ -242,6 +242,7 @@ function startPremisesFrame() {
 
     if (frame != 2) {
         premisesFrame.start();
+        text = -10;
         introSong.play();
         frame = 2;
     } else {
@@ -286,7 +287,13 @@ function updatePremisesFrame() {
     premisesFrame.clear();
     charAmelia.update();
 
-    if (text == 0) {
+    if (text == -10) {
+        darknessLarge.update();
+        premisesFrame.context.strokeText("(Click on Frame and press Enter to begin.)",600,100);
+    } else if (text == -9) {
+        darknessLarge.update();
+        premisesFrame.context.strokeText("Preface - This is a novice attempt at speculative fiction about competition, education, and technology.",600,100);
+    } else if (text == 0) {
         charHermes.update();
         darkness.update();
         premisesFrame.context.strokeText("(Click on Frame and press Enter to begin.)",600,100);
