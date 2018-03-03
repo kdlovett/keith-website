@@ -62,6 +62,12 @@ function continueDialogue(e) {
             text += 1;
             if (frame == 2 && text == 0) {
                 introSong2.play();
+            } else if (frame == 2 && text == 57) {
+                introSong1.play();
+            } else if (frame == 2 && text == 112) {
+                introSong3.play();
+            } else if (frame == 2 && text == 160) {
+                introSong1.play();
             }
             break;
     }
