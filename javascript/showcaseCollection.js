@@ -307,7 +307,7 @@ function updatePremisesFrame() {
         premisesFrame.context.strokeText("Specifically I aimed to explore what might happened if educational institutions were to become so heavily focused with their ",600,100);
     } else if (text == -7) {
         darknessLarge.update();
-        premisesFrame.context.strokeText("survival, and thus, competition with one another, that they began to sabotage each other. The main character, Amelia Jupiter, ",600,100);
+        premisesFrame.context.strokeText("survival, and thus, competition with one another, that they began to sabotage each other. The main character, Amelia Jordan, ",600,100);
     } else if (text == -6) {
         darknessLarge.update();
         premisesFrame.context.strokeText("is a rather unenthusiastic saboteur, who, like many other candidates living outside the encroaching premises of one such academy, ",600,100);
