@@ -984,11 +984,11 @@ function updatePremisesFrame() {
         charSylvie.update();
         darkness.update();
         premisesFrame.context.strokeStyle="purple";
-        premisesFrame.context.strokeText("Sylvie: I might ask him to take me on a date.",200,20);
+        premisesFrame.context.strokeText("Sylvie: I might ask him out on a date.",200,20);
     } else if (text == 158) {
         charSylvie.update();
         darkness.update();
-        premisesFrame.context.strokeText("Amelia: I'm sure he'd be happy to.",1000,30);
+        premisesFrame.context.strokeText("Amelia: I'm sure he'd be happy to join you.",1000,30);
     } else if (text == 159) {
         charHermes.update();
         envWindow.update();
