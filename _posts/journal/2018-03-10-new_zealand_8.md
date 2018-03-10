@@ -17,4 +17,4 @@ I've started swimming most nights, which has been a nice way to decompress, and 
 
 ![NZLanterns](/keiths-site/image_dir/NZLanterns.jpg)
 
-There's a very nice kind of quiet here. It makes listening more meaningful I think.
+There's a very nice kind of quiet here. It makes it easier to listen. Or to comprehend slower, more carefully.
