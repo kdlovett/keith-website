@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "New Zealand 7 - Waiheke, Fall"
+title: "New Zealand 7 - Waiheke"
 date: 2018-02-23
 category: journal
 ---
