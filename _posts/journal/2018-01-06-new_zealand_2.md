@@ -17,7 +17,7 @@ I learned today that a fortified British colony used to exist where the universi
 
 ![NZCannon](/keiths-site/image_dir/NZCannon.jpg)
 
-I'm still quite a bit shaky on the history, but the Maori, the indigenous people here, formed the Treaty of Waitangi with the British in 1840. The treaty, written and translated in the heat of the moment, continues to spark debate today with regards to its validity in providing true Maori sovereignty.
+I'm still quite a bit shaky on the history, but the Maori, the indigenous people here, formed the Treaty of Waitangi with the British in 1840. The treaty, written and translated in the heat of the moment, continues to prompt discussion concerning society and politics today.
 
 ![NZLandscape](/keiths-site/image_dir/NZMaoriPortrait.jpg)
 
