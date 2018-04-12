@@ -57,6 +57,6 @@ After returning the weather was starting to worsen. This actually made for good 
 
 ![NZPurple](/keiths-site/image_dir/NZPurple.jpg)
 
-When we returned we spent some time resting in the campsite's lounge with some of the other campers. It's good to be travelling with such reliable and positive people. The weather that has been hitting the New Zealand the last few days has been unusually harsh, and one might think that might put a damper on things, particularly camping. But it was hardly an issue, and I'm looking forward to discovering more with folks in the next few months here.
+When we returned we spent some time resting in the campsite's lounge with some of the other campers. It's good to be travelling with such reliable and positive people. The weather that has been hitting New Zealand the last few days has been unusually harsh, and one might think that might put a damper on things, particularly camping. But it was hardly an issue, and I'm looking forward to discovering more with folks in the next few months here.
 
 ![NZTreee](/keiths-site/image_dir/NZTree.jpg)
