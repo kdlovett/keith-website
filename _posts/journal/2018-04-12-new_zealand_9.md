@@ -21,11 +21,11 @@ The groves were beautiful but at the same time eerie in their stillness. The onl
 
 The next day I was feeling a little better and felt comfortable hiking Mount Victoria in the nearby town of Devonport.
 
-![NZMtVicView](/keiths-site/image_dir/NZMtVicView.jpg)
+![NZDevonport](/keiths-site/image_dir/NZDevonport.jpg)
 
 From it you get a view of the entirety of Rangitoto.
 
-![NZDevonport](/keiths-site/image_dir/NZDevonport.jpg)
+![NZMtVicView](/keiths-site/image_dir/NZMtVicView.jpg)
 
 The day after that I was feeling back to normal so I took another ferry to Gulf Harbour and explored the forests and farmland overlooking Te Haruhi Bay.
 
