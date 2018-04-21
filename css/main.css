@@ -3,15 +3,15 @@ img {
     max-height: 100%;
 }
 figure {
-    color: #c9c99c;
+    color: #23231b;
 }
 h1{
-    color: #c9c99c;
+    color: #23231b;
     font-size: 30px;
     font-family: "Times New Roman",Times,serif;
 }
 body {
-    background-color: #2d2d1e;
+    background-color: #d8d8b8;
     font-size: 14px;
     font-family: "Courier New",Courier,monospace;
 }
@@ -21,18 +21,18 @@ main{
     border-style: solid;
     border-radius: 5px;
     padding: 10px;
-    background-color: #63634a;
-    color: #c9c99c;
+    background-color: #e8e8dc;
+    color: #23231b;
 }
 a {
-    font-size: 14px;
+    font-size: 16px;
     font-family: "Courier New",Courier,monospace;
     text-decoration: none;
-    color: #111109;
+    color: #565632;
 }
 a:hover {
-    font-size: 14px;
+    font-size: 16px;
     font-family: "Courier New",Courier,monospace;
     text-decoration: underline;
-    color: #999966;
+    color: #4c4c2c;
 }
