@@ -11,7 +11,7 @@ h1{
     font-family: "Times New Roman",Times,serif;
 }
 body {
-    background-color: #BFAF88;
+    background-color: #5b6b4d;
     color: #403A2D;
     font-size: 16px;
     font-family: "Courier New",Courier,monospace;
@@ -22,7 +22,7 @@ main{
     border-style: double;
     border-radius: 5px;
     padding: 10px;
-    background-color: #5b6b4d;
+    background-color: #E5D2A4;
     color: #403A2D;
 }
 a {
