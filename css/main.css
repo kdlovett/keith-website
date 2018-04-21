@@ -12,13 +12,12 @@ h1{
 }
 body {
     background-color: #5b6b4d;
-    color: #403A2D;
     font-size: 16px;
     font-family: "Courier New",Courier,monospace;
 }
 main{
     border: 20px;
-    border-color: #7F755B;
+    border-color: #343f09;
     border-style: double;
     border-radius: 5px;
     padding: 10px;
