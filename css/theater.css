@@ -13,7 +13,7 @@ h1{
 body {
     top: 25px;
     background-color: #010c11;
-    font-size: 14px;
+    font-size: 16px;
     font-family: "Courier New",Courier,monospace;
 }
 main {
@@ -42,13 +42,13 @@ button {
     cursor: pointer;
 }
 a {
-    font-size: 14px;
+    font-size: 16px;
     font-family: "Courier New",Courier,monospace;
     text-decoration: none;
     color: #a6c4a7;
 }
 a:hover {
-    font-size: 14px;
+    font-size: 16px;
     font-family: "Courier New",Courier,monospace;
     text-decoration: underline;
     color: #8dc18f;
