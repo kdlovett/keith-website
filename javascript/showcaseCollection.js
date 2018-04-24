@@ -128,6 +128,7 @@ var beachFrame = {
 
 function updateBeachFrame() {
     beachFrame.clear();
+    beach.update();
 }
 
 
