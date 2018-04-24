@@ -92,7 +92,7 @@ function startBeachFrame() {
     beach = new component(128, 64, "/keiths-site/image_dir/IGBeach.gif", 0, 0, "image", beachFrame);
 
     if (frame != 3) {
-        BeachFrame.start();
+        beachFrame.start();
         frame = 3;
     } else {
         stopBeachFrame();
