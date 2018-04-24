@@ -89,7 +89,7 @@ function startBeachFrame() {
     }
     //Creating shapes and image components
 
-    beach = new component(128, 64, "/keiths-site/image_dir/IGBeach.gif", 0, 0, "image", beachFrame);
+    beach = new component(512, 256, "/keiths-site/image_dir/IGBeach.png", 0, 0, "image", beachFrame);
 
     if (frame != 3) {
         beachFrame.start();
@@ -108,8 +108,8 @@ var beachFrame = {
     //Creating canvas
     canvas : document.createElement("canvas"),
     start : function() {
-        this.canvas.width = 128;
-        this.canvas.height = 64;
+        this.canvas.width = 512;
+        this.canvas.height = 256;
         this.context = this.canvas.getContext("2d");
         document.body.insertBefore(this.canvas, document.body.childNodes[0]);
         this.frameNo = 0;
