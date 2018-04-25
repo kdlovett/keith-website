@@ -382,7 +382,7 @@ function updatePremisesFrame() {
             selector.x = 320;
             selector.y -= 80;
         }
-        if (selector.x == -80 && selector.y == 0) {
+        if (selector.y < 0) {
             selector.x = 80;
             selector.y = 240;
         }
