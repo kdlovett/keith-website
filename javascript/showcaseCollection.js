@@ -290,14 +290,23 @@ function startPremisesFrame() {
     }
     //Creating shapes and image components
 
-    charHermes = new component(400, 400, "/keiths-site/image_dir/hermesPortrait.png", 0, 0, "image", premisesFrame);
-    charHermesThumb = new component(40, 40, "/keiths-site/image_dir/hermesPortrait.png", 0, 0, "image", premisesFrame);
-
     charAmelia = new component(400, 400, "/keiths-site/image_dir/ameliaPortrait.png", 0, 0, "image", premisesFrame);
+    charAmeliaThumb = new component(80, 80, "/keiths-site/image_dir/ameliaPortrait.png", 0, 0, "image", premisesFrame);
+
+    charHermes = new component(400, 400, "/keiths-site/image_dir/hermesPortrait.png", 0, 0, "image", premisesFrame);
+    charHermesThumb = new component(80, 80, "/keiths-site/image_dir/hermesPortrait.png", 80, 0, "image", premisesFrame);
+
     charArnold = new component(400, 400, "/keiths-site/image_dir/arnoldPortrait.png", 0, 0, "image", premisesFrame);
+    charArnoldThumb = new component(40, 40, "/keiths-site/image_dir/arnoldPortrait.png", 80, 0, "image", premisesFrame);
+
     charLeon = new component(400, 400, "/keiths-site/image_dir/leonPortrait.gif", 0, 0, "image", premisesFrame);
+    charLeonThumb = new component(40, 40, "/keiths-site/image_dir/leonPortrait.png", 0, 0, "image", premisesFrame);
+
     charJim = new component(400, 400, "/keiths-site/image_dir/jimPortrait.png", 0, 0, "image", premisesFrame);
+    charJimThumb = new component(40, 40, "/keiths-site/image_dir/jimPortrait.png", 0, 0, "image", premisesFrame);
+
     charSylvie = new component(400, 400, "/keiths-site/image_dir/sylviePortrait.png", 0, 0, "image", premisesFrame);
+    charSylvieThumb = new component(40, 40, "/keiths-site/image_dir/sylviePortrait.png", 0, 0, "image", premisesFrame);
 
     envWindow = new component(400, 400, "/keiths-site/image_dir/windowView.png", 0, 0, "image", premisesFrame);
     envBoat = new component(400, 400, "/keiths-site/image_dir/boat.png", 0, 0, "image", premisesFrame);
@@ -359,6 +368,7 @@ function updatePremisesFrame() {
     premisesFrame.clear();
 
     darkness.update()
+    charAmeliaThumb.update()
     charHermesThumb.update()
 
 }
