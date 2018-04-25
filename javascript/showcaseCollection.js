@@ -295,7 +295,7 @@ function startPremisesFrame() {
     envWindow = new component(80, 80, "/keiths-site/image_dir/windowView.png", 80, 80, "image", premisesFrame);
     envBoat = new component(80, 80, "/keiths-site/image_dir/boat.png", 160, 80, "image", premisesFrame);
     envDocks = new component(80, 80, "/keiths-site/image_dir/dock.png", 240, 80, "image", premisesFrame);
-    envWheel = new component(400, 80, "/keiths-site/image_dir/carParked.png", 320, 80, "image", premisesFrame);
+    envWheel = new component(80, 80, "/keiths-site/image_dir/carParked.png", 320, 80, "image", premisesFrame);
     envGlass = new component(80, 80, "/keiths-site/image_dir/restaurant.png", 0, 160, "image", premisesFrame);
     envDinner = new component(80, 80, "/keiths-site/image_dir/dinner.png", 80, 160, "image", premisesFrame);
     envExt = new component(80, 80, "/keiths-site/image_dir/restaurantExt.png", 160, 160, "image", premisesFrame);
