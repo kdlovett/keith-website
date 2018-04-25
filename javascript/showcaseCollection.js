@@ -368,6 +368,7 @@ function updatePremisesFrame() {
     premisesFrame.clear();
 
     darkness.update()
+    charAmeliaThumb.height = 160
     charAmeliaThumb.update()
     charHermesThumb.update()
 
