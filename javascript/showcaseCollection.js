@@ -61,6 +61,14 @@ function continueDialogue(e) {
         case 13:
             text += 1;
             break;
+        //"X" key
+        case 88:
+            xDown = 1;
+            break;
+        //"Z" key
+        case 90:
+            zDown = 1;
+            break;
     }
 }
 
@@ -281,17 +289,11 @@ function startPremisesFrame() {
     //Creating shapes and image components
 
     charAmelia = new component(80, 80, "/keiths-site/image_dir/ameliaPortrait.png", 0, 0, "image", premisesFrame);
-
     charHermes = new component(80, 80, "/keiths-site/image_dir/hermesPortrait.png", 80, 0, "image", premisesFrame);
-
     charArnold = new component(80, 80, "/keiths-site/image_dir/arnoldPortrait.png", 160, 0, "image", premisesFrame);
-
     charLeon = new component(80, 80, "/keiths-site/image_dir/leonPortrait.gif", 240, 0, "image", premisesFrame);
-
     charJim = new component(80, 80, "/keiths-site/image_dir/jimPortrait.png", 320, 0, "image", premisesFrame);
-
     charSylvie = new component(80, 80, "/keiths-site/image_dir/sylviePortrait.png", 0, 80, "image", premisesFrame);
-
     envWindow = new component(80, 80, "/keiths-site/image_dir/windowView.png", 80, 80, "image", premisesFrame);
     envBoat = new component(80, 80, "/keiths-site/image_dir/boat.png", 160, 80, "image", premisesFrame);
     envDocks = new component(80, 80, "/keiths-site/image_dir/dock.png", 240, 80, "image", premisesFrame);
@@ -371,6 +373,19 @@ function updatePremisesFrame() {
     envDocks.update()
     envWheel.update()
 
+    if (xDown == 1) {
+        if (selector.x < 320) {
+            selector.x += 80;
+        } else {
+            selector.x = 0;
+            selector.y += 80;
+        }
+        if (selector.x == 80 && selector.y == 240) {
+            selector.x = 0;
+            selector.y = 0;
+        }
+        xDown = 0;
+    }
     selector.update()
 
 }
