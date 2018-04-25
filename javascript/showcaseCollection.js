@@ -439,5 +439,7 @@ function updatePremisesFrame() {
         
     }*/
 
-    selector.update()
+    if (testing = 1) {
+        selector.update()
+    }
 }
