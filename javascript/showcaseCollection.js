@@ -303,7 +303,7 @@ function startPremisesFrame() {
     envDash = new component(80, 80, "/keiths-site/image_dir/copCar.png", 240, 160, "image", premisesFrame);
     envSign = new component(80, 80, "/keiths-site/image_dir/crossWalkStop.png", 320, 160, "image", premisesFrame);
     envHull = new component(80, 80, "/keiths-site/image_dir/inHull.png", 0, 240, "image", premisesFrame);
-    darkness = new component(800, 400, "#000000", 80, 240, "shape", premisesFrame);
+    darkness = new component(800, 400, "#000000", 0, 0, "shape", premisesFrame);
     selector = new component(80, 80, "aqua", 0, 0, "outline", premisesFrame);
 
     if (frame != 2) {
@@ -359,6 +359,14 @@ function updatePremisesFrame() {
     charLeon.update()
     charJim.update()
     charSylvie.update()
+    envWindow.update()
+    envHull.update()
+    envSign.update()
+    envDash.update()
+    envData.update()
+    envExt.update()
+    envDinner.update()
+    envGlass.update()
 
     selector.update()
 
