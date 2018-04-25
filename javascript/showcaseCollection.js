@@ -367,6 +367,9 @@ function updatePremisesFrame() {
     envExt.update()
     envDinner.update()
     envGlass.update()
+    envBoat.update()
+    envDocks.update()
+    envWheel.update()
 
     selector.update()
 
