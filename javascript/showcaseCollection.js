@@ -30,6 +30,9 @@ function component(width, height, color, x, y, type, frame) {
         } else if (type == "shape") {
             ctx.fillStyle = color;
             ctx.fillRect(this.x, this.y, this.width, this.height);
+        } else if (type == "outline") {
+            ctx.strokeStyle = color;
+            ctx.strokeRect(this.x, this.y, this.width, this.height);
         }
     }
 }
@@ -57,19 +60,6 @@ function continueDialogue(e) {
         //"Enter" key continues dialogue.
         case 13:
             text += 1;
-            if (frame == 2 && text == 0) {
-                introSong.stop();
-                introSong2.play();
-            } else if (frame == 2 && text == 57) {
-                introSong2.stop();
-                introSong.play();
-            } else if (frame == 2 && text == 112) {
-                introSong.stop();
-                introSong3.play();
-            } else if (frame == 2 && text == 160) {
-                introSong3.stop();
-                introSong.play();
-            }
             break;
     }
 }
@@ -314,6 +304,7 @@ function startPremisesFrame() {
     envSign = new component(80, 80, "/keiths-site/image_dir/crossWalkStop.png", 0, 0, "image", premisesFrame);
     envHull = new component(80, 80, "/keiths-site/image_dir/inHull.png", 0, 0, "image", premisesFrame);
     darkness = new component(800, 400, "#000000", 0, 0, "shape", premisesFrame);
+    selector = new component(80, 80, "green", 0, 0, "outline", premisesFrame);
 
     if (frame != 2) {
         premisesFrame.start();
@@ -368,5 +359,7 @@ function updatePremisesFrame() {
     charLeon.update()
     charJim.update()
     charSylvie.update()
+
+    selector.update()
 
 }
