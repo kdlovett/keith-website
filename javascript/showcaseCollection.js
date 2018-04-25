@@ -373,7 +373,20 @@ function updatePremisesFrame() {
     envDocks.update()
     envWheel.update()
 
-    if (xDown == 1 && zDown == 0) {
+    if (zDown == 1 && xDown != 1) {
+        if (selector.x > 0) {
+            selector.x -= 80;
+        } else {
+            selector.x = 320;
+            selector.y -= 80;
+        }
+        if (selector.x == -80 && selector.y == 0) {
+            selector.x = 80;
+            selector.y = 240;
+        }
+        zDown = 0;
+    }
+    if (xDown == 1 && zDown != 1) {
         if (selector.x < 320) {
             selector.x += 80;
         } else {
