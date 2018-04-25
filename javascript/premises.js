@@ -124,7 +124,7 @@ function updatePremisesFrame() {
         xDown = 0;
     }
 
-    
+    /*
     if (selector.x == 0 && selector.y == 0) {
 
     } else if (selector.x == 80 && selector.y == 0) {
@@ -159,7 +159,7 @@ function updatePremisesFrame() {
         
     } else if (selector.x == 80 && selector.y == 240) {
         
-    }
+    }*/
 
     selector.update()
 }
