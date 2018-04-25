@@ -401,6 +401,45 @@ function updatePremisesFrame() {
         }
         xDown = 0;
     }
-    selector.update()
 
+    /*
+    if (selector.x == 0 && selector.y == 0) {
+
+    } else if (selector.x == 80 && selector.y == 0) {
+
+    } else if (selector.x == 160 && selector.y == 0) {
+        
+    } else if (selector.x == 240 && selector.y == 0) {
+        
+    } else if (selector.x == 320 && selector.y == 0) {
+        
+    } else if (selector.x == 0 && selector.y == 80) {
+        
+    } else if (selector.x == 80 && selector.y == 80) {
+        
+    } else if (selector.x == 160 && selector.y == 80) {
+        
+    } else if (selector.x == 240 && selector.y == 80) {
+        
+    } else if (selector.x == 320 && selector.y == 80) {
+        
+    } else if (selector.x == 0 && selector.y == 160) {
+        
+    } else if (selector.x == 80 && selector.y == 160) {
+        
+    } else if (selector.x == 160 && selector.y == 160) {
+        
+    } else if (selector.x == 240 && selector.y == 160) {
+        
+    } else if (selector.x == 320 && selector.y == 160) {
+        
+    } else if (selector.x == 0 && selector.y == 240) {
+        
+    } else if (selector.x == 80 && selector.y == 240) {
+        
+    }*/
+
+    if (testing == 1) {
+        selector.update()
+    }
 }
