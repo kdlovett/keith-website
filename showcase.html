@@ -32,6 +32,9 @@ permalink: /theater/
       $.getScript("/keiths-site/javascript/premises.js");
       $.getScript("/keiths-site/javascript/train.js");
       $.getScript("/keiths-site/javascript/island.js");
+      /*
+      Don't include global variables inside the above files; it might cause things to load out of sync.
+      */
       $.getScript("/keiths-site/javascript/showcaseCollection.js");
     </script>
 
