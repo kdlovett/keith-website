@@ -6,6 +6,7 @@ var text = 0;
 var zDown = 0;
 var xDown = 0;
 var frame = 0;
+var introSong = new sound("/keiths-site/image_dir/conflictedPremisesRecognition.mp3");
 
 function component(width, height, color, x, y, type, frame) {
     //Used to create new components

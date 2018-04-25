@@ -30,8 +30,6 @@ function startPremisesFrame() {
     darkness = new component(800, 400, "#000000", 0, 0, "shape", premisesFrame);
     selector = new component(80, 80, "aqua", 0, 0, "outline", premisesFrame);
 
-    var introSong = new sound("/keiths-site/image_dir/conflictedPremisesRecognition.mp3");
-
     if (frame != 2) {
         premisesFrame.start();
         text = -10;
