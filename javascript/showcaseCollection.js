@@ -363,6 +363,10 @@ function updatePremisesFrame() {
 
     darkness.update()
     charAmelia.update()
-    charHermesThumb.update()
+    charHermes.update()
+    charArnold.update()
+    charLeon.update()
+    charJim.update()
+    charSylvie.update()
 
 }
