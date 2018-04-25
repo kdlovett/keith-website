@@ -290,35 +290,29 @@ function startPremisesFrame() {
     }
     //Creating shapes and image components
 
-    charAmelia = new component(400, 400, "/keiths-site/image_dir/ameliaPortrait.png", 0, 0, "image", premisesFrame);
-    charAmeliaThumb = new component(80, 80, "/keiths-site/image_dir/ameliaPortrait.png", 0, 0, "image", premisesFrame);
+    charAmelia = new component(80, 80, "/keiths-site/image_dir/ameliaPortrait.png", 0, 0, "image", premisesFrame);
 
-    charHermes = new component(400, 400, "/keiths-site/image_dir/hermesPortrait.png", 0, 0, "image", premisesFrame);
-    charHermesThumb = new component(80, 80, "/keiths-site/image_dir/hermesPortrait.png", 80, 0, "image", premisesFrame);
+    charHermes = new component(80, 80, "/keiths-site/image_dir/hermesPortrait.png", 80, 0, "image", premisesFrame);
 
-    charArnold = new component(400, 400, "/keiths-site/image_dir/arnoldPortrait.png", 0, 0, "image", premisesFrame);
-    charArnoldThumb = new component(40, 40, "/keiths-site/image_dir/arnoldPortrait.png", 80, 0, "image", premisesFrame);
+    charArnold = new component(80, 80, "/keiths-site/image_dir/arnoldPortrait.png", 160, 0, "image", premisesFrame);
 
-    charLeon = new component(400, 400, "/keiths-site/image_dir/leonPortrait.gif", 0, 0, "image", premisesFrame);
-    charLeonThumb = new component(40, 40, "/keiths-site/image_dir/leonPortrait.png", 0, 0, "image", premisesFrame);
+    charLeon = new component(80, 80, "/keiths-site/image_dir/leonPortrait.gif", 240, 0, "image", premisesFrame);
 
-    charJim = new component(400, 400, "/keiths-site/image_dir/jimPortrait.png", 0, 0, "image", premisesFrame);
-    charJimThumb = new component(40, 40, "/keiths-site/image_dir/jimPortrait.png", 0, 0, "image", premisesFrame);
+    charJim = new component(80, 80, "/keiths-site/image_dir/jimPortrait.png", 320, 0, "image", premisesFrame);
 
-    charSylvie = new component(400, 400, "/keiths-site/image_dir/sylviePortrait.png", 0, 0, "image", premisesFrame);
-    charSylvieThumb = new component(40, 40, "/keiths-site/image_dir/sylviePortrait.png", 0, 0, "image", premisesFrame);
+    charSylvie = new component(80, 80, "/keiths-site/image_dir/sylviePortrait.png", 0, 80, "image", premisesFrame);
 
-    envWindow = new component(400, 400, "/keiths-site/image_dir/windowView.png", 0, 0, "image", premisesFrame);
-    envBoat = new component(400, 400, "/keiths-site/image_dir/boat.png", 0, 0, "image", premisesFrame);
-    envDocks = new component(400, 400, "/keiths-site/image_dir/dock.png", 0, 0, "image", premisesFrame);
-    envWheel = new component(400, 400, "/keiths-site/image_dir/carParked.png", 0, 0, "image", premisesFrame);
-    envGlass = new component(400, 400, "/keiths-site/image_dir/restaurant.png", 0, 0, "image", premisesFrame);
-    envDinner = new component(400, 400, "/keiths-site/image_dir/dinner.png", 0, 0, "image", premisesFrame);
-    envExt = new component(400, 400, "/keiths-site/image_dir/restaurantExt.png", 0, 0, "image", premisesFrame);
-    envData = new component(400, 400, "/keiths-site/image_dir/data.png", 0, 0, "image", premisesFrame);
-    envDash = new component(400, 400, "/keiths-site/image_dir/copCar.png", 0, 0, "image", premisesFrame);
-    envSign = new component(400, 400, "/keiths-site/image_dir/crossWalkStop.png", 0, 0, "image", premisesFrame);
-    envHull = new component(400, 400, "/keiths-site/image_dir/inHull.png", 0, 0, "image", premisesFrame);
+    envWindow = new component(80, 80, "/keiths-site/image_dir/windowView.png", 0, 0, "image", premisesFrame);
+    envBoat = new component(80, 80, "/keiths-site/image_dir/boat.png", 0, 0, "image", premisesFrame);
+    envDocks = new component(80, 80, "/keiths-site/image_dir/dock.png", 0, 0, "image", premisesFrame);
+    envWheel = new component(400, 80, "/keiths-site/image_dir/carParked.png", 0, 0, "image", premisesFrame);
+    envGlass = new component(80, 80, "/keiths-site/image_dir/restaurant.png", 0, 0, "image", premisesFrame);
+    envDinner = new component(80, 80, "/keiths-site/image_dir/dinner.png", 0, 0, "image", premisesFrame);
+    envExt = new component(80, 80, "/keiths-site/image_dir/restaurantExt.png", 0, 0, "image", premisesFrame);
+    envData = new component(80, 80, "/keiths-site/image_dir/data.png", 0, 0, "image", premisesFrame);
+    envDash = new component(80, 80, "/keiths-site/image_dir/copCar.png", 0, 0, "image", premisesFrame);
+    envSign = new component(80, 80, "/keiths-site/image_dir/crossWalkStop.png", 0, 0, "image", premisesFrame);
+    envHull = new component(80, 80, "/keiths-site/image_dir/inHull.png", 0, 0, "image", premisesFrame);
     darkness = new component(800, 400, "#000000", 0, 0, "shape", premisesFrame);
 
     if (frame != 2) {
@@ -368,8 +362,7 @@ function updatePremisesFrame() {
     premisesFrame.clear();
 
     darkness.update()
-    charAmeliaThumb.height = 160
-    charAmeliaThumb.update()
+    charAmelia.update()
     charHermesThumb.update()
 
 }
