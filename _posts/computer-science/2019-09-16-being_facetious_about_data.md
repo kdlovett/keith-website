@@ -7,8 +7,6 @@ category: computer-science
 
 <link rel="stylesheet" type="text/css"  href="/keiths-site/css/main.css">
 
-# 0h The Human1ty!: Part One - Being Facetious About Data
-
 #### *0h The Human1ty! (0TH1) Is a series of articles meant to further explore the relationship between humans and data. What is the purpose of data? What roles does it play in the modern world? What are the lenses through which we can view data, so that it best serves our needs? Read on for some thoughts on the matter by some data noob, Keith Lovett.*
 
 I sometimes like being facetious. It helps me reason. It helps me wrap around the facts and the figures and in the end perhaps come up with something meaningful. It helps me explore.
