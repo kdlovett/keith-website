@@ -25,10 +25,10 @@ Generally, it seems that humans assign purpose to things because we deem doing s
 
 Let's talk about words again. We collect words in a dictionary. Once more, *why?* Why do we do this?
 
-Words help us to describe our world. Some might say this is their primary function. Other functions might include allowing us to connect more deeply with one another, or collaborating on tasks. This is their functionality. The more words we collect in our dictionary (and the more we practice using certain words), the more varied and precise words' function can be.
+Words help us to describe our world. Some might say this is their primary function. Other functions might include allowing us to connect more deeply with one another, or allowing us to collaborate on tasks. The more words we collect in our dictionary (and the more we practice using certain words), the more varied and precise words' functionality can be.
 
 Computers execute functions! Functions are based on input data. Data can be words.
 
-And so, there are some interlinked relationships here, between data, computers, functionality, purpose, and - the one that I think gets a bit lost in the mix these days - humanity. These are the types of relationships I hope to explore here, particularly the first and the last - data and humanity. What are the tools in our toolkit for working with data? Can we design new ones? How? What do they look like?
+And so, it seems there are some interlinked relationships here, between data, computers, functionality, purpose, and - the one that I think gets a bit lost in the mix these days - humanity. These are the types of relationships I hope to explore here, particularly the first and the last - data and humanity. What are the tools in our toolkit for working with data? Can we design new ones? How? What do they look like?
 
 I'm excited to ponder these questions, and to open up opportunities for discussion with anyone interested! Let's together clarify the relationship between humans and data.
